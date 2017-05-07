@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="eu_ES" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -33,24 +34,21 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="eu_ES" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Helbide-liburua</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Eskuin-klika helbidea edo etiketa editatzeko</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Klik bikoitza helbidea edo etiketa editatzeko</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
         <translation>Sortu helbide berria</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopiatu hautatutako helbidea sistemaren arbelera</translation>
@@ -64,43 +62,43 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Litecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;New</source>
+        <translation>&amp;Berria</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation type="unfinished"/>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Kopiatu hautatutako helbidea sistemaren arbelera</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Erakutsi &amp;QR kodea</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+11"/>
         <source>Sign a message to prove you own a Litecoin address</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Copy</source>
+        <translation>&amp;Kopiatu</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation type="unfinished"/>
+        <source>C&amp;lose</source>
+        <translation>&amp;Itxi</translation>
     </message>
     <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <translation>Ezabatu aukeratutako helbideak listatik</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <translation>Esportatu datuak uneko fitxategian</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Esportatu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified Litecoin address</source>
         <translation type="unfinished"/>
@@ -156,46 +154,34 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Ezin idatzi %1 artxiboan.</translation>
     </message>
 </context>
+=======
+        <source>&amp;Delete</source>
+        <translation>&amp;Ezabatu</translation>
+    </message>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>Etiketa</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Helbidea</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(etiketarik ez)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Pasahitza dialogoa</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Sartu pasahitza</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Pasahitz berria</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>Errepikatu pasahitz berria</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -315,99 +301,69 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
-        <source>Sign &amp;message...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>Sarearekin sinkronizatzen...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Gainbegiratu</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show general overview of wallet</source>
         <translation>Ikusi zorroaren begirada orokorra</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transakzioak</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>Ikusi transakzioen historia</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Editatu gordetako helbide eta etiketen zerrenda</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Erakutsi ordainketak jasotzeko helbideen zerrenda</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
         <translation>Irten</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
         <translation>Irten aplikaziotik</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about Litecoin</source>
         <translation>Erakutsi Litecoin-i buruzko informazioa</translation>
     </message>
     <message>
         <location line="+2"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>About &amp;Qt</source>
         <translation>&amp;Qt-ari buruz</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
         <translation>Erakutsi Litecoin-i buruzko informazioa</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>&amp;Aukerak...</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Helbideak jasotzen</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
         <translation type="unfinished"/>
@@ -429,10 +385,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+2"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Aldatu zorroa enkriptatzeko erabilitako pasahitza</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>&amp;Debug window</source>
         <translation type="unfinished"/>
@@ -505,25 +464,25 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+28"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;File</source>
         <translation>&amp;Artxiboa</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Ezarpenak</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Laguntza</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Fitxen tresna-barra</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+17"/>
         <location line="+10"/>
         <source>[testnet]</source>
@@ -606,30 +565,25 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-140"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Up to date</source>
         <translation>Egunean</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
         <translation>Eguneratzen...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
         <source>Sent transaction</source>
         <translation>Bidalitako transakzioa</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Incoming transaction</source>
         <translation>Sarrerako transakzioa</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Date: %1
 Amount: %2
@@ -652,135 +606,180 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Zorroa &lt;b&gt;enkriptatuta&lt;/b&gt; eta &lt;b&gt;desblokeatuta&lt;/b&gt; dago une honetan</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Zorroa &lt;b&gt;enkriptatuta&lt;/b&gt; eta &lt;b&gt;blokeatuta&lt;/b&gt; dago une honetan</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 </context>
 <context>
-    <name>ClientModel</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation type="unfinished"/>
+        <source>Amount:</source>
+        <translation>Kopurua</translation>
     </message>
-</context>
+    <message>
+        <source>Amount</source>
+        <translation>Kopurua</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
         <translation>Editatu helbidea</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>&amp;Etiketa</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>Helbide-liburuko sarrera honekin lotutako etiketa</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Address</source>
         <translation>&amp;Helbidea</translation>
     </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Helbide-liburuko sarrera honekin lotutako helbidea. Bidaltzeko helbideeta soilik alda daiteke.</translation>
+        <source>Options</source>
+        <translation>Aukerak</translation>
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>Inprimakia</translation>
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>Kopurua</translation>
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>Kopurua</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation>Jasotzeko helbide berria</translation>
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiketa:</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation>Bidaltzeko helbide berria</translation>
+        <source>&amp;Message:</source>
+        <translation>Mezua</translation>
     </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation>Editatu jasotzeko helbidea</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation>Editatu bidaltzeko helbidea</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Sartu berri den helbidea, &quot;%1&quot;, helbide-liburuan dago jadanik.</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
         <translation type="unfinished"/>
+=======
+        <source>Copy &amp;Address</source>
+        <translation>&amp;Kopiatu helbidea</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-    <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation>Ezin desblokeatu zorroa.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation>Gako berriaren sorrerak huts egin du.</translation>
-    </message>
-</context>
+    </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
     <message>
+        <source>Send Coins</source>
+        <translation>Bidali txanponak</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Kopurua</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>Litecoin-Qt</source>
         <translation type="unfinished"/>
+=======
+        <source>Send to multiple recipients at once</source>
+        <translation>Bidali hainbat jasotzaileri batera</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-12"/>
-        <source>version</source>
-        <translation type="unfinished"/>
+        <source>Balance:</source>
+        <translation>Saldoa:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Usage:</source>
-        <translation type="unfinished"/>
+        <source>Confirm the send action</source>
+        <translation>Berretsi bidaltzeko ekintza</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>K&amp;opurua:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation type="unfinished"/>
+        <source>Pay &amp;To:</source>
+        <translation>Ordaindu &amp;honi:</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiketa:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"/>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
         <translation type="unfinished"/>
@@ -937,66 +936,33 @@ Address: %4
         <location line="+9"/>
         <source>Whether to show Litecoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
+=======
+        <source>Paste address from clipboard</source>
+        <translation>Itsatsi helbidea arbeletik</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation type="unfinished"/>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;OK</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
-        <source>default</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+130"/>
-        <source>Confirm options reset</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Litecoin.</source>
         <translation type="unfinished"/>
+=======
+        <source>Message:</source>
+        <translation>Mezua</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+29"/>
-        <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished"/>
+        <source>Pay To:</source>
+        <translation>Ordaindu honi:</translation>
     </message>
-</context>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>OverviewPage</name>
     <message>
         <location filename="../forms/overviewpage.ui" line="+14"/>
@@ -1064,65 +1030,30 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    <name>SendConfirmationDialog</name>
+    </context>
 <context>
-    <name>QRCodeDialog</name>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>Kopurua</translation>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>&amp;Etiketa:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>Mezua</translation>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>Gorde honela...</translation>
-    </message>
-    <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Save QR Code</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    <name>ShutdownWindow</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Itsatsi helbidea arbeletik</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    </context>
+<context>
+<<<<<<< HEAD
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="+46"/>
@@ -1263,91 +1194,60 @@ Address: %4
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation type="unfinished"/>
     </message>
+=======
+    <name>SplashScreen</name>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     <message>
-        <location line="+1"/>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"/>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
     </message>
 </context>
 <context>
-    <name>SendCoinsDialog</name>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <source>Send Coins</source>
-        <translation>Bidali txanponak</translation>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Panel honek transakzioaren deskribapen xehea erakusten du</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Aukerak</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <source>Send to multiple recipients at once</source>
-        <translation>Bidali hainbat jasotzaileri batera</translation>
+        <source>Rescanning...</source>
+        <translation>Birbilatzen...</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Add &amp;Recipient</source>
-        <translation type="unfinished"/>
+        <source>Done loading</source>
+        <translation>Zamaketa amaitua</translation>
     </message>
-    <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>Balance:</source>
-        <translation>Saldoa:</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Confirm the send action</source>
-        <translation>Berretsi bidaltzeko ekintza</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>S&amp;end</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; honi: %2 (%3)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation>Berretsi txanponak bidaltzea</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>Ziur zaude %1 bidali nahi duzula?</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation>eta</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation type="unfinished"/>
-    </message>
+<<<<<<< HEAD
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
@@ -2914,4 +2814,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 </TS>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="th_TH" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -33,24 +34,21 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="th_TH" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>สมุดรายชื่อ</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>คลิกขวาเพื่อแก้ไขที่อยู่ หรือป้ายชื่อ</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>ดับเบิลคลิก เพื่อแก้ไขที่อยู่ หรือชื่อ</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
         <translation>สร้างที่อยู่ใหม่</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>คัดลอกที่อยู่ที่ถูกเลือกไปยัง คลิปบอร์ดของระบบ</translation>
@@ -64,43 +62,43 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Litecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;New</source>
+        <translation>&amp;สร้างใหม่</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation type="unfinished"/>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>คัดลอกที่อยู่ที่ถูกเลือกไปยัง คลิปบอร์ดของระบบ</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+11"/>
         <source>Sign a message to prove you own a Litecoin address</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Copy</source>
+        <translation>&amp;คัดลอก</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation type="unfinished"/>
+        <source>C&amp;lose</source>
+        <translation>&amp;ปิด</translation>
     </message>
     <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <translation>ลบที่อยู่ที่เลือกไว้ในขณะนี้จากรายการ</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <translation>ส่งออกข้อมูลที่อยู่ในแท็บไปที่ไฟล์</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ส่งออก</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified Litecoin address</source>
         <translation type="unfinished"/>
@@ -124,79 +122,38 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+13"/>
         <source>Copy &amp;Label</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Delete</source>
+        <translation>&amp;ลบ</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-    <message>
-        <location line="+1"/>
-        <source>&amp;Edit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>ส่งออกรายชื่อทั้งหมด</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>ส่งออกผิดพลาด</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>ไม่สามารถเขียนไปยังไฟล์ %1</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>ชื่อ</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>ที่อยู่</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(ไม่มีชื่อ)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
+        <translation>ช่องสำหรับ รหัสผ่าน</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>ใส่รหัสผ่าน</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>รหัสผา่นใหม่</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>กรุณากรอกรหัสผ่านใหม่อีกครั้งหนึ่ง</translation>
     </message>
+    </context>
+<context>
+    <name>BanTableModel</name>
     <message>
+<<<<<<< HEAD
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation type="unfinished"/>
@@ -308,111 +265,110 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-20"/>
         <source>Wallet decryption failed</source>
         <translation type="unfinished"/>
+=======
+        <source>IP/Netmask</source>
+        <translation>IP/Netmask (ตัวกรอง IP)</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+14"/>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation type="unfinished"/>
+        <source>Banned Until</source>
+        <translation>ห้าม จนถึง</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation type="unfinished"/>
+        <translation>เซ็นต์ชื่อด้วย &amp;ข้อความ...</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation type="unfinished"/>
+        <translation>กำลังทำข้อมูลให้ตรงกันกับเครือข่าย ...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ภาพรวม</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Node</source>
+        <translation>Node/โหนด</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished"/>
+        <translation>แสดงภาพรวมทั่วไปของกระเป๋าเงิน</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation type="unfinished"/>
+        <translation>&amp;การทำรายการ</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation type="unfinished"/>
+        <translation>เรียกดูประวัติการทำธุรกรรม</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ออก</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
-        <translation type="unfinished"/>
+        <translation>ออกจากโปรแกรม</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about Litecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;About %1</source>
+        <translation>&amp;เกี่ยวกับ %1</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Show information about %1</source>
+        <translation>แสดงข้อมูล เกี่ยวกับ %1</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished"/>
+        <translation>เกี่ยวกับ &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation type="unfinished"/>
+        <translation>แสดงข้อมูล เกี่ยวกับ Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ตัวเลือก...</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>Modify configuration options for %1</source>
+        <translation>ปรับปรุง ข้อมูลการตั้งค่าตัวเลือก สำหรับ %1</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;กระเป๋าเงินเข้ารหัส</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;สำรองกระเป๋าเงิน...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;เปลี่ยนรหัสผ่าน...</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;ที่เก็บเงิน ที่จะส่ง litecoin</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;ที่เก็บเงิน ที่จะรับ litecoin</translation>
     </message>
     <message>
+        <source>Open &amp;URI...</source>
+        <translation>เปิด &amp;URI</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="-347"/>
         <source>Send coins to a Litecoin address</source>
         <translation type="unfinished"/>
@@ -421,51 +377,57 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+49"/>
         <source>Modify configuration options for Litecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>Reindexing blocks on disk...</source>
+        <translation>กำลังทำดัชนี ที่เก็บบล็อก ใหม่ ในดิสก์...</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <source>Send coins to a Litecoin address</source>
+        <translation>ส่ง coins ไปยัง ที่เก็บ Litecoin</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished"/>
+        <translation>สำรอง กระเป๋าเงินไปยัง ที่เก็บอื่น</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished"/>
+        <translation>เปลี่ยนรหัสผ่านที่ใช้สำหรับการเข้ารหัสกระเป๋าเงิน</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"/>
+        <translation>&amp;หน้าต่าง Debug</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"/>
+        <translation>เปิด แผลงควบคุม debugging และ diagnostic</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ยืนยันข้อความ...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-165"/>
         <location line="+530"/>
         <source>Litecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
-        <translation type="unfinished"/>
+        <translation>กระเป๋าเงิน</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ส่ง</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -477,23 +439,24 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+22"/>
         <source>&amp;About Litecoin</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;รับ</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation type="unfinished"/>
+        <translation>&amp;แสดง / ซ่อน</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation type="unfinished"/>
+        <translation>แสดง หรือ ซ่อน หน้าหลัก</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished"/>
+        <translation>เข้ารหัส private keys/ รหัสส่วนตัว สำหรับกระเป๋าเงินของท่าน</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation type="unfinished"/>
@@ -502,34 +465,49 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation type="unfinished"/>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>เซ็นชื่อด้วยข้อความ ที่เก็บ Litecoin เพื่อแสดงว่าท่านเป็นเจ้าของ litecoin นี้จริง</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>ตรวจสอบ ข้อความ เพื่อให้แน่ใจว่า การเซ็นต์ชื่อ ด้วยที่เก็บ Litecoin แล้ว</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>&amp;File</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ไฟล์</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation type="unfinished"/>
+        <translation>&amp;การตั้งค่า</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ช่วยเหลือ</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation type="unfinished"/>
+        <translation>แถบเครื่องมือ</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation type="unfinished"/>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>เรียกเก็บ การชำระเงิน (สร้าง QR codes และ litecoin: URIs)</translation>
     </message>
     <message>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>แสดงรายการ ที่เก็บเงินที่จะส่ง litecoin ออก และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>แสดงรายการ ที่เก็บเงินที่จะรับ litecoin เข้า และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
+    </message>
+    <message>
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>เปิด litecoin: URI หรือ การเรียกเก็บเงิน (การเรียกให้ชำระเงิน)</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+47"/>
         <source>Litecoin client</source>
         <translation type="unfinished"/>
@@ -538,277 +516,259 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+141"/>
         <source>%n active connection(s) to Litecoin network</source>
         <translation type="unfinished"><numerusform></numerusform></translation>
+=======
+        <source>&amp;Command-line options</source>
+        <translation>&amp;ตัวเลือก Command-line</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n ช่องการเชื่อมต่อที่ใช้งานได้ เพื่อเชื่อมกับเครือข่าย Litecoin</numerusform></translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+22"/>
+        <source>Indexing blocks on disk...</source>
+        <translation>การกำลังสร้างดัชนีของบล็อก ในดิสก์...</translation>
+    </message>
+    <message>
+        <source>Processing blocks on disk...</source>
+        <translation>กำลังดำเนินการกับบล็อกในดิสก์...</translation>
+    </message>
+    <message>
         <source>No block source available...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation type="unfinished"/>
+        <translation>ไม่มีบล็อกเริ่มต้น ให้ใช้ได้...</translation>
     </message>
     <message numerus="yes">
-        <location line="+20"/>
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform>%n บล็อกในประวัติรายการ ได้รับการดำเนินการเรียบร้อยแล้ว</numerusform></translation>
+    </message>
+    <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>%n ชั่วโมง</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n day(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>%n วัน</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n week(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>%n สัปดาห์</numerusform></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <source>%1 and %2</source>
+        <translation>%1 และ %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n ปี</numerusform></translation>
+    </message>
+    <message>
         <source>%1 behind</source>
-        <translation type="unfinished"/>
+        <translation>%1 ตามหลัง</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"/>
+        <translation>บล็อกสุดท้ายที่ได้รับ สร้างขึ้นเมื่อ %1 มาแล้ว</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
+        <translation>รายการหลังจากนี้ จะไม่แสดงให้เห็น</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>ข้อผิดพลาด</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>คำเตือน</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>ข้อมูล</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
-        <translation type="unfinished"/>
+        <translation>ทันสมัย</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+        <translation>แสดง %1 ข้อความช่วยเหลือ เพื่อแสดงรายการ ตัวเลือกที่เป็นไปได้สำหรับ Litecoin command-line</translation>
+    </message>
+    <message>
+        <source>%1 client</source>
+        <translation>%1 ลูกค้า</translation>
+    </message>
+    <message>
         <source>Catching up...</source>
-        <translation type="unfinished"/>
+        <translation>กำลังตามให้ทัน...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Sent transaction</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Incoming transaction</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
 </source>
-        <translation type="unfinished"/>
+        <translation>วันที่: %1
+</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
+        <source>Amount: %1
+</source>
+        <translation>จำนวน: %1
+</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
+=======
+        <source>Type: %1
+</source>
+        <translation>ชนิด: %1
+</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+17"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <source>Label: %1
+</source>
+        <translation>ป้ายชื่อ: %1
+</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <source>Address: %1
+</source>
+        <translation>ที่อยู่: %1
+</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <source>Sent transaction</source>
+        <translation>รายการที่ส่ง</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>การทำรายการขาเข้า</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>ระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในขณะนี้ &lt;b&gt;ปลดล็อคแล้ว&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>กระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในปัจจุบัน &lt;b&gt;ล็อค &lt;/b&gt;</translation>
     </message>
 </context>
 <context>
-    <name>ClientModel</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>EditAddressDialog</name>
-    <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
-        <source>Edit Address</source>
-        <translation type="unfinished"/>
+        <source>Coin Selection</source>
+        <translation>การเลือก Coin</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>&amp;Label</source>
-        <translation type="unfinished"/>
+        <source>Quantity:</source>
+        <translation>จำนวน:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation type="unfinished"/>
+        <source>Bytes:</source>
+        <translation>ไบต์:</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Address</source>
-        <translation type="unfinished"/>
+        <source>Amount:</source>
+        <translation>จำนวน:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation type="unfinished"/>
+        <source>Priority:</source>
+        <translation>ความเร่งด่วน:</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation type="unfinished"/>
+        <source>Fee:</source>
+        <translation>ค่าธรรมเนียม:</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation type="unfinished"/>
+        <source>Dust:</source>
+        <translation>เศษ:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation type="unfinished"/>
+        <source>After Fee:</source>
+        <translation>ส่วนที่เหลือจากค่าธรรมเนียม:</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
         <translation type="unfinished"/>
+=======
+        <source>Change:</source>
+        <translation>เงินทอน:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation type="unfinished"/>
+        <source>(un)select all</source>
+        <translation>(ไม่)เลือกทั้งหมด</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation type="unfinished"/>
+        <source>Tree mode</source>
+        <translation>โหมดแบบต้นไม้</translation>
     </message>
-</context>
-<context>
-    <name>GUIUtil::HelpMessageBox</name>
     <message>
+<<<<<<< HEAD
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>Litecoin-Qt</source>
         <translation type="unfinished"/>
+=======
+        <source>List mode</source>
+        <translation>โหมดแบบรายการ</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-12"/>
-        <source>version</source>
-        <translation type="unfinished"/>
+        <source>Amount</source>
+        <translation>จำนวน</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Usage:</source>
-        <translation type="unfinished"/>
+        <source>Received with label</source>
+        <translation>รับโดยป้ายชื่อ (label)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation type="unfinished"/>
+        <source>Received with address</source>
+        <translation>รับโดยที่เก็บ</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation type="unfinished"/>
+        <source>Date</source>
+        <translation>วันที่</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"/>
+        <source>Confirmations</source>
+        <translation>การยืนยัน</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation type="unfinished"/>
+        <source>Confirmed</source>
+        <translation>ยืนยันแล้ว</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"/>
+        <source>Priority</source>
+        <translation>ระดับความสำคัญ</translation>
     </message>
-</context>
+    </context>
 <context>
-    <name>OptionsDialog</name>
+    <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
-        <source>Options</source>
-        <translation type="unfinished"/>
+        <source>Edit Address</source>
+        <translation>แก้ไขที่อยู่</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>&amp;Main</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label</source>
+        <translation>&amp;ป้ายชื่อ</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
+        <source>The label associated with this address list entry</source>
+        <translation>รายการแสดง ป้ายชื่อที่เกี่ยวข้องกับที่เก็บนี้</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+31"/>
         <source>Automatically start Litecoin after logging in to the system.</source>
         <translation type="unfinished"/>
@@ -817,418 +777,420 @@ Address: %4
         <location line="+3"/>
         <source>&amp;Start Litecoin on system login</source>
         <translation type="unfinished"/>
+=======
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>ที่เก็บที่เกี่ยวข้องกับ ที่เก็บที่แสดงรายการนี้ การปรับปรุงนี้ทำได้สำหรับ ที่เก็บเงินที่จะใช่ส่งเงิน เท่านั้น</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <source>&amp;Address</source>
+        <translation>&amp;ที่เก็บ</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>ไดเร็กทอรี่ใหม่ที่ใช้เก็บข้อมูลจะถูกสร้างขึ้นมา</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <source>name</source>
+        <translation>ชื่อ</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>&amp;Network</source>
-        <translation type="unfinished"/>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>พาธ มีอยู่แล้ว พาธนี่ไม่ใช่ไดเร็กทอรี่</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
+=======
+        <source>Cannot create data directory here.</source>
+        <translation>ไม่สามารถสร้างไดเร็กทอรี่ข้อมูลที่นี่</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>version</source>
+        <translation>เวอร์ชั่น</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
+=======
+        <source>(%1-bit)</source>
+        <translation>(%1-บิท)</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation type="unfinished"/>
+        <source>About %1</source>
+        <translation>เกี่ยวกับ %1</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"/>
+        <source>Command-line options</source>
+        <translation>ตัวเลือก Command-line</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation type="unfinished"/>
+        <source>Usage:</source>
+        <translation>วิธีใช้งาน:</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Port:</source>
-        <translation type="unfinished"/>
+        <source>command-line options</source>
+        <translation>ตัวเลือก command-line</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished"/>
+        <source>UI Options:</source>
+        <translation>ตัวเลือก UI:</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation type="unfinished"/>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>เลือกไดเร็กทอรี่ข้อมูลตั้งแต่เริ่มต้นสตาร์ทอัพ (ค่าเริ่มต้น: %u)</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation type="unfinished"/>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>ตั้งค่าภาษา ยกตัวอย่าง "de_DE" (ค่าเริ่มต้น: ภาษาท้องถิ่นของระบบ)</translation>
     </message>
     <message>
-        <location line="+36"/>
-        <source>&amp;Window</source>
-        <translation type="unfinished"/>
+        <source>Start minimized</source>
+        <translation>เริ่มต้นมินิไมซ์</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished"/>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>ตั้งค่า SSL root certificates สำหรับเรียกการชำระเงิน (ค่าเริ่มต้น: -system-)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished"/>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>แสดง splash screen ตอนเริ่มต้น (ค่าเริ่มต้น: %u)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation type="unfinished"/>
+        <source>Reset all settings changed in the GUI</source>
+        <translation>รีเซตการเปลี่ยนการตั้งค่าทั้งหมดใน GUI</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>ยินดีต้อนรับ</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>M&amp;inimize on close</source>
-        <translation type="unfinished"/>
+        <source>Welcome to %1.</source>
+        <translation>ยินดีต้องรับสู่ %1</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>&amp;Display</source>
-        <translation type="unfinished"/>
+        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
+        <translation>นี่เป็นการรันโปรแกรมครั้งแรก ท่านสามารถเลือก ว่าจะเก็บข้อมูลไว้ที่ %1</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>User Interface &amp;language:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
         <translation type="unfinished"/>
+=======
+        <source>%1 will download and store a copy of the Litecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 จะดาวน์โหลดและเก็บกอปปี้ชุดหนึ่งของ บล็อกเชน Litecoin ไว้ ข้อมูลขนานอย่างน้อย %2GB จะเก็บไว้ในไดเร็กทอรี่นี้ และข้อมูลจะมีขนาดใหญ่ขึ้นเรื่อยๆ กระเป๋าเงิน จะเก็บไว้ในไดเร็กทอรี่นี้ด้วย</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+11"/>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished"/>
+        <source>Use the default data directory</source>
+        <translation>ใช้ไดเร็กทอรี่ข้อมูล ที่เป็นค่าเริ่มต้น</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished"/>
+        <source>Use a custom data directory:</source>
+        <translation>ใช้ไดเร็กทอรี่ข้อมูลที่ตั้งค่าเอง:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>Whether to show Litecoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
+=======
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>ข้อผิดพลาด: ไดเร็กทอรี่ข้อมูลที่ต้องการ "%1" ไม่สามารถสร้างได้</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation type="unfinished"/>
+        <source>Error</source>
+        <translation>ข้อผิดพลาด</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n GB พื้นที่ว่างบนดิสก์ที่ใช้ได้</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(ต้องการพื้นที่ %n GB)</numerusform></translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>เปิด URI</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <source>Open payment request from URI or file</source>
+        <translation>เปิด การเรียกการชำระเงิน จาก URI หรือ ไฟล์</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <source>URI:</source>
+        <translation>URI:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation type="unfinished"/>
+        <source>Select payment request file</source>
+        <translation>เลือก ไฟล์การเรียกการชำระเงิน</translation>
+    </message>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>ตัวเลือก</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
-        <source>default</source>
-        <translation type="unfinished"/>
+        <source>&amp;Main</source>
+        <translation>&amp;หลัก</translation>
     </message>
     <message>
-        <location line="+130"/>
-        <source>Confirm options reset</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Litecoin.</source>
         <translation type="unfinished"/>
+=======
+        <source>Automatically start %1 after logging in to the system.</source>
+        <translation>เริ่มต้นอัตโนมัติ %1 หลังจาก ล็อกอิน เข้าสู่ระบบแล้ว</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+29"/>
-        <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>OverviewPage</name>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
-        <source>Form</source>
-        <translation type="unfinished"/>
+        <source>&amp;Start %1 on system login</source>
+        <translation>&amp;เริ่ม %1 ในการล็อกอินระบบ</translation>
     </message>
     <message>
+        <source>Size of &amp;database cache</source>
+        <translation>ขนาดของ &amp;database cache</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
+=======
+        <source>MB</source>
+        <translation>MB</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation type="unfinished"/>
+        <source>Number of script &amp;verification threads</source>
+        <translation>จำนวนของสคริปท์ &amp;verification threads</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation type="unfinished"/>
+        <source>Accept connections from outside</source>
+        <translation>ยอมรับ การเชื่อมต่อจากภายนอก</translation>
     </message>
     <message>
-        <location line="-78"/>
-        <source>Wallet</source>
-        <translation type="unfinished"/>
+        <source>Allow incoming connections</source>
+        <translation>ยอมให้เชื่อมต่อจากภายนอกได้</translation>
     </message>
     <message>
-        <location line="+107"/>
-        <source>Immature:</source>
-        <translation type="unfinished"/>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP แอดเดส ของ proxy (เช่น IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished"/>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>มินิไมซ์แอพ แทนการออกจากแอพพลิเคชั่น เมื่อวินโดว์ได้รับการปิด เมื่อเลือกตัวเลือกนี้ แอพพลิเคชั่น จะถูกปิด ก็ต่อเมื่อ มีการเลือกเมนู Exit/ออกจากระบบ เท่านั้น</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>URL แบบอื่น (ยกตัวอย่าง เอ็กพลอเลอร์บล็อก) ที่อยู่ใน เมนูรายการ ลำดับ %s ใน URL จะถูกเปลี่ยนด้วย รายการแฮช URL ที่เป็นแบบหลายๆอัน จะถูกแยก โดย เครื่องหมายเส้นบาร์ตั้ง |</translation>
     </message>
     <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation type="unfinished"/>
+        <source>Third party transaction URLs</source>
+        <translation>URI รายการ แบบของเจ้าอื่นๆ</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation type="unfinished"/>
+        <source>Active command-line options that override above options:</source>
+        <translation>ตัวเลือก command-line แอกทีฟอยู่นี้ จะแทนที่ ตัวเลือกด้านบนนี้:</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation type="unfinished"/>
+        <source>Reset all client options to default.</source>
+        <translation>รีเซต ไคลเอ็นออพชั่น กลับไปเป็นค่าเริ่มต้น</translation>
     </message>
-</context>
-<context>
-    <name>PaymentServer</name>
     <message>
+<<<<<<< HEAD
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start litecoin: click-to-pay handler</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Reset Options</source>
+        <translation>&amp;รีเซต ออพชั่น</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;เน็ตเวิร์ก</translation>
+    </message>
+    <message>
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation>(0 = อัตโนมัติ, &lt;0 = ปล่อย คอร์ อิสระ)</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>กระเ&amp;ป๋าเงิน</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>ผู้เชี่ยวชาญ</translation>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation>เปิดใช้ coin &amp; รูปแบบการควบคุม</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>หากท่านไม่เปิดใช้ การใช้เงินทอนที่ยังไม่ยืนยัน เงินทอนจากการทำรายการจะไม่สามารถใช้ได้ จนกว่ารายการที่ทำการ จะได้รับการยืนยันหนึ่งครั้ง และจะกระทบการคำนวณยอดคงเหลือของท่านด้วย</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;ใช้เงินทอนที่ยังไม่ยืนยัน</translation>
+    </message>
+    <message>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>เปิด Litecoin ไคล์เอ็นท์พอร์ต/client port บน router โดยอัตโนมัติ วิธีนี้ใช้ได้เมื่อ router สนับสนุน UPnP และสถานะเปิดใช้งาน</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>จองพอร์ต โดยใช้ &amp;UPnP</translation>
+    </message>
+    <message>
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>เชื่อมต่อกับ Litecoin เน็ตเวิร์ก ผ่านพร็อกซี่แบบ SOCKS5</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>&amp;เชื่อมต่อผ่าน พร็อกซี่ SOCKS5 (พร็อกซี่เริ่มต้น):</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>พร็อกซี่ &amp;IP:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;พอร์ต</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>พอร์ตของพร็อกซี่ (ตัวอย่าง 9050)</translation>
+    </message>
+    <message>
+        <source>Used for reaching peers via:</source>
+        <translation>ใช้ในการเข้าถึงอีกฝ่ายหนึ่ง peer โดย:</translation>
+    </message>
+    <message>
+        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation>แสดง หากใช้พร็อกซี่ SOCKS5 ที่เป็นค่าเริ่มต้น เพื่อเข้าถึง peer อีกฝ่าย ผ่านทางเน็ตเวิร์กชนิดนี้</translation>
+    </message>
+    <message>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
+    </message>
+    <message>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
+    </message>
+    <message>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
+        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>เชื่อมต่อกับ เครือข่าย Litecoin ผ่านทาง พร้อกซี่ SOCKS5 แยกต่างหาก สำหรับ Tor เซอร์วิส</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
+        <translation>ใช้ พร็อกซี่ SOCKS5 แยก เพื่อเข้าถึง peers ผ่าน Tor เซอร์วิสซ่อน:</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;วันโดว์</translation>
+    </message>
+    <message>
+        <source>&amp;Hide the icon from the system tray.</source>
+        <translation>&amp;ซ่อนไอคอน จากเทรย์ระบบ</translation>
+    </message>
+    <message>
+        <source>Hide tray icon</source>
+        <translation>ซ่อนไอคอนเทรย์</translation>
+    </message>
+    <message>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>แสดงเทรย์ไอคอน หลังมืนิไมส์วินโดว์ เท่านั้น</translation>
+    </message>
+    </context>
 <context>
-    <name>QRCodeDialog</name>
+    <name>OverviewPage</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation type="unfinished"/>
+        <source>Form</source>
+        <translation>รูป</translation>
     </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Save QR Code</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
-    <name>RPCConsole</name>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
-        <source>N/A</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-217"/>
-        <source>Client version</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-45"/>
-        <source>&amp;Information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Startup time</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Network</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Number of connections</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Block chain</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Current number of blocks</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Last block time</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+52"/>
-        <source>&amp;Open</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Show the Litecoin-Qt help message to get a list with possible Litecoin command-line options.</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount</source>
+        <translation>จำนวน</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;ชื่อ:</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>ส่งเหรียญ</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation type="unfinished"/>
+        <source>Quantity:</source>
+        <translation>จำนวน:</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>&amp;Console</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-260"/>
-        <source>Build date</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-104"/>
         <source>Litecoin - Debug window</source>
         <translation type="unfinished"/>
@@ -1237,149 +1199,60 @@ Address: %4
         <location line="+25"/>
         <source>Litecoin Core</source>
         <translation type="unfinished"/>
+=======
+        <source>Bytes:</source>
+        <translation>ไบต์:</translation>
     </message>
     <message>
-        <location line="+279"/>
-        <source>Debug log file</source>
-        <translation type="unfinished"/>
+        <source>Amount:</source>
+        <translation>จำนวน:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
+        <source>Priority:</source>
+        <translation>ความเร่งด่วน</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
+=======
+        <source>Fee:</source>
+        <translation>ค่าธรรมเนียม:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+102"/>
-        <source>Clear console</source>
-        <translation type="unfinished"/>
+        <source>After Fee:</source>
+        <translation>ส่วนที่เหลือจากค่าธรรมเนียม:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Litecoin RPC console.</source>
         <translation type="unfinished"/>
+=======
+        <source>Change:</source>
+        <translation>เงินทอน:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation type="unfinished"/>
+        <source>Dust:</source>
+        <translation>เศษ:</translation>
     </message>
-    <message>
-        <location line="+1"/>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
-    <name>SendCoinsDialog</name>
+    <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <source>Send Coins</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label:</source>
+        <translation>&amp;ชื่อ:</translation>
     </message>
-    <message>
-        <location line="+50"/>
-        <source>Send to multiple recipients at once</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Add &amp;Recipient</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>Balance:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Confirm the send action</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>S&amp;end</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount exceeds your balance.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+<<<<<<< HEAD
     <name>SendCoinsEntry</name>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
@@ -1645,275 +1518,63 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
+=======
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>[testnet]</source>
-        <translation type="unfinished"/>
+        <translation>[testnet]</translation>
     </message>
 </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
 <context>
     <name>TransactionDesc</name>
-    <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
-        <source>Open until %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1/unconfirmed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 confirmations</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>Status</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Date</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Source</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+17"/>
-        <source>From</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-77"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>label</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>not accepted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
-        <source>Debit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-39"/>
-        <source>Transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Net amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Comment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-209"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+70"/>
-        <source>unknown</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
-    <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
-        <source>Date</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Type</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>ที่อยู่</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+57"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <source>Options:</source>
+        <translation>ตัวเลือก:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Open until %1</source>
-        <translation type="unfinished"/>
+        <source>Information</source>
+        <translation>ข้อมูล</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation type="unfinished"/>
+        <source>Warning</source>
+        <translation>คำเตือน</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated but not accepted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+43"/>
-        <source>Received with</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Received from</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sent to</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+2"/>
         <source>Payment to yourself</source>
         <translation type="unfinished"/>
@@ -2903,15 +2564,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-74"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Error</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"/>
+        <translation>ข้อผิดพลาด</translation>
     </message>
 </context>
 </TS>

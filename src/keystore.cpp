@@ -1,24 +1,43 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Bitcoin developers
-// Distributed under the MIT/X11 software license, see the accompanying
+// Copyright (c) 2009-2015 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "keystore.h"
-#include "script.h"
 
-bool CKeyStore::GetPubKey(const CKeyID &address, CPubKey &vchPubKeyOut) const
-{
-    CKey key;
-    if (!GetKey(address, key))
-        return false;
-    vchPubKeyOut = key.GetPubKey();
-    return true;
-}
+#include "key.h"
+#include "pubkey.h"
+#include "util.h"
+
+#include <boost/foreach.hpp>
 
 bool CKeyStore::AddKey(const CKey &key) {
     return AddKeyPubKey(key, key.GetPubKey());
 }
 
+bool CBasicKeyStore::GetPubKey(const CKeyID &address, CPubKey &vchPubKeyOut) const
+{
+    CKey key;
+    if (!GetKey(address, key)) {
+        LOCK(cs_KeyStore);
+        WatchKeyMap::const_iterator it = mapWatchKeys.find(address);
+        if (it != mapWatchKeys.end()) {
+            vchPubKeyOut = it->second;
+            return true;
+        }
+        return false;
+    }
+    vchPubKeyOut = key.GetPubKey();
+    return true;
+}
+
+<<<<<<< HEAD
+bool CKeyStore::AddKey(const CKey &key) {
+    return AddKeyPubKey(key, key.GetPubKey());
+}
+
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 bool CBasicKeyStore::AddKeyPubKey(const CKey& key, const CPubKey &pubkey)
 {
     LOCK(cs_KeyStore);
@@ -28,8 +47,16 @@ bool CBasicKeyStore::AddKeyPubKey(const CKey& key, const CPubKey &pubkey)
 
 bool CBasicKeyStore::AddCScript(const CScript& redeemScript)
 {
+<<<<<<< HEAD
     LOCK(cs_KeyStore);
     mapScripts[redeemScript.GetID()] = redeemScript;
+=======
+    if (redeemScript.size() > MAX_SCRIPT_ELEMENT_SIZE)
+        return error("CBasicKeyStore::AddCScript(): redeemScripts > %i bytes are invalid", MAX_SCRIPT_ELEMENT_SIZE);
+
+    LOCK(cs_KeyStore);
+    mapScripts[CScriptID(redeemScript)] = redeemScript;
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     return true;
 }
 
@@ -51,6 +78,7 @@ bool CBasicKeyStore::GetCScript(const CScriptID &hash, CScript& redeemScriptOut)
     return false;
 }
 
+<<<<<<< HEAD
 bool CCryptoKeyStore::SetCrypted()
 {
     LOCK(cs_KeyStore);
@@ -63,9 +91,22 @@ bool CCryptoKeyStore::SetCrypted()
 }
 
 bool CCryptoKeyStore::Lock()
+=======
+static bool ExtractPubKey(const CScript &dest, CPubKey& pubKeyOut)
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 {
-    if (!SetCrypted())
+    //TODO: Use Solver to extract this?
+    CScript::const_iterator pc = dest.begin();
+    opcodetype opcode;
+    std::vector<unsigned char> vch;
+    if (!dest.GetOp(pc, opcode, vch) || vch.size() < 33 || vch.size() > 65)
         return false;
+    pubKeyOut = CPubKey(vch);
+    if (!pubKeyOut.IsFullyValid())
+        return false;
+    if (!dest.GetOp(pc, opcode, vch) || opcode != OP_CHECKSIG || dest.GetOp(pc, opcode, vch))
+        return false;
+<<<<<<< HEAD
 
     {
         LOCK(cs_KeyStore);
@@ -123,22 +164,32 @@ bool CCryptoKeyStore::AddKeyPubKey(const CKey& key, const CPubKey &pubkey)
         if (!AddCryptedKey(pubkey, vchCryptedSecret))
             return false;
     }
+=======
     return true;
 }
 
-
-bool CCryptoKeyStore::AddCryptedKey(const CPubKey &vchPubKey, const std::vector<unsigned char> &vchCryptedSecret)
+bool CBasicKeyStore::AddWatchOnly(const CScript &dest)
 {
-    {
-        LOCK(cs_KeyStore);
-        if (!SetCrypted())
-            return false;
-
-        mapCryptedKeys[vchPubKey.GetID()] = make_pair(vchPubKey, vchCryptedSecret);
-    }
+    LOCK(cs_KeyStore);
+    setWatchOnly.insert(dest);
+    CPubKey pubKey;
+    if (ExtractPubKey(dest, pubKey))
+        mapWatchKeys[pubKey.GetID()] = pubKey;
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     return true;
 }
 
+bool CBasicKeyStore::RemoveWatchOnly(const CScript &dest)
+{
+    LOCK(cs_KeyStore);
+    setWatchOnly.erase(dest);
+    CPubKey pubKey;
+    if (ExtractPubKey(dest, pubKey))
+        mapWatchKeys.erase(pubKey.GetID());
+    return true;
+}
+
+<<<<<<< HEAD
 bool CCryptoKeyStore::GetKey(const CKeyID &address, CKey& keyOut) const
 {
     {
@@ -164,24 +215,17 @@ bool CCryptoKeyStore::GetKey(const CKeyID &address, CKey& keyOut) const
 }
 
 bool CCryptoKeyStore::GetPubKey(const CKeyID &address, CPubKey& vchPubKeyOut) const
+=======
+bool CBasicKeyStore::HaveWatchOnly(const CScript &dest) const
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 {
-    {
-        LOCK(cs_KeyStore);
-        if (!IsCrypted())
-            return CKeyStore::GetPubKey(address, vchPubKeyOut);
-
-        CryptedKeyMap::const_iterator mi = mapCryptedKeys.find(address);
-        if (mi != mapCryptedKeys.end())
-        {
-            vchPubKeyOut = (*mi).second.first;
-            return true;
-        }
-    }
-    return false;
+    LOCK(cs_KeyStore);
+    return setWatchOnly.count(dest) > 0;
 }
 
-bool CCryptoKeyStore::EncryptKeys(CKeyingMaterial& vMasterKeyIn)
+bool CBasicKeyStore::HaveWatchOnly() const
 {
+<<<<<<< HEAD
     {
         LOCK(cs_KeyStore);
         if (!mapCryptedKeys.empty() || IsCrypted())
@@ -202,4 +246,8 @@ bool CCryptoKeyStore::EncryptKeys(CKeyingMaterial& vMasterKeyIn)
         mapKeys.clear();
     }
     return true;
+=======
+    LOCK(cs_KeyStore);
+    return (!setWatchOnly.empty());
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 }

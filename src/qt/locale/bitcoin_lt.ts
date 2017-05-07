@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -37,24 +38,21 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="lt" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Adresų knygelė</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Spustelėkite dešinįjį klaviša norint keisti adresą arba etiketę</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Spragtelėkite, kad pakeistumėte adresą arba žymę</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
         <translation>Sukurti naują adresą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopijuoti esamą adresą į mainų atmintį</translation>
@@ -68,40 +66,40 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Litecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Tai yra jūsų Litecoin adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
+=======
+        <source>&amp;New</source>
+        <translation>&amp;Naujas</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Kopijuoti adresą</translation>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Kopijuoti esamą adresą į mainų atmintį</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Rodyti &amp;QR kodą</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+11"/>
         <source>Sign a message to prove you own a Litecoin address</source>
         <translation>Pasirašykite žinutę, kad įrodytume, jog esate Litecoin adreso savininkas</translation>
+=======
+        <source>&amp;Copy</source>
+        <translation>&amp;Kopijuoti</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>Registruoti praneši&amp;mą</translation>
+        <source>C&amp;lose</source>
+        <translation>&amp;Užverti</translation>
     </message>
     <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <translation>Ištrinti pasirinktą adresą iš sąrašo</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <translation>Eksportuoti informaciją iš dabartinės lentelės į failą</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -113,12 +111,15 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <location line="+3"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Tikrinti žinutę</translation>
+=======
+        <translation>&amp;Eksportuoti</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Trinti</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
@@ -160,47 +161,35 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Nepavyko įrašyti į failą %1.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>Žymė</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Adresas</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(nėra žymės)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
         <translation>Slaptafrazės dialogas</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Įvesti slaptafrazę</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Nauja slaptafrazė</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>Pakartokite naują slaptafrazę</translation>
     </message>
+    </context>
+<context>
+    <name>BanTableModel</name>
     <message>
+<<<<<<< HEAD
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Įveskite naują piniginės slaptafrazę.&lt;br/&gt;Prašome naudoti slaptafrazę iš &lt;b&gt; 10 ar daugiau atsitiktinių simbolių&lt;/b&gt; arba &lt;b&gt;aštuonių ar daugiau žodžių&lt;/b&gt;.</translation>
@@ -317,106 +306,98 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Piniginės slaptažodis sėkmingai pakeistas.</translation>
+=======
+        <source>Banned Until</source>
+        <translation>Užblokuotas iki</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
         <translation>Pasirašyti ži&amp;nutę...</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>Sinchronizavimas su tinklu ...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Apžvalga</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Node</source>
+        <translation>Taškas</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Rodyti piniginės bendrą apžvalgą</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Sandoriai</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>Apžvelgti sandorių istoriją</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Redaguoti išsaugotus adresus bei žymes</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Parodyti adresų sąraša mokėjimams gauti</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
         <translation>&amp;Išeiti</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
         <translation>Išjungti programą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about Litecoin</source>
         <translation>Rodyti informaciją apie Litecoin</translation>
+=======
+        <source>&amp;About %1</source>
+        <translation>&amp;Apie %1</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+2"/>
         <source>About &amp;Qt</source>
         <translation>Apie &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
         <translation>Rodyti informaciją apie Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>&amp;Parinktys...</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Užšifruoti piniginę...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Backup piniginę...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
         <translation>&amp;Keisti slaptafrazę...</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Siunčiami adresai...</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Gaunami adresai...</translation>
     </message>
     <message>
+        <source>Open &amp;URI...</source>
+        <translation>Atidaryti &amp;URI...</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="-347"/>
         <source>Send coins to a Litecoin address</source>
         <translation>Siųsti monetas Litecoin adresui</translation>
@@ -425,76 +406,76 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <location line="+49"/>
         <source>Modify configuration options for Litecoin</source>
         <translation>Keisti litecoin konfigūracijos galimybes</translation>
+=======
+        <source>Reindexing blocks on disk...</source>
+        <translation>Blokai iš naujo indeksuojami...</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Siųsti monetas Litecoin adresui</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Daryti piniginės atsarginę kopiją</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Pakeisti slaptafrazę naudojamą piniginės užšifravimui</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
         <translation>&amp;Derinimo langas</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
         <translation>Atverti derinimo ir diagnostikos konsolę</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Tikrinti žinutę...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-165"/>
         <location line="+530"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
         <translation>Piniginė</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Siųsti</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Gauti</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+22"/>
         <source>&amp;About Litecoin</source>
         <translation>&amp;Apie Litecoin</translation>
     </message>
     <message>
         <location line="+9"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Show / Hide</source>
         <translation>&amp;Rodyti / Slėpti</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation type="unfinished"/>
+        <translation>Rodyti arba slėpti pagrindinį langą</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -509,25 +490,28 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+28"/>
+=======
+        <translation>Užšifruoti privačius raktus, kurie priklauso jūsų piniginei</translation>
+    </message>
+    <message>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;File</source>
         <translation>&amp;Failas</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Nustatymai</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Pagalba</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Kortelių įrankinė</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+17"/>
         <location line="+10"/>
         <source>[testnet]</source>
@@ -587,225 +571,208 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Command-line options</source>
+        <translation>Komandinės eilutės parametrai</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Klaida</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>Įspėjimas</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>Informacija</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
         <translation>Atnaujinta</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
         <translation>Vejamasi...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation>Patvirtinti sandorio mokestį</translation>
-    </message>
-    <message>
-        <location line="+8"/>
         <source>Sent transaction</source>
         <translation>Sandoris nusiųstas</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Incoming transaction</source>
         <translation>Ateinantis sandoris</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation>Data: %1
-Suma: %2
-Tipas: %3
-Adresas: %4</translation>
-    </message>
-    <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>URI apdorojimas</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Piniginė &lt;b&gt;užšifruota&lt;/b&gt; ir šiuo metu &lt;b&gt;atrakinta&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Piniginė &lt;b&gt;užšifruota&lt;/b&gt; ir šiuo metu &lt;b&gt;užrakinta&lt;/b&gt;</translation>
     </message>
+</context>
+<context>
+    <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
+        <location line="-23"/>
+        <location line="+23"/>
+        <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation type="unfinished"/>
+=======
+        <source>Coin Selection</source>
+        <translation>Monetų pasirinkimas</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Kiekis:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Baitai:</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount:</source>
+        <translation>Suma:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
-<context>
-    <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation>Tinklo įspėjimas</translation>
+        <source>Priority:</source>
+        <translation>Pirmumas:</translation>
     </message>
-</context>
+    <message>
+        <source>Fee:</source>
+        <translation>Mokestis:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Po mokesčio:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Graža:</translation>
+    </message>
+    <message>
+        <source>(un)select all</source>
+        <translation>(ne)pasirinkti viską</translation>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation>Medžio režimas</translation>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation>Sąrašo režimas</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Suma</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>Patvirtinimai</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Patvirtintas</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation>Pirmumas</translation>
+    </message>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
+<<<<<<< HEAD
+        <location line="-5"/>
+        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
+        <translation>Įvestas adresas „%1“ nėra galiojantis Litecoin adresas.</translation>
+=======
         <source>Edit Address</source>
         <translation>Keisti adresą</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>Ž&amp;ymė</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>Žymė yra susieta su šios adresų knygelęs turiniu</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Address</source>
         <translation>&amp;Adresas</translation>
     </message>
-    <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Adresas yra susietas su šios adresų knygelęs turiniu. Tai gali būti keičiama tik siuntimo adresams.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation>Naujas gavimo adresas</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation>Naujas siuntimo adresas</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation>Keisti gavimo adresą</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation>Keisti siuntimo adresą</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Įvestas adresas „%1“ jau yra adresų knygelėje.</translation>
-    </message>
-    <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
-        <translation>Įvestas adresas „%1“ nėra galiojantis Litecoin adresas.</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation>Nepavyko atrakinti piniginės.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation>Naujo rakto generavimas nepavyko.</translation>
-    </message>
-</context>
+    </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>FreespaceChecker</name>
     <message>
+<<<<<<< HEAD
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>Litecoin-Qt</source>
         <translation>Litecoin-Qt</translation>
+=======
+        <source>name</source>
+        <translation>pavadinimas</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
     <message>
-        <location line="-12"/>
         <source>version</source>
         <translation>versija</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Command-line options</source>
+        <translation>Komandinės eilutės parametrai</translation>
+    </message>
+    <message>
         <source>Usage:</source>
         <translation>Naudojimas:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>command-line options</source>
         <translation>komandinės eilutės parametrai</translation>
     </message>
+    </context>
+<context>
+    <name>Intro</name>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation>Naudotoji sąsajos parametrai</translation>
+        <source>Welcome</source>
+        <translation>Sveiki</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Nustatyti kalbą, pavyzdžiui &quot;lt_LT&quot; (numatyta: sistemos kalba)</translation>
+        <source>Error</source>
+        <translation>Klaida</translation>
     </message>
-    <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation>Paleisti sumažintą</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>Parinktys</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>&amp;Main</source>
         <translation>&amp;Pagrindinės</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation type="unfinished"/>
@@ -824,23 +791,25 @@ Adresas: %4</translation>
         <location line="+3"/>
         <source>&amp;Start Litecoin on system login</source>
         <translation>&amp;Paleisti Litecoin programą su window sistemos paleidimu</translation>
+=======
+        <source>MB</source>
+        <translation>MB</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+35"/>
-        <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>Proxy IP adresas (Pvz. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Atstatyti Parinktis</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Network</source>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatiškai atidaryti Litecoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
@@ -854,93 +823,86 @@ Adresas: %4</translation>
         <location line="+7"/>
         <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Jungtis į Bitkoin tinklą per  socks proxy (pvz. jungiantis per Tor)</translation>
+=======
+        <source>W&amp;allet</source>
+        <translation>Piniginė</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Jungtis per SOCKS tarpinį serverį:</translation>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Litecoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+9"/>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Persiųsti prievadą naudojant &amp;UPnP</translation>
+    </message>
+    <message>
         <source>Proxy &amp;IP:</source>
         <translation>Tarpinio serverio &amp;IP:</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>Tarpinio serverio IP adresas (pvz. 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
         <translation>&amp;Prievadas:</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Tarpinio serverio preivadas (pvz, 9050)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS &amp;versija:</translation>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>Tarpinio serverio SOCKS versija (pvz., 5)</translation>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
         <source>&amp;Window</source>
         <translation>&amp;Langas</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>Po programos lango sumažinimo rodyti tik programos ikoną.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
         <translation>&amp;M sumažinti langą bet ne užduočių juostą</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Uždarant langą neuždaryti programos. Kai ši parinktis įjungta, programa bus uždaryta tik pasirinkus  meniu komandą Baigti.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>M&amp;inimize on close</source>
         <translation>&amp;Sumažinti uždarant</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Display</source>
         <translation>&amp;Rodymas</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>User Interface &amp;language:</source>
         <translation>Naudotojo sąsajos &amp;kalba:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
         <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Litecoin.</translation>
     </message>
     <message>
         <location line="+11"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Vienetai, kuriais rodyti sumas:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Rodomų ir siunčiamų monetų kiekio matavimo vienetai</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>Whether to show Litecoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
@@ -952,53 +914,43 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+71"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;OK</source>
         <translation>&amp;Gerai</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Atšaukti</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>&amp;Pritaikyti</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
         <translation>numatyta</translation>
     </message>
     <message>
-        <location line="+130"/>
+        <source>none</source>
+        <translation>niekas</translation>
+    </message>
+    <message>
         <source>Confirm options reset</source>
-        <translation type="unfinished"/>
+        <translation>Patvirtinti nustatymų atstatymą</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"/>
+        <source>Client restart required to activate changes.</source>
+        <translation>Kliento perkrovimas reikalingas nustatymų aktyvavimui</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>Įspėjimas</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Litecoin.</source>
         <translation type="unfinished"/>
+=======
+        <source>This change would require a client restart.</source>
+        <translation>Šis pakeitimas reikalautų kliento perkrovimo</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Nurodytas tarpinio serverio adresas negalioja.</translation>
     </message>
@@ -1006,236 +958,165 @@ Adresas: %4</translation>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
+=======
+        <source>Available:</source>
+        <translation>Galimi:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation>Balansas:</translation>
+        <source>Your current spendable balance</source>
+        <translation>Jūsų dabartinis išleidžiamas balansas</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>Nepatvirtinti:</translation>
+        <source>Pending:</source>
+        <translation>Laukiantys:</translation>
     </message>
     <message>
-        <location line="-78"/>
-        <source>Wallet</source>
-        <translation>Piniginė</translation>
-    </message>
-    <message>
-        <location line="+107"/>
         <source>Immature:</source>
         <translation>Nepribrendę:</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished"/>
+        <source>Total:</source>
+        <translation>Viso:</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Naujausi sandoriai&lt;/b&gt;</translation>
+        <source>Your current total balance</source>
+        <translation>Jūsų balansas</translation>
     </message>
-    <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation>Jūsų einamasis balansas</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Iš viso sandorių, įskaitant tuos kurie dar turi būti patvirtinti, ir jie dar nėra įskaičiuotii į einamosios sąskaitos balansą</translation>
-    </message>
-    <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+        <source>Amount</source>
+        <translation>Suma</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start litecoin: click-to-pay handler</source>
         <translation type="unfinished"/>
+=======
+        <source>N/A</source>
+        <translation>nėra</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
+    </context>
 <context>
-    <name>QRCodeDialog</name>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>QR kodo dialogas</translation>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Prašau išmokėti</translation>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>Suma:</translation>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>Žymė:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>Žinutė:</translation>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>Į&amp;rašyti kaip...</translation>
-    </message>
-    <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>Klaida, koduojant URI į QR kodą.</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation>Įvesta suma neteisinga, prašom patikrinti.</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Save QR Code</source>
-        <translation>Įrašyti QR kodą</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation>PNG paveikslėliai (*.png)</translation>
-    </message>
-</context>
+    <name>QRImageWidget</name>
+    </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation>Kliento pavadinimas</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
         <source>N/A</source>
         <translation>nėra</translation>
     </message>
     <message>
-        <location line="-217"/>
         <source>Client version</source>
         <translation>Kliento versija</translation>
     </message>
     <message>
-        <location line="-45"/>
         <source>&amp;Information</source>
         <translation>&amp;Informacija</translation>
     </message>
     <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation>Naudojama OpenSSL versija</translation>
+        <source>Debug window</source>
+        <translation>Derinimo langas</translation>
     </message>
     <message>
-        <location line="+49"/>
         <source>Startup time</source>
         <translation>Paleidimo laikas</translation>
     </message>
     <message>
-        <location line="+29"/>
         <source>Network</source>
         <translation>Tinklas</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Name</source>
+        <translation>Pavadinimas</translation>
+    </message>
+    <message>
         <source>Number of connections</source>
         <translation>Prisijungimų kiekis</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation>Testnete</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Block chain</source>
         <translation>Blokų grandinė</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Current number of blocks</source>
         <translation>Dabartinis blokų skaičius</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation type="unfinished"/>
+        <source>Received</source>
+        <translation>Gauta</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>Direction</source>
+        <translation>Kryptis</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versija</translation>
+    </message>
+    <message>
         <source>Last block time</source>
         <translation>Paskutinio bloko laikas</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>&amp;Open</source>
         <translation>&amp;Atverti</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation>Komandinės eilutės parametrai</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show the Litecoin-Qt help message to get a list with possible Litecoin command-line options.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation>&amp;Rodyti</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>&amp;Console</source>
         <translation>&amp;Konsolė</translation>
     </message>
     <message>
-        <location line="-260"/>
-        <source>Build date</source>
-        <translation>Kompiliavimo data</translation>
+<<<<<<< HEAD
+        <location line="+7"/>
+        <source>Show the Litecoin-Qt help message to get a list with possible Litecoin command-line options.</source>
+        <translation type="unfinished"/>
+=======
+        <source>&amp;Clear</source>
+        <translation>Išvalyti</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
+        <source>Totals</source>
+        <translation>Viso:</translation>
+    </message>
+    <message>
+        <source>Debug log file</source>
+        <translation>Derinimo žurnalo failas</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>Išvalyti konsolę</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="-104"/>
         <source>Litecoin - Debug window</source>
         <translation>Litecoin - Derinimo langas</translation>
@@ -1244,166 +1125,160 @@ Adresas: %4</translation>
         <location line="+25"/>
         <source>Litecoin Core</source>
         <translation>Litecoin branduolys</translation>
+=======
+        <source>%1 B</source>
+        <translation>%1 B</translation>
     </message>
     <message>
-        <location line="+279"/>
-        <source>Debug log file</source>
-        <translation>Derinimo žurnalo failas</translation>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
+=======
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+102"/>
-        <source>Clear console</source>
-        <translation>Išvalyti konsolę</translation>
+        <source>never</source>
+        <translation>Niekada</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Litecoin RPC console.</source>
         <translation type="unfinished"/>
+=======
+        <source>Yes</source>
+        <translation>Taip</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation type="unfinished"/>
+        <source>No</source>
+        <translation>Ne</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>Suma:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label:</source>
+        <translation>Ž&amp;ymė:</translation>
     </message>
-</context>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>Žinutė:</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Išvalyti</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR kodas</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>&amp;Kopijuoti adresą</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
         <source>Send Coins</source>
         <translation>Siųsti monetas</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <source>Insufficient funds!</source>
+        <translation>Nepakanka lėšų</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Kiekis:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Baitai:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Suma:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Pirmumas:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Mokestis:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Po mokesčio:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Graža:</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Sandorio mokestis:</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Siųsti keliems gavėjams vienu metu</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Add &amp;Recipient</source>
         <translation>&amp;A Pridėti gavėją</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation>Pašalinti visus sandorio laukus</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Clear &amp;All</source>
         <translation>Išvalyti &amp;viską</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Balance:</source>
         <translation>Balansas:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>Confirm the send action</source>
         <translation>Patvirtinti siuntimo veiksmą</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>S&amp;end</source>
         <translation>&amp;Siųsti</translation>
     </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation>Patvirtinti monetų siuntimą</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>Ar tikrai norite siųsti %1?</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation> ir </translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>Negaliojantis gavėjo adresas. Patikrinkite.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>Apmokėjimo suma turi būti didesnė nei 0.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount exceeds your balance.</source>
-        <translation>Suma viršija jūsų balansą.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Jei pridedame sandorio mokestį %1 bendra suma viršija jūsų balansą.</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Rastas adreso dublikatas.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Klaida: sandoris buvo atmestas.Tai gali įvykti, jei kai kurios monetos iš jūsų piniginėje jau buvo panaudotos, pvz. jei naudojote wallet.dat kopiją ir monetos buvo išleistos kopijoje, bet nepažymėtos kaip skirtos išleisti čia.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation>Forma</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
         <translation>Su&amp;ma:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
         <translation>Mokėti &amp;gavėjui:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+34"/>
         <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
@@ -1416,53 +1291,52 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-78"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Label:</source>
         <translation>Ž&amp;ymė:</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation>Pasirinkite adresą iš adresų knygelės</translation>
-    </message>
-    <message>
-        <location line="+10"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
         <translation>Įvesti adresą iš mainų atminties</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>Pašalinti šį gavėją</translation>
+        <source>Message:</source>
+        <translation>Žinutė:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Įveskite bitkoinų adresą (pvz. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+=======
+        <source>Pay To:</source>
+        <translation>Mokėti gavėjui:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
-        <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+13"/>
         <source>&amp;Sign Message</source>
         <translation>&amp;Pasirašyti žinutę</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"/>
@@ -1481,25 +1355,25 @@ Adresas: %4</translation>
     <message>
         <location line="-203"/>
         <location line="+213"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-203"/>
         <source>Paste address from clipboard</source>
         <translation>Įvesti adresą iš mainų atminties</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
         <translation>Įveskite pranešimą, kurį norite pasirašyti čia</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Signature</source>
         <translation type="unfinished"/>
@@ -1511,31 +1385,25 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+21"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished"/>
+        <translation>Registruoti praneši&amp;mą</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Reset all sign message fields</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <location line="+146"/>
         <source>Clear &amp;All</source>
         <translation>Išvalyti &amp;viską</translation>
     </message>
     <message>
-        <location line="-87"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Patikrinti žinutę</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation type="unfinished"/>
@@ -1547,12 +1415,14 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+40"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Litecoin adresas</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Verify &amp;Message</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1641,211 +1511,166 @@ Adresas: %4</translation>
         <location line="+5"/>
         <source>Message verified.</source>
         <translation>Žinutė patikrinta.</translation>
+=======
+        <translation>&amp;Patikrinti žinutę</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
+    </context>
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>[testnet]</source>
         <translation>[testavimotinklas]</translation>
     </message>
 </context>
 <context>
-    <name>TransactionDesc</name>
+    <name>TrafficGraphWidget</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
-        <source>Open until %1</source>
-        <translation>Atidaryta iki %1</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation>%1/neprisijungęs</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1/unconfirmed</source>
-        <translation>%1/nepatvirtintas</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 confirmations</source>
-        <translation>%1 patvirtinimų</translation>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>Status</source>
-        <translation>Būsena</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Date</source>
-        <translation>Data</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Source</source>
-        <translation>Šaltinis</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation>Sugeneruotas</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+17"/>
-        <source>From</source>
-        <translation>Nuo</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation>Kam</translation>
-    </message>
-    <message>
-        <location line="-77"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation>savo adresas</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>label</source>
-        <translation>žymė</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation>Kreditas</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>not accepted</source>
-        <translation>nepriimta</translation>
-    </message>
-    <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
-        <source>Debit</source>
-        <translation>Debitas</translation>
-    </message>
-    <message>
-        <location line="-39"/>
-        <source>Transaction fee</source>
-        <translation>Sandorio mokestis</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Net amount</source>
-        <translation>Neto suma</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Message</source>
-        <translation>Žinutė</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Comment</source>
-        <translation>Komentaras</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transaction ID</source>
-        <translation>Sandorio ID</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Išgautos monetos turi sulaukti 120 blokų, kol jos gali būti naudojamos. Kai sukūrėte šį bloką, jis buvo transliuojamas tinkle ir turėjo būti įtrauktas į blokų grandinę. Jei nepavyksta patekti į grandinę, bus pakeista į &quot;nepriėmė&quot;, o ne &quot;vartojamas&quot;. Tai kartais gali atsitikti, jei kitas mazgas per keletą sekundžių sukuria bloką po jūsų bloko.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation>Derinimo informacija</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation>Sandoris</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Amount</source>
-        <translation>Suma</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation>tiesa</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation>netiesa</translation>
-    </message>
-    <message>
-        <location line="-209"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, transliavimas dar nebuvo sėkmingas</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+70"/>
-        <source>unknown</source>
-        <translation>nežinomas</translation>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
     </message>
 </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation>Sandorio detelės</translation>
-    </message>
-    <message>
-        <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Šis langas sandorio detalų aprašymą</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
     <message>
+        <source>Options:</source>
+        <translation>Parinktys:</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Nustatyti duomenų aplanką</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Nurodykite savo nuosavą viešą adresą</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Priimti komandinę eilutę ir JSON-RPC komandas</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Dirbti fone kaip šešėlyje ir priimti komandas</translation>
+    </message>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin branduolys</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Prisijungti tik prie nurodyto mazgo</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation>Klaida atveriant blokų duombazę</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Tikrinami blokai...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>Tikrinama piniginė...</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informacija</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Siųsti atsekimo/derinimo info į konsolę vietoj debug.log failo</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Vartotojo vardas JSON-RPC jungimuisi</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Įspėjimas</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Slaptažodis JSON-RPC sujungimams</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Leisti DNS paiešką sujungimui ir mazgo pridėjimui</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Užkraunami adresai...</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Neteisingas proxy adresas: '%s'</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Nepakanka lėšų</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Įkeliamas blokų indeksas...</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Pridėti mazgą prie sujungti su and attempt to keep the connection open</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Užkraunama piniginė...</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Negalima parašyti įprasto adreso</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Peržiūra</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation>Įkėlimas baigtas</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
         <translation>Data</translation>
@@ -2910,15 +2735,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-74"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Error</source>
         <translation>Klaida</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="af_ZA" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -33,26 +34,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="af_ZA" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Adres Boek</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Dubbel-klik om die adres of etiket te wysig</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Skep &apos;n nuwe adres</translation>
+        <translation>Skep 'n nuwe adres</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
+<<<<<<< HEAD
         <translation>Maak &apos;n kopie van die huidige adres na die stelsel klipbord</translation>
     </message>
     <message>
@@ -156,46 +149,37 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Kon nie na die %1 lêer skryf nie</translation>
     </message>
 </context>
+=======
+        <translation>Maak 'n kopie van die huidige adres na die stelsel klipbord</translation>
+    </message>
+    <message>
+        <source>&amp;Delete</source>
+        <translation>&amp;Verwyder</translation>
+    </message>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>Etiket</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Adres</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(geen etiket)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Wagfrase Dialoog</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Tik Wagwoord in</translation>
+        <translation>Tik wagfrase in</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Nuwe wagwoord</translation>
+        <translation>Nuwe wagfrase</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Herhaal nuwe wagwoord</translation>
+        <translation>Herhaal nuwe wagfrase</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -315,59 +299,44 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
-        <source>Sign &amp;message...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>Sinchroniseer met die netwerk ...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Oorsig</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show general overview of wallet</source>
         <translation>Wys algemene oorsig van die beursie</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transaksies</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>Besoek transaksie geskiedenis</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Wysig die lys van gestoorde adresse en etikette</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Wys die lys van adresse vir die ontvangs van betalings</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
         <translation>S&amp;luit af</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
         <translation>Sluit af</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about Litecoin</source>
         <translation>Wys inligting oor Litecoin</translation>
@@ -379,40 +348,21 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Show information about Qt</source>
-        <translation type="unfinished"/>
+        <translation>Wys inligting oor Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>&amp;Opsies</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished"/>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-347"/>
         <source>Send coins to a Litecoin address</source>
         <translation type="unfinished"/>
@@ -455,10 +405,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-530"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Wallet</source>
         <translation>Beursie</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+101"/>
         <source>&amp;Send</source>
         <translation type="unfinished"/>
@@ -505,25 +458,25 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+28"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;File</source>
         <translation>&amp;Lêer</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Instellings</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Hulp</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Blad nutsbalk</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+17"/>
         <location line="+10"/>
         <source>[testnet]</source>
@@ -571,201 +524,214 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>%1 behind</source>
         <translation>%1 agter</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
         <translation>Ontvangs van laaste blok is %1 terug.</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+22"/>
         <source>Error</source>
         <translation>Fout</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Information</source>
         <translation>Informasie</translation>
     </message>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
+        <source>Amount:</source>
+        <translation>Bedrag:</translation>
     </message>
     <message>
-        <location line="-140"/>
-        <source>Up to date</source>
-        <translation type="unfinished"/>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
     </message>
     <message>
-        <location line="+31"/>
-        <source>Catching up...</source>
-        <translation type="unfinished"/>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Etiket</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
+        <source>&amp;Address</source>
+        <translation>&amp;Adres</translation>
     </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
     <message>
-        <location line="+8"/>
-        <source>Sent transaction</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Incoming transaction</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
+=======
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Error</source>
+        <translation>Fout</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Opsies</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <source>W&amp;allet</source>
+        <translation>&amp;Beursie</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
+    </context>
 <context>
-    <name>ClientModel</name>
+    <name>OverviewPage</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation type="unfinished"/>
+        <source>Form</source>
+        <translation>Vorm</translation>
     </message>
-</context>
+    </context>
 <context>
-    <name>EditAddressDialog</name>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
-        <source>Edit Address</source>
-        <translation type="unfinished"/>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>&amp;Information</source>
+        <translation>Informasie</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Bedrag:</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>&amp;Label</source>
-        <translation type="unfinished"/>
+        <source>&amp;Message:</source>
+        <translation>&amp;Boodskap:</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Stuur Munstukke</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation type="unfinished"/>
+        <source>Insufficient funds!</source>
+        <translation>Onvoldoende fondse</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Address</source>
-        <translation type="unfinished"/>
+        <source>Amount:</source>
+        <translation>Bedrag:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation type="unfinished"/>
+        <source>Transaction Fee:</source>
+        <translation>Transaksie fooi:</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
         <translation type="unfinished"/>
+=======
+        <source>Send to multiple recipients at once</source>
+        <translation>Stuur aan vele ontvangers op eens</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation type="unfinished"/>
+        <source>Balance:</source>
+        <translation>Balans:</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation type="unfinished"/>
+        <source>S&amp;end</source>
+        <translation>S&amp;tuur</translation>
     </message>
-</context>
+    </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>SendCoinsEntry</name>
     <message>
+<<<<<<< HEAD
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>Litecoin-Qt</source>
         <translation type="unfinished"/>
+=======
+        <source>A&amp;mount:</source>
+        <translation>&amp;Bedrag:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-12"/>
-        <source>version</source>
-        <translation type="unfinished"/>
+        <source>Message:</source>
+        <translation>Boodskap:</translation>
+    </message>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;Teken boodskap</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Usage:</source>
-        <translation>Gebruik:</translation>
+        <source>Signature</source>
+        <translation>Handtekening</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>UI options</source>
         <translation type="unfinished"/>
@@ -2415,143 +2381,58 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
         <location line="+1"/>
         <source>Error loading block database</source>
         <translation type="unfinished"/>
+=======
+        <source>Sign &amp;Message</source>
+        <translation>Teken &amp;Boodskap</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Opsies:</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error opening block database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Error: Disk space is low!</source>
         <translation>Fout: Hardeskyf spasie is baie laag!</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+26"/>
-        <source>Verifying blocks...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Verifying wallet...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+77"/>
         <source>Information</source>
         <translation>Informasie</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
@@ -2788,10 +2669,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+55"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Loading addresses...</source>
         <translation>Laai adresse...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation type="unfinished"/>
@@ -2848,15 +2732,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-6"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Insufficient funds</source>
-        <translation type="unfinished"/>
+        <translation>Onvoldoende fondse</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Loading block index...</source>
         <translation>Laai blok indeks...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation type="unfinished"/>
@@ -2873,45 +2759,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+19"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Loading wallet...</source>
         <translation>Laai beursie...</translation>
     </message>
     <message>
-        <location line="-52"/>
-        <source>Cannot downgrade wallet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot write default address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Rescanning...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-57"/>
         <source>Done loading</source>
         <translation>Klaar gelaai</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
         <translation>Fout</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

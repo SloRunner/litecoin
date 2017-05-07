@@ -1,7 +1,14 @@
 #include <boost/test/unit_test.hpp>
 
+<<<<<<< HEAD
 #include "util.h"
 #include "scrypt.h"
+=======
+#include "uint256.h"
+#include "util.h"
+#include "utilstrencodings.h"
+#include "crypto/scrypt.h"
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 
 BOOST_AUTO_TEST_SUITE(scrypt_tests)
 

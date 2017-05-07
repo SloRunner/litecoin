@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="fr_CA" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -38,26 +39,18 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="fr_CA" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Carnet d&apos;adresses</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Double-cliquez afin de modifier l&apos;adress ou l&apos;étiquette</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
         <translation>Créer une nouvelle adresse</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
+<<<<<<< HEAD
         <translation>Copier l&apos;adresse surligné a votre presse-papier</translation>
     </message>
     <message>
@@ -114,12 +107,15 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
         <location line="+3"/>
         <source>&amp;Verify Message</source>
         <translation type="unfinished"/>
+=======
+        <translation>Copier l'adresse surligné a votre presse-papier</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Supprimer</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
@@ -161,44 +157,25 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
-        <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation type="unfinished"/>
+        <translation>Entrer Mot de Passe</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
-        <translation type="unfinished"/>
+        <translation>Nouveau Mot de passe</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -318,10 +295,17 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Répéter Mot de Passe</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
 <context>
     <name>BitcoinGUI</name>
+<<<<<<< HEAD
     <message>
         <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
@@ -671,66 +655,40 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
-    <name>ClientModel</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation type="unfinished"/>
+        <source>(un)select all</source>
+        <translation>Toute sélectionner </translation>
     </message>
-</context>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
-        <source>Edit Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
-        <translation type="unfinished"/>
+        <translation>Record</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Address</source>
-        <translation type="unfinished"/>
+        <translation>Addresse</translation>
     </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation type="unfinished"/>
+        <source>Welcome</source>
+        <translation>Bienvenue </translation>
     </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation type="unfinished"/>
-    </message>
+<<<<<<< HEAD
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
@@ -1069,66 +1027,33 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
 <context>
-    <name>QRCodeDialog</name>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Save QR Code</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
 <context>
     <name>RPCConsole</name>
+<<<<<<< HEAD
     <message>
         <location filename="../forms/rpcconsole.ui" line="+46"/>
         <source>Client name</source>
@@ -1274,118 +1199,24 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>SendCoinsDialog</name>
-    <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <source>Send Coins</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+50"/>
-        <source>Send to multiple recipients at once</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Add &amp;Recipient</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>Balance:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Confirm the send action</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>S&amp;end</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount exceeds your balance.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>SendCoinsEntry</name>
+<<<<<<< HEAD
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
@@ -1654,533 +1485,51 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>TransactionDesc</name>
-    <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
-        <source>Open until %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1/unconfirmed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 confirmations</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>Status</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Date</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Source</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+17"/>
-        <source>From</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-77"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>label</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>not accepted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
-        <source>Debit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-39"/>
-        <source>Transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Net amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Comment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-209"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+70"/>
-        <source>unknown</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
-    <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionTableModel</name>
-    <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
-        <source>Date</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Type</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+57"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Open until %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated but not accepted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+43"/>
-        <source>Received with</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Received from</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sent to</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Payment to yourself</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Mined</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+38"/>
-        <source>(n/a)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+199"/>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Date and time that the transaction was received.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Type of transaction.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Destination address of transaction.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Amount removed from or added to balance.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionView</name>
-    <message>
-        <location filename="../transactionview.cpp" line="+52"/>
-        <location line="+16"/>
-        <source>All</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-15"/>
-        <source>Today</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This week</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This month</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Last month</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This year</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Range...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Received with</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Sent to</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>To yourself</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Mined</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Other</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Enter address or label to search</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Min amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>Copy address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy label</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Edit label</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show transaction details</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Confirmed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Label</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+100"/>
-        <source>Range:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>to</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
 <context>
     <name>WalletModel</name>
-    <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
-        <source>Send Coins</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>WalletView</name>
-    <message>
-        <location filename="../walletview.cpp" line="+42"/>
-        <source>&amp;Export</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+193"/>
-        <source>Backup Wallet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Wallet Data (*.dat)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Backup Failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Backup Successful</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>bitcoin-core</name>
+<<<<<<< HEAD
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Litecoin version</source>
@@ -2919,4 +2268,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 </TS>

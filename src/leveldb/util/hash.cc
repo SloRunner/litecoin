@@ -34,13 +34,20 @@ uint32_t Hash(const char* data, size_t n, uint32_t seed) {
   // Pick up remaining bytes
   switch (limit - data) {
     case 3:
+<<<<<<< HEAD
       h += data[2] << 16;
       FALLTHROUGH_INTENDED;
     case 2:
       h += data[1] << 8;
+=======
+      h += static_cast<unsigned char>(data[2]) << 16;
+      FALLTHROUGH_INTENDED;
+    case 2:
+      h += static_cast<unsigned char>(data[1]) << 8;
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
       FALLTHROUGH_INTENDED;
     case 1:
-      h += data[0];
+      h += static_cast<unsigned char>(data[0]);
       h *= m;
       h ^= (h >> r);
       break;

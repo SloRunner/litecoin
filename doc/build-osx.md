@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Mac OS X litecoind build instructions
 ====================================
 
@@ -34,10 +35,18 @@ supported because it is big-endian.
 
 All of the commands should be executed in a Terminal application. The
 built-in one is located in `/Applications/Utilities`.
+=======
+Mac OS X Build Instructions and Notes
+====================================
+The commands in this guide should be executed in a Terminal application.
+The built-in one is located in `/Applications/Utilities/Terminal.app`.
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 
 Preparation
 -----------
+Install the OS X command line tools:
 
+<<<<<<< HEAD
 You need to install XCode with all the options checked so that the compiler
 and everything is available in /usr not just /Developer. XCode should be
 available on your OS X installation media, but if not, you can get the
@@ -80,29 +89,22 @@ Installing the dependencies using MacPorts is very straightforward.
         cd litecoin
 
 2.  Build litecoind:
+=======
+`xcode-select --install`
 
-        cd src
-        make -f makefile.osx
+When the popup appears, click `Install`.
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 
-3.  It is a good idea to build and run the unit tests, too:
+Then install [Homebrew](http://brew.sh).
 
-        make -f makefile.osx test
-
-Instructions: HomeBrew
+Dependencies
 ----------------------
 
-#### Install dependencies using Homebrew
+    brew install automake berkeley-db4 libtool boost --c++11 miniupnpc openssl pkg-config homebrew/versions/protobuf260 --c++11 qt5 libevent
 
-        brew install boost miniupnpc openssl berkeley-db4
+NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Note: After you have installed the dependencies, you should check that the Brew installed version of OpenSSL is the one available for compilation. You can check this by typing
-
-        openssl version
-
-into Terminal. You should see OpenSSL 1.0.1e 11 Feb 2013.
-
-If not, you can ensure that the Brew OpenSSL is correctly linked by running
-
+<<<<<<< HEAD
         brew link openssl --force
 
 Rerunning "openssl version" should now return the correct version.
@@ -113,27 +115,37 @@ Rerunning "openssl version" should now return the correct version.
 
         git clone https://github.com/litecoin-project/litecoin.git
         cd litecoin
-
-2.  Modify source in order to pick up the `openssl` library.
-
-    Edit `makefile.osx` to account for library location differences. There's a
-    diff in `contrib/homebrew/makefile.osx.patch` that shows what you need to
-    change, or you can just patch by doing
-
-        patch -p1 < contrib/homebrew/makefile.osx.patch
-
-3.  Build litecoind:
-
-        cd src
-        make -f makefile.osx
-
-4.  It is a good idea to build and run the unit tests, too:
-
-        make -f makefile.osx test
-
-Creating a release build
+=======
+Build Litecoin Core
 ------------------------
 
+1. Clone the litecoin source code and cd into `litecoin`
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+
+        git clone https://github.com/litecoin-project/litecoin
+        cd litecoin
+
+2.  Build litecoin-core:
+
+    Configure and build the headless litecoin binaries as well as the GUI (if Qt is found).
+
+<<<<<<< HEAD
+3.  Build litecoind:
+=======
+    You can disable the GUI build by passing `--without-gui` to configure.
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+
+        ./autogen.sh
+        ./configure
+        make
+
+3.  It is recommended to build and run the unit tests:
+
+        make check
+
+4.  You can also create a .dmg that contains the .app bundle (optional):
+
+<<<<<<< HEAD
 A litecoind binary is not included in the Litecoin-Qt.app bundle. You can ignore
 this section if you are building `litecoind` for your own use.
 
@@ -141,17 +153,22 @@ If you are building `litecond` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
+=======
+        make deploy
 
-    -mmacosx-version-min=10.5 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk
+Running
+-------
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 
-For MacPorts, that means editing your macports.conf and setting
-`macosx_deployment_target` and `build_arch`:
+Litecoin Core is now available at `./src/litecoind`
 
-    macosx_deployment_target=10.5
-    build_arch=i386
+Before running, it's recommended you create an RPC configuration file.
 
-... and then uninstalling and re-installing, or simply rebuilding, all ports.
+    echo -e "rpcuser=litecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
 
+    chmod 600 "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
+
+<<<<<<< HEAD
 As of December 2012, the `boost` port does not obey `macosx_deployment_target`.
 Download `http://gavinandresen-bitcoin.s3.amazonaws.com/boost_macports_fix.zip`
 for a fix. Some ports also seem to obey either `build_arch` or
@@ -160,12 +177,18 @@ on an OS X 10.6 64-bit machine fails. Official release builds of Litecoin-Qt are
 compiled on an OS X 10.6 32-bit machine to workaround that problem.
 
 Once dependencies are compiled, creating `Litecoin-Qt.app` is easy:
+=======
+The first time you run litecoind, it will start downloading the blockchain. This process could take several hours.
 
-    make -f Makefile.osx RELEASE=1
+You can monitor the download process by looking at the debug.log file:
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 
-Running
+    tail -f $HOME/Library/Application\ Support/Litecoin/debug.log
+
+Other commands:
 -------
 
+<<<<<<< HEAD
 It's now available at `./litecoind`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
@@ -174,12 +197,38 @@ commands:
 
     echo -e "rpcuser=litecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
     chmod 600 "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
+=======
+    ./src/litecoind -daemon # Starts the litecoin daemon.
+    ./src/litecoin-cli --help # Outputs a list of command-line options.
+    ./src/litecoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
-When next you run it, it will start downloading the blockchain, but it won't
-output anything while it's doing this. This process may take several hours.
+Using Qt Creator as IDE
+------------------------
+You can use Qt Creator as an IDE, for litecoin development.
+Download and install the community edition of [Qt Creator](https://www.qt.io/download/).
+Uncheck everything except Qt Creator during the installation process.
 
-Other commands:
+1. Make sure you installed everything through Homebrew mentioned above
+2. Do a proper ./configure --enable-debug
+3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
+4. Enter "litecoin-qt" as project name, enter src/qt as location
+5. Leave the file selection as it is
+6. Confirm the "summary page"
+7. In the "Projects" tab select "Manage Kits..."
+8. Select the default "Desktop" kit and select "Clang (x86 64bit in /usr/bin)" as compiler
+9. Select LLDB as debugger (you might need to set the path to your installation)
+10. Start debugging with Qt Creator
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 
+Notes
+-----
+
+* Tested on OS X 10.8 through 10.12 on 64-bit Intel processors only.
+
+<<<<<<< HEAD
     ./litecoind --help  # for a list of command-line options.
     ./litecoind -daemon # to start the litecoin daemon.
     ./litecoind help    # When the daemon is running, to get a list of RPC commands
+=======
+* Building with downloaded Qt binaries is not officially supported. See the notes in [#7714](https://github.com/bitcoin/bitcoin/issues/7714)
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36

@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 // Copyright (c) 2011-2013 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef TRANSACTIONDESCDIALOG_H
 #define TRANSACTIONDESCDIALOG_H
+=======
+// Copyright (c) 2011-2014 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#ifndef BITCOIN_QT_TRANSACTIONDESCDIALOG_H
+#define BITCOIN_QT_TRANSACTIONDESCDIALOG_H
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 
 #include <QDialog>
 
@@ -28,4 +37,4 @@ private:
     Ui::TransactionDescDialog *ui;
 };
 
-#endif // TRANSACTIONDESCDIALOG_H
+#endif // BITCOIN_QT_TRANSACTIONDESCDIALOG_H

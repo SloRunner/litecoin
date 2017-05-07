@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="la" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -37,29 +38,21 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Litecoin curatores</translation>
     </message>
 </context>
+=======
+<TS language="la" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Liber Inscriptionum</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Dupliciter-clicca ut inscriptionem vel titulum mutes</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
         <translation>Crea novam inscriptionem</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Copia inscriptionem iam selectam in latibulum systematis</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-11"/>
         <source>&amp;New Address</source>
         <translation>&amp;Nova Inscriptio</translation>
@@ -91,20 +84,21 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+25"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Delete the currently selected address from the list</source>
         <translation>Dele active selectam inscriptionem ex enumeratione</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
         <translation>Exporta data in hac tabella in plicam</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
         <translation>&amp;Exporta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified Litecoin address</source>
         <translation>Verifica nuntium ut cures signatum esse cum specificata inscriptione Litecoin</translation>
@@ -160,46 +154,34 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Non potuisse scribere in plicam %1.</translation>
     </message>
 </context>
+=======
+        <source>&amp;Delete</source>
+        <translation>&amp;Dele</translation>
+    </message>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>Titulus</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Inscriptio</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(nullus titulus)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
         <translation>Dialogus Tesserae</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Insere tesseram</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Nova tessera</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>Itera novam tesseram</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -319,104 +301,85 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Tessera cassidilis successa est in mutando.</translation>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
         <translation>Signa &amp;nuntium...</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>Synchronizans cum rete...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Summarium</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show general overview of wallet</source>
         <translation>Monstra generale summarium cassidilis</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transactiones</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>Inspicio historiam transactionum</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Muta indicem salvatarum inscriptionum titulorumque</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Monstra indicem inscriptionum quibus pensitationes acceptandae</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
         <translation>E&amp;xi</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
         <translation>Exi applicatione</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about Litecoin</source>
         <translation>Monstra informationem de Litecoin</translation>
     </message>
     <message>
         <location line="+2"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>About &amp;Qt</source>
         <translation>Informatio de &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
         <translation>Monstra informationem de Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>&amp;Optiones</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Cifra Cassidile...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Conserva Cassidile...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
         <translation>&amp;Muta tesseram...</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation>Importans frusta ab disco...</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-347"/>
         <source>Send coins to a Litecoin address</source>
         <translation>Mitte nummos ad inscriptionem Litecoin</translation>
@@ -425,54 +388,54 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <location line="+49"/>
         <source>Modify configuration options for Litecoin</source>
         <translation>Muta configurationis optiones pro Litecoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Mitte nummos ad inscriptionem Litecoin</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+9"/>
         <source>Backup wallet to another location</source>
         <translation>Conserva cassidile in locum alium</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Muta tesseram utam pro cassidilis cifrando</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
         <translation>Fenestra &amp;Debug</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
         <translation>Aperi terminalem debug et diagnosticalem</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-165"/>
         <location line="+530"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
         <translation>Cassidile</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
         <translation>&amp;Mitte</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
         <translation>&amp;Accipe</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+14"/>
         <source>&amp;Addresses</source>
         <translation>&amp;Inscriptiones</translation>
@@ -484,56 +447,53 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+9"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Show / Hide</source>
         <translation>&amp;Monstra/Occulta</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
         <translation>Monstra vel occulta Fenestram principem</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Signa nuntios cum tuis inscriptionibus Litecoin ut demonstres te eas possidere</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+2"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Litecoin</translation>
     </message>
     <message>
-        <location line="+28"/>
         <source>&amp;File</source>
         <translation>&amp;Plica</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Configuratio</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Auxilium</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>Tabella instrumentorum &quot;Tabs&quot;</translation>
+        <translation>Tabella instrumentorum "Tabs"</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+47"/>
         <source>Litecoin client</source>
         <translation>Litecoin cliens</translation>
@@ -542,98 +502,57 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <location line="+141"/>
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n activa conexio ad rete Litecoin</numerusform><numerusform>%n activae conexiones ad rete Litecoin</numerusform></translation>
+=======
+        <source>&amp;Command-line options</source>
+        <translation>Optiones mandati initiantis</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+22"/>
         <source>No block source available...</source>
         <translation>Nulla fons frustorum absens...</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>Perfecta %1 de %2 (aestimato) frusta historiae transactionum.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation>Processae %1 frusta historiae transactionum.</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+20"/>
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hora</numerusform><numerusform>%n horae</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n day(s)</source>
-        <translation><numerusform>%n dies</numerusform><numerusform>%n dies</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n week(s)</source>
-        <translation><numerusform>%n hebdomas</numerusform><numerusform>%n hebdomades</numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>%1 behind</source>
         <translation>%1 post</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
         <translation>Postremum acceptum frustum generatum est %1 abhinc.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
         <translation>Transactiones post hoc nondum visibiles erunt.</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
         <translation>Monitio</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
         <translation>Informatio</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Haec transactio maior est quam limen magnitudinis.  Adhuc potes id mittere mercede %1, quae it nodis qui procedunt tuam transactionem et adiuvat sustinere rete.  Visne mercedem solvere?</translation>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
         <translation>Recentissimo</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
         <translation>Persequens...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation>Confirma mercedem transactionis</translation>
-    </message>
-    <message>
-        <location line="+8"/>
         <source>Sent transaction</source>
         <translation>Transactio missa</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Incoming transaction</source>
         <translation>Transactio incipiens</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Date: %1
 Amount: %2
@@ -660,50 +579,58 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+17"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;reseratum&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;seratum&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
         <translation>Error fatalis accidit.  Litecoin nondum pergere tute potest, et exibit.</translation>
     </message>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 </context>
 <context>
-    <name>ClientModel</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation>Monitio Retis</translation>
+        <source>Amount:</source>
+        <translation>Quantitas:</translation>
     </message>
-</context>
+    <message>
+        <source>Amount</source>
+        <translation>Quantitas</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dies</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confirmatum</translation>
+    </message>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
         <translation>Muta Inscriptionem</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>&amp;Titulus</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>Titulus associatus huic insertione libri inscriptionum</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Address</source>
         <translation>&amp;Inscriptio</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
@@ -758,55 +685,53 @@ Inscriptio: %4
         <source>Litecoin-Qt</source>
         <translation>Litecoin-Qt</translation>
     </message>
+=======
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     <message>
-        <location line="-12"/>
         <source>version</source>
         <translation>versio</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Command-line options</source>
+        <translation>Optiones mandati initiantis</translation>
+    </message>
+    <message>
         <source>Usage:</source>
         <translation>Usus:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>command-line options</source>
         <translation>Optiones mandati intiantis</translation>
     </message>
+    </context>
+<context>
+    <name>Intro</name>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation>UI optiones</translation>
+        <source>Error</source>
+        <translation>Error</translation>
     </message>
-    <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Constitue linguam, exempli gratia &quot;de_DE&quot; (praedefinitum: lingua systematis)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation>Incipe minifactum ut icon</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>Monstra principem imaginem ad initium (praedefinitum: 1)</translation>
-    </message>
-</context>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>Optiones</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>&amp;Main</source>
         <translation>&amp;Princeps</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>Optionalis merces transactionum singulis kB quae adiuvat curare tuas transactiones processas esse celeriter.  Plurimi transactiones 1kB sunt.</translation>
@@ -828,20 +753,21 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+35"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Reset all client options to default.</source>
         <translation>Reconstitue omnes optiones clientis ad praedefinita.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Reset Options</source>
         <translation>&amp;Reconstitue Optiones</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Network</source>
         <translation>&amp;Rete</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Aperi per se portam clientis Litecoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
@@ -855,93 +781,74 @@ Inscriptio: %4
         <location line="+7"/>
         <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Connecte ad rete Litecoin per SOCKS vicarium (e.g. quando conectens per Tor).</translation>
+=======
+        <source>W&amp;allet</source>
+        <translation>Cassidile</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Conecte per SOCKS vicarium:</translation>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis Litecoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+9"/>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Designa portam utendo &amp;UPnP</translation>
+    </message>
+    <message>
         <source>Proxy &amp;IP:</source>
         <translation>&amp;IP vicarii:</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>Inscriptio IP vicarii (e.g. 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
         <translation>&amp;Porta:</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Porta vicarii (e.g. 9050)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS &amp;Versio:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>SOCKS versio vicarii (e.g. 5)</translation>
-    </message>
-    <message>
-        <location line="+36"/>
         <source>&amp;Window</source>
         <translation>&amp;Fenestra</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>Monstra tantum iconem in tabella systematis postquam fenestram minifactam est.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
         <translation>&amp;Minifac in tabellam systematis potius quam applicationum</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minifac potius quam exire applicatione quando fenestra clausa sit.  Si haec optio activa est, applicatio clausa erit tantum postquam selegeris Exi in menu.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>M&amp;inimize on close</source>
         <translation>M&amp;inifac ad claudendum</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Display</source>
         <translation>&amp;UI</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>User Interface &amp;language:</source>
         <translation>&amp;Lingua monstranda utenti:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
         <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Litecoin iterum initiatum erit.</translation>
     </message>
     <message>
         <location line="+11"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Unita qua quantitates monstrare:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Selige praedefinitam unitam subdivisionis monstrare in interfacie et quando nummos mittere</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>Whether to show Litecoin addresses in the transaction list or not.</source>
         <translation>Num monstrare inscriptiones Litecoin in enumeratione transactionum.</translation>
@@ -953,30 +860,25 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+71"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Cancella</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>&amp;Applica</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
         <translation>praedefinitum</translation>
     </message>
     <message>
-        <location line="+130"/>
         <source>Confirm options reset</source>
         <translation>Confirma optionum reconstituere</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Some settings may require a client restart to take effect.</source>
         <translation>Aliis configurationibus fortasse necesse est clientem iterum initiare ut effectivae sint.</translation>
@@ -1000,6 +902,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+29"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>The supplied proxy address is invalid.</source>
         <translation>Inscriptio vicarii tradita non valida est.</translation>
     </message>
@@ -1007,11 +911,11 @@ Inscriptio: %4
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Schema</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
@@ -1031,187 +935,94 @@ Inscriptio: %4
         <location line="-78"/>
         <source>Wallet</source>
         <translation>Cassidile</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Litecoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+107"/>
         <source>Immature:</source>
         <translation>Immatura:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
         <translation>Fossum pendendum quod nondum maturum est</translation>
     </message>
-    <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Recentes transactiones&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation>Tuum pendendum iam nunc</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Totali nummi transactionum quae adhuc confirmandae sunt, et nondum afficiunt pendendum</translation>
-    </message>
-    <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation>non synchronizato</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+        <source>Amount</source>
+        <translation>Quantitas</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start litecoin: click-to-pay handler</source>
         <translation>Litecoin incipere non potest: cliccare-ad-pensandum handler</translation>
+=======
+        <source>N/A</source>
+        <translation>N/A</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
+    </context>
 <context>
-    <name>QRCodeDialog</name>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>Dialogus QR Codicis</translation>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Posce Pensitationem</translation>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>Quantitas:</translation>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>Titulus:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>Nuntius:</translation>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Salva ut...</translation>
-    </message>
-    <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>Error codificandi URI in codicem QR.</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation>Inserta quantitas non est valida, sodes proba.</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resultato URI nimis longo, conare minuere verba pro titulo / nuntio.</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Save QR Code</source>
-        <translation>Salva codicem QR</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation>Imagines PNG (*.png)</translation>
-    </message>
-</context>
+    <name>QRImageWidget</name>
+    </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation>Nomen clientis</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
     <message>
-        <location line="-217"/>
         <source>Client version</source>
         <translation>Versio clientis</translation>
     </message>
     <message>
-        <location line="-45"/>
         <source>&amp;Information</source>
         <translation>&amp;Informatio</translation>
     </message>
     <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation>Utens OpenSSL versione</translation>
+        <source>Debug window</source>
+        <translation>Fenestra Debug</translation>
     </message>
     <message>
-        <location line="+49"/>
         <source>Startup time</source>
         <translation>Tempus initiandi</translation>
     </message>
     <message>
-        <location line="+29"/>
         <source>Network</source>
         <translation>Rete</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Number of connections</source>
         <translation>Numerus conexionum</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation>In testnet</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Block chain</source>
         <translation>Catena frustorum</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Current number of blocks</source>
         <translation>Numerus frustorum iam nunc</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation>Aestimatus totalis numerus frustorum</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Last block time</source>
         <translation>Hora postremi frusti</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>&amp;Open</source>
         <translation>&amp;Aperi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+16"/>
         <source>Command-line options</source>
         <translation>Optiones mandati initiantis</translation>
@@ -1228,10 +1039,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+24"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Console</source>
         <translation>&amp;Terminale</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-260"/>
         <source>Build date</source>
         <translation>Dies aedificandi</translation>
@@ -1248,163 +1062,122 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+279"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Debug log file</source>
         <translation>Debug catalogi plica</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Aperi plicam catalogi de Litecoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
     </message>
     <message>
         <location line="+102"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Clear console</source>
         <translation>Vacuefac terminale</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Litecoin RPC console.</source>
         <translation>Bene ventio in terminale RPC de Litecoin.</translation>
     </message>
     <message>
         <location line="+1"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Utere sagittis sursum deorsumque ut per historiam naviges, et &lt;b&gt;Ctrl+L&lt;/b&gt; ut scrinium vacuefacias.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Scribe &lt;b&gt;help&lt;/b&gt; pro summario possibilium mandatorum.</translation>
     </message>
-</context>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>Quantitas:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Titulus:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>Nuntius:</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>&amp;Copia Inscriptionem</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
         <source>Send Coins</source>
         <translation>Mitte Nummos</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <source>Insufficient funds!</source>
+        <translation>Inopia nummorum</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Quantitas:</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Transactionis merces:</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Mitte pluribus accipientibus simul</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Add &amp;Recipient</source>
         <translation>Adde &amp;Accipientem</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation>Remove omnes campos transactionis</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Clear &amp;All</source>
         <translation>Vacuefac &amp;Omnia</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Balance:</source>
         <translation>Pendendum:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>Confirm the send action</source>
         <translation>Confirma actionem mittendi</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>S&amp;end</source>
         <translation>&amp;Mitte</translation>
     </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; ad %2 (%3)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation>Confirma mittendum nummorum</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>Certus es te velle mittere %1?</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation>et</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>Inscriptio accipientis non est valida, sodes reproba.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>Oportet quantitatem ad pensandum maiorem quam 0 esse.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount exceeds your balance.</source>
-        <translation>Quantitas est ultra quod habes.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Quantitas est ultra quod habes cum merces transactionis %1 includitur.</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Geminata inscriptio inventa, tantum posse mittere ad quamque inscriptionem semel singulare operatione.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation>Error: Creare transactionem abortum est!</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Error: transactio reiecta est.  Hoc fiat si alii nummorum in tuo cassidili iam soluti sunt, ut si usus es exemplar de wallet.dat et nummi soluti sunt in exemplari sed non hic notati ut soluti.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation>Schema</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
         <translation>&amp;Quantitas:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
         <translation>Pensa &amp;Ad:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+34"/>
         <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Inscriptio cui mittere pensitationem (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
@@ -1417,53 +1190,56 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-78"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Label:</source>
         <translation>&amp;Titulus:</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation>Selige inscriptionem ex libro inscriptionum</translation>
-    </message>
-    <message>
-        <location line="+10"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Conglutina inscriptionem ex latibulo</translation>
+        <translation>Glutina inscriptionem ex latibulo</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>Remove hunc accipientem</translation>
+        <source>Message:</source>
+        <translation>Nuntius:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Insero inscriptionem Litecoin (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+=======
+        <source>Pay To:</source>
+        <translation>Pensa Ad:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
         <translation>Signationes - Signa / Verifica nuntium</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Sign Message</source>
         <translation>&amp;Signa Nuntium</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Potes nuntios signare inscriptionibus tuis ut demonstres te eas possidere.  Cautus es non amibiguum signare, quia impetus phiscatorum conentur te fallere ut signes identitatem tuam ad eos.  Solas signa sententias cuncte descriptas quibus convenis.</translation>
@@ -1482,61 +1258,57 @@ Inscriptio: %4
     <message>
         <location line="-203"/>
         <location line="+213"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-203"/>
         <source>Paste address from clipboard</source>
         <translation>Glutina inscriptionem ex latibulo</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
         <translation>Insere hic nuntium quod vis signare</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Signature</source>
         <translation>Signatio</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
         <translation>Copia signationem in latibulum systematis</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+21"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Signa nuntium ut demonstres hanc inscriptionem Litecoin a te possessa esse</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sign &amp;Message</source>
         <translation>Signa &amp;Nuntium</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all sign message fields</source>
         <translation>Reconstitue omnes campos signandi nuntii</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+146"/>
         <source>Clear &amp;All</source>
         <translation>Vacuefac &amp;Omnia</translation>
     </message>
     <message>
-        <location line="-87"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verifica Nuntium</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>Insere inscriptionem signantem, nuntium (cura ut copias intermissiones linearum, spatia, tabs, et cetera exacte) et signationem infra ut nuntium verifices.  Cautus esto ne magis legas in signationem quam in nuntio signato ipso est, ut vites falli ab impetu homo-in-medio.</translation>
@@ -1548,269 +1320,245 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+40"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Litecoin</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Verify &amp;Message</source>
         <translation>Verifica &amp;Nuntium</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all verify message fields</source>
         <translation>Reconstitue omnes campos verificandi nuntii</translation>
     </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Insere inscriptionem Litecoin (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
     <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Clicca &quot;Signa Nuntium&quot; ut signatio generetur</translation>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Haec tabula monstrat descriptionem verbosam transactionis</translation>
     </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Enter Litecoin signature</source>
         <translation>Insere signationem Litecoin</translation>
+=======
+        <source>Options:</source>
+        <translation>Optiones:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+82"/>
-        <location line="+81"/>
-        <source>The entered address is invalid.</source>
-        <translation>Inscriptio inserta non valida est.</translation>
+        <source>Specify data directory</source>
+        <translation>Specifica indicem datorum</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+8"/>
-        <location line="+73"/>
-        <location line="+8"/>
-        <source>Please check the address and try again.</source>
-        <translation>Sodes inscriptionem proba et rursus conare.</translation>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Conecta ad nodum acceptare inscriptiones parium, et disconecte</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+81"/>
-        <source>The entered address does not refer to a key.</source>
-        <translation>Inserta inscriptio clavem non refert.</translation>
+        <source>Specify your own public address</source>
+        <translation>Specifica tuam propriam publicam inscriptionem</translation>
     </message>
     <message>
-        <location line="-73"/>
-        <source>Wallet unlock was cancelled.</source>
-        <translation>Cassidilis reserare cancellatum est.</translation>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Accipe terminalis et JSON-RPC mandata.</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Private key for the entered address is not available.</source>
-        <translation>Clavis privata absens est pro inserta inscriptione.</translation>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Operare infere sicut daemon et mandata accipe</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Message signing failed.</source>
-        <translation>Nuntium signare abortum est.</translation>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Accipe conexiones externas (praedefinitum: 1 nisi -proxy neque -connect)</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Message signed.</source>
-        <translation>Nuntius signatus.</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Nucleus</translation>
     </message>
     <message>
-        <location line="+59"/>
-        <source>The signature could not be decoded.</source>
-        <translation>Signatio decodificari non potuit.</translation>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Conglutina ad inscriptionem datam et semper in eam ausculta.  Utere [moderatrum]:porta notationem pro IPv6</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <location line="+13"/>
-        <source>Please check the signature and try again.</source>
-        <translation>Sodes signationem proba et rursus conare.</translation>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Facere mandatum quotiescumque cassidilis transactio mutet (%s in mandato sbstituitur ab TxID)</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>The signature did not match the message digest.</source>
-        <translation>Signatio non convenit digesto nuntii</translation>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>Hoc est prae-dimittum experimentala aedes - utere eo periculo tuo proprio - nolite utere fodendo vel applicationibus mercatoriis</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Message verification failed.</source>
-        <translation>Nuntium verificare abortum est.</translation>
+        <source>Block creation options:</source>
+        <translation>Optiones creandi frustorum:</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Message verified.</source>
-        <translation>Nuntius verificatus.</translation>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Conecte sole ad nodos specificatos (vel nodum specificatum)</translation>
     </message>
-</context>
-<context>
-    <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin developers</source>
         <translation>Litecoin curatores</translation>
+=======
+        <source>Corrupted block database detected</source>
+        <translation>Corruptum databasum frustorum invenitur</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+1"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionDesc</name>
-    <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
-        <source>Open until %1</source>
-        <translation>Apertum donec %1</translation>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Visne reficere databasum frustorum iam?</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation>%1/non conecto</translation>
+        <source>Error initializing block database</source>
+        <translation>Error initiando databasem frustorum</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>%1/unconfirmed</source>
-        <translation>%1/non confirmata</translation>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Error initiando systematem databasi cassidilis %s!</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>%1 confirmations</source>
-        <translation>%1 confirmationes</translation>
+        <source>Error loading block database</source>
+        <translation>Error legendo frustorum databasem</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>Status</source>
-        <translation>Status</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, disseminatum per %n nodo</numerusform><numerusform>, disseminata per %n nodis</numerusform></translation>
+        <source>Error opening block database</source>
+        <translation>Error aperiendo databasum frustorum</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Date</source>
-        <translation>Dies</translation>
+        <source>Error: Disk space is low!</source>
+        <translation>Error: Inopia spatii disci!</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Source</source>
-        <translation>Fons</translation>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Non potuisse auscultare in ulla porta.  Utere -listen=0 si hoc vis.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation>Generatum</translation>
+        <source>Not enough file descriptors available.</source>
+        <translation>Inopia descriptorum plicarum.</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <location line="+17"/>
-        <source>From</source>
-        <translation>Ab</translation>
+        <source>Verifying blocks...</source>
+        <translation>Verificante frusta...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation>Ad</translation>
+        <source>Verifying wallet...</source>
+        <translation>Verificante cassidilem...</translation>
     </message>
     <message>
-        <location line="-77"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation>inscriptio propria</translation>
+        <source>Information</source>
+        <translation>Informatio</translation>
     </message>
     <message>
-        <location line="-2"/>
-        <source>label</source>
-        <translation>titulus</translation>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Mitte informationem vestigii/debug ad terminale potius quam plicam debug.log</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation>Creditum</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>maturum erit in %n plure frusto</numerusform><numerusform>maturum erit in %n pluribus frustis</numerusform></translation>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Diminue plicam debug.log ad initium clientis (praedefinitum: 1 nisi -debug)</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>not accepted</source>
-        <translation>non acceptum</translation>
+        <source>Signing transaction failed</source>
+        <translation>Signandum transactionis abortum est</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
-        <source>Debit</source>
-        <translation>Debitum</translation>
+        <source>Transaction amount too small</source>
+        <translation>Magnitudo transactionis nimis parva</translation>
     </message>
     <message>
-        <location line="-39"/>
-        <source>Transaction fee</source>
-        <translation>Transactionis merces</translation>
+        <source>Transaction amounts must be positive</source>
+        <translation>Necesse est magnitudines transactionum positivas esse.</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Net amount</source>
-        <translation>Cuncta quantitas</translation>
+        <source>Transaction too large</source>
+        <translation>Transactio nimis magna</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Message</source>
-        <translation>Nuntius</translation>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Nomen utentis pro conexionibus JSON-RPC</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Comment</source>
-        <translation>Annotatio</translation>
+        <source>Warning</source>
+        <translation>Monitio</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Transaction ID</source>
-        <translation>ID transactionis</translation>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Tessera pro conexionibus JSON-RPC</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Nummis generatis necesse est maturitas 120 frustorum antequam illi transmitti possunt.  Cum hoc frustum generavisti, disseminatum est ad rete ut addatur ad catenam frustorum.  Si aboritur inire catenam, status eius mutabit in &quot;non acceptum&quot; et non transmittabile erit.  Hoc interdum accidat si alter nodus frustum generat paucis secundis ante vel post tuum.</translation>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Pelle mandatum quando optissimum frustum mutat (%s in mandato substituitur ab hash frusti)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation>Informatio de debug</translation>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Permitte quaerenda DNS pro -addnode, -seednode, et -connect</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation>Transactio</translation>
+        <source>Loading addresses...</source>
+        <translation>Legens inscriptiones...</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation>Lectenda</translation>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Inscriptio -proxy non valida: '%s'</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Amount</source>
-        <translation>Quantitas</translation>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Ignotum rete specificatum in -onlynet: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation>verum</translation>
+        <source>Insufficient funds</source>
+        <translation>Inopia nummorum</translation>
     </message>
     <message>
+        <source>Loading block index...</source>
+        <translation>Legens indicem frustorum...</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+0"/>
         <source>false</source>
         <translation>falsum</translation>
@@ -2876,10 +2624,13 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Litecoin Notificatio&quot; 
     </message>
     <message>
         <location line="-57"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Adice nodum cui conectere et conare sustinere conexionem apertam</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. Litecoin is probably already running.</source>
         <translation>Non posse conglutinare ad %s in hoc cumputatro.  Litecoin probabiliter iam operatur.</translation>
@@ -2891,47 +2642,30 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Litecoin Notificatio&quot; 
     </message>
     <message>
         <location line="+19"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Loading wallet...</source>
         <translation>Legens cassidile...</translation>
     </message>
     <message>
-        <location line="-52"/>
         <source>Cannot downgrade wallet</source>
         <translation>Non posse cassidile regredi</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Cannot write default address</source>
         <translation>Non posse scribere praedefinitam inscriptionem</translation>
     </message>
     <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
         <translation>Iterum perlegens...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
         <translation>Completo lengendi</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation>Ut utaris optione %s</translation>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
         <translation>Error</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Necesse est te rpcpassword=&lt;tesseram&gt; constituere in plica configurationum:
-%s
-Si plica non existat, crea eam cum permissionibus ut solus eius dominus eam legere sinatur.</translation>
     </message>
 </context>
 </TS>

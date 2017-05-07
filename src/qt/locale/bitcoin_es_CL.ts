@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="es_CL" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -41,24 +42,21 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="es_CL" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Guia de direcciones</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Haga clic para editar la dirección o etiqueta</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Haz doble clic para editar una dirección o etiqueta</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
         <translation>Crea una nueva dirección</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Copia la dirección seleccionada al portapapeles</translation>
@@ -72,40 +70,40 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Litecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Estas son tus direcciones Litecoin para recibir pagos. Puedes utilizar una diferente por cada persona emisora para saber quien te está pagando.</translation>
+=======
+        <source>&amp;New</source>
+        <translation>y nueva</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Copia dirección</translation>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Copia la dirección seleccionada al portapapeles</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Mostrar Código &amp;QR </translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+11"/>
         <source>Sign a message to prove you own a Litecoin address</source>
         <translation>Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
+=======
+        <source>&amp;Copy</source>
+        <translation>y copiar</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>Firmar Mensaje</translation>
+        <source>C&amp;lose</source>
+        <translation>C y perder</translation>
     </message>
     <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <translation>Eliminar la dirección seleccionada de la lista</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
         <translation>Exportar los datos de la pestaña actual a un archivo</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,12 +115,15 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <location line="+3"/>
         <source>&amp;Verify Message</source>
         <translation type="unfinished"/>
+=======
+        <translation>y exportar</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Borrar</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
@@ -164,44 +165,25 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation>No se pudo escribir al archivo %1.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>Etiqueta</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Dirección</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(sin etiqueta)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
-        <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Introduce contraseña actual      </translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Nueva contraseña</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
+<<<<<<< HEAD
         <translation>Repite nueva contraseña:</translation>
     </message>
     <message>
@@ -321,106 +303,96 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>La contraseña de billetera ha sido cambiada con éxito.</translation>
+=======
+        <translation>Repite nueva contraseña</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;Mensaje...</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>Sincronizando con la red...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Vista general</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show general overview of wallet</source>
         <translation>Muestra una vista general de la billetera</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transacciónes</translation>
+        <translation>&amp;Transacciones</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>Explora el historial de transacciónes</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Edita la lista de direcciones y etiquetas almacenadas</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Muestra la lista de direcciónes utilizadas para recibir pagos</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
         <translation>&amp;Salir</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
         <translation>Salir del programa</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about Litecoin</source>
         <translation>Muestra información acerca de Litecoin</translation>
+=======
+        <source>&amp;About %1</source>
+        <translation>S&amp;obre %1</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+2"/>
         <source>About &amp;Qt</source>
         <translation>Acerca de</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Mostrar Información sobre QT</translation>
+        <translation>Mostrar Información sobre Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>&amp;Opciones</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Codificar la billetera...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Respaldar billetera...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
         <translation>&amp;Cambiar la contraseña...</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Sending addresses...</source>
+        <translation>Mandando direcciones</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Recibiendo direcciones</translation>
     </message>
     <message>
+        <source>Open &amp;URI...</source>
+        <translation>Abrir y url...</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="-347"/>
         <source>Send coins to a Litecoin address</source>
         <translation>Enviar monedas a una dirección litecoin</translation>
@@ -429,51 +401,55 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <location line="+49"/>
         <source>Modify configuration options for Litecoin</source>
         <translation>Modifica las opciones de configuración de litecoin</translation>
+=======
+        <source>Reindexing blocks on disk...</source>
+        <translation>Cargando el index de bloques...</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Enviar monedas a una dirección litecoin</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Respaldar billetera en otra ubicación</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Cambiar la contraseña utilizada para la codificación de la billetera</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"/>
+        <translation>Ventana &amp;Debug</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"/>
+        <translation>Abre consola de depuración y diagnóstico</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation type="unfinished"/>
+        <translation>Verificar mensaje....</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-165"/>
         <location line="+530"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
         <translation>Cartera</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Envía</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -485,13 +461,16 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <location line="+22"/>
         <source>&amp;About Litecoin</source>
         <translation>&amp;Sobre Litecoin</translation>
+=======
+        <translation>y recibir</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+9"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Mostrar/Ocultar</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Show or hide the main Window</source>
         <translation type="unfinished"/>
@@ -510,28 +489,29 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation type="unfinished"/>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+28"/>
         <source>&amp;File</source>
         <translation>&amp;Archivo</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Configuración</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Ayuda</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Barra de pestañas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+17"/>
         <location line="+10"/>
         <source>[testnet]</source>
@@ -586,58 +566,45 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
         <translation type="unfinished"/>
+=======
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Pide pagos (genera codigos QR and litecoin: URls)</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+2"/>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
+        <source>%1 and %2</source>
+        <translation>%1 y %2</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Error</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>Atención</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>Información</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
         <translation>Actualizado</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
         <translation>Recuperando...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
         <source>Sent transaction</source>
         <translation>Transacción enviada</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Incoming transaction</source>
         <translation>Transacción entrante</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Date: %1
 Amount: %2
@@ -663,14 +630,16 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+17"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>La billetera esta &lt;b&gt;codificada&lt;/b&gt; y actualmente &lt;b&gt;desbloqueda&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>La billetera esta &lt;b&gt;codificada&lt;/b&gt; y actualmente &lt;b&gt;bloqueda&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
@@ -684,133 +653,125 @@ Dirección: %4</translation>
         <source>Network Alert</source>
         <translation type="unfinished"/>
     </message>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>Amount:</source>
+        <translation>Cantidad:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>prioridad:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>comisión:
+</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Cantidad</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>Confirmaciones</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confirmado</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation>prioridad</translation>
+    </message>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
+<<<<<<< HEAD
+        <location line="-5"/>
+        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección Litecoin valida.</translation>
+=======
         <source>Edit Address</source>
         <translation>Editar dirección</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>&amp;Etiqueta</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>La etiqueta asociada con esta entrada de la libreta de direcciones</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Address</source>
         <translation>&amp;Dirección</translation>
     </message>
-    <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>La dirección asociada con esta entrada en la libreta de direcciones. Solo puede ser modificada para direcciónes de envío.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation>Nueva dirección para recibir</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation>Nueva dirección para enviar</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation>Editar dirección de recepción</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation>Editar dirección de envio</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>La dirección introducida &quot;%1&quot; ya esta guardada en la libreta de direcciones.</translation>
-    </message>
-    <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección Litecoin valida.</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation>No se pudo desbloquear la billetera.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation>La generación de nueva clave falló.</translation>
-    </message>
-</context>
+    </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>FreespaceChecker</name>
     <message>
+<<<<<<< HEAD
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>Litecoin-Qt</source>
         <translation type="unfinished"/>
+=======
+        <source>name</source>
+        <translation>Nombre</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
     <message>
-        <location line="-12"/>
         <source>version</source>
         <translation>versión</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Command-line options</source>
+        <translation>opciones de linea de comando</translation>
+    </message>
+    <message>
         <source>Usage:</source>
         <translation>Uso:</translation>
     </message>
+    </context>
+<context>
+    <name>Intro</name>
     <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation type="unfinished"/>
+        <source>Welcome</source>
+        <translation>bienvenido</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation>UI opciones</translation>
+        <source>Error</source>
+        <translation>Error</translation>
     </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"/>
+        <source>URI:</source>
+        <translation>url:</translation>
     </message>
-    <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation>Arranca minimizado
-</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>Opciones</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>&amp;Main</source>
         <translation>&amp;Principal</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation type="unfinished"/>
@@ -832,100 +793,78 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+35"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <translation>Reestablece todas las opciones.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+13"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Red</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Abre automáticamente el puerto del cliente Litecoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+=======
+        <source>W&amp;allet</source>
+        <translation>Cartera</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
+        <source>Expert</source>
+        <translation>experto</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <location line="+7"/>
+        <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conecta a la red Litecoin a través de un proxy SOCKS (ej. cuando te conectas por la red Tor)</translation>
+=======
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automáticamente el puerto del cliente Litecoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Direcciona el puerto usando &amp;UPnP</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conecta a la red Litecoin a través de un proxy SOCKS (ej. cuando te conectas por la red Tor)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Conecta a traves de un proxy SOCKS:</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>Proxy &amp;IP:</source>
         <translation>&amp;IP Proxy:</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>Dirección IP del servidor proxy (ej. 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
         <translation>&amp;Puerto:</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Puerto del servidor proxy (ej. 9050)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+36"/>
         <source>&amp;Window</source>
-        <translation type="unfinished"/>
+        <translation>y windows
+</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>Muestra solo un ícono en la bandeja después de minimizar la ventana</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
         <translation>&amp;Minimiza a la bandeja en vez de la barra de tareas</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimiza la ventana en lugar de salir del programa cuando la ventana se cierra. Cuando esta opción esta activa el programa solo se puede cerrar seleccionando Salir desde el menu.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>M&amp;inimize on close</source>
         <translation>M&amp;inimiza a la bandeja al cerrar</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Display</source>
         <translation>&amp;Mostrado</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
         <translation type="unfinished"/>
@@ -937,15 +876,17 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+11"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Unidad en la que mostrar cantitades:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Elige la subdivisión por defecto para mostrar cantidaded en la interfaz cuando se envien monedas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>Whether to show Litecoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
@@ -957,458 +898,274 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+71"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation>&amp;OK</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Cancela</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
-        <translation type="unfinished"/>
+        <translation>predeterminado</translation>
     </message>
     <message>
-        <location line="+130"/>
         <source>Confirm options reset</source>
-        <translation type="unfinished"/>
+        <translation>Confirmar reestablecimiento de las opciones</translation>
     </message>
-    <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>Atención</translation>
-    </message>
-    <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting Litecoin.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Formulario</translation>
     </message>
     <message>
+        <source>Total:</source>
+        <translation>Total:</translation>
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>Cantidad</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <location line="-9"/>
+        <location line="+9"/>
+        <source>This setting will take effect after restarting Litecoin.</source>
+        <translation type="unfinished"/>
+=======
+        <source>N/A</source>
+        <translation>N/A</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>Client version</source>
+        <translation>Versión del Cliente</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Information</source>
+        <translation>&amp;Información</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation>Saldo:</translation>
+        <source>Debug window</source>
+        <translation>Ventana Debug</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>No confirmados:</translation>
+        <source>General</source>
+        <translation>General</translation>
     </message>
     <message>
-        <location line="-78"/>
-        <source>Wallet</source>
-        <translation>Cartera</translation>
+        <source>Startup time</source>
+        <translation>Tiempo de inicio</translation>
     </message>
     <message>
-        <location line="+107"/>
-        <source>Immature:</source>
-        <translation type="unfinished"/>
+        <source>Network</source>
+        <translation>Red</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished"/>
+        <source>Name</source>
+        <translation>Nombre</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Transacciones recientes&lt;/b&gt;</translation>
+        <source>Number of connections</source>
+        <translation>Número de conexiones</translation>
     </message>
     <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation>Tu saldo actual</translation>
+        <source>Block chain</source>
+        <translation>Bloquea cadena</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Total de transacciones que no han sido confirmadas aun, y que no cuentan para el saldo actual.</translation>
+        <source>Version</source>
+        <translation>version
+</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation type="unfinished"/>
+        <source>&amp;Open</source>
+        <translation>&amp;Abrir</translation>
     </message>
-</context>
-<context>
-    <name>PaymentServer</name>
     <message>
+<<<<<<< HEAD
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start litecoin: click-to-pay handler</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Console</source>
+        <translation>&amp;Consola</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
+    <message>
+        <source>Totals</source>
+        <translation>Total:</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>Limpiar Consola</translation>
+    </message>
+    </context>
 <context>
-    <name>QRCodeDialog</name>
+    <name>ReceiveCoinsDialog</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Solicitar Pago</translation>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
+        <source>&amp;Amount:</source>
         <translation>Cantidad:</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>Etiqueta</translation>
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiqueta:</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>Mensaje:</translation>
+        <source>&amp;Message:</source>
+        <translation>&amp;mensaje</translation>
     </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Guardar Como...</translation>
-    </message>
-    <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Save QR Code</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation>Imágenes PNG (*.png)</translation>
-    </message>
-</context>
+    </context>
 <context>
-    <name>RPCConsole</name>
+    <name>ReceiveRequestDialog</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
-        <source>N/A</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-217"/>
-        <source>Client version</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-45"/>
-        <source>&amp;Information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Startup time</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Network</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Number of connections</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Block chain</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Current number of blocks</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Last block time</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+52"/>
-        <source>&amp;Open</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Show the Litecoin-Qt help message to get a list with possible Litecoin command-line options.</source>
         <translation type="unfinished"/>
+=======
+        <source>QR Code</source>
+        <translation>Código QR </translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation type="unfinished"/>
+        <source>Copy &amp;Address</source>
+        <translation>&amp;Copia dirección</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>&amp;Console</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-260"/>
-        <source>Build date</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-104"/>
         <source>Litecoin - Debug window</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Save Image...</source>
+        <translation>Guardar imagen...</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-    <message>
-        <location line="+25"/>
-        <source>Litecoin Core</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+279"/>
-        <source>Debug log file</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Clear console</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Litecoin RPC console.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
+<<<<<<< HEAD
+        <location line="+25"/>
+        <source>Litecoin Core</source>
+        <translation type="unfinished"/>
+=======
         <source>Send Coins</source>
         <translation>Enviar monedas</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+50"/>
+        <source>Insufficient funds!</source>
+        <translation>Fondos insuficientes</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <location line="+7"/>
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation type="unfinished"/>
+=======
+        <source>Amount:</source>
+        <translation>Cantidad:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>prioridad:</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <location filename="../rpcconsole.cpp" line="-30"/>
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation type="unfinished"/>
+=======
+        <source>Fee:</source>
+        <translation>comisión:
+</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Comisión transacción:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normal</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>rapido</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Enviar a múltiples destinatarios</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Add &amp;Recipient</source>
         <translation>&amp;Agrega destinatario</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation>Remover todos los campos de la transacción</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Clear &amp;All</source>
         <translation>&amp;Borra todos</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Balance:</source>
         <translation>Balance:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>Confirm the send action</source>
         <translation>Confirma el envio</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>S&amp;end</source>
         <translation>&amp;Envía</translation>
     </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation>Confirmar el envio de monedas</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>Estas seguro que quieres enviar %1?</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation>y</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>La dirección de destinatarion no es valida, comprueba otra vez.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>La cantidad por pagar tiene que ser mayor 0.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount exceeds your balance.</source>
-        <translation>La cantidad sobrepasa tu saldo.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>El total sobrepasa tu saldo cuando se incluyen %1 como tasa de envio.</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Tienes una dirección duplicada, solo puedes enviar a direcciónes individuales de una sola vez.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Error: La transacción fue rechazada. Esto puede haber ocurrido si alguna de las monedas ya estaba gastada o si ha usado una copia de wallet.dat y las monedas se gastaron en la copia pero no se han marcado como gastadas aqui.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation>Envio</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
         <translation>Cantidad:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
         <translation>&amp;Pagar a:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+34"/>
         <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
@@ -1421,53 +1178,52 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="-78"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Label:</source>
         <translation>&amp;Etiqueta:</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation>Elije dirección de la guia</translation>
-    </message>
-    <message>
-        <location line="+10"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
         <translation>Pega dirección desde portapapeles</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>Elimina destinatario</translation>
+        <source>Message:</source>
+        <translation>Mensaje:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Introduce una dirección Litecoin (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+=======
+        <source>Pay To:</source>
+        <translation>Pagar a:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
-        <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+13"/>
         <source>&amp;Sign Message</source>
         <translation>&amp;Firmar Mensaje</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"/>
@@ -1486,58 +1242,46 @@ Dirección: %4</translation>
     <message>
         <location line="-203"/>
         <location line="+213"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-203"/>
         <source>Paste address from clipboard</source>
         <translation>Pega dirección desde portapapeles</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
         <translation>Escriba el mensaje que desea firmar</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Signature</source>
-        <translation type="unfinished"/>
+        <translation>Firma</translation>
     </message>
     <message>
-        <location line="+27"/>
-        <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+21"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished"/>
+        <translation>Firmar Mensaje</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Reset all sign message fields</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <location line="+146"/>
         <source>Clear &amp;All</source>
         <translation>&amp;Borra todos</translation>
     </message>
     <message>
-        <location line="-87"/>
         <source>&amp;Verify Message</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1554,10 +1298,13 @@ Dirección: %4</translation>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Firmar Mensaje</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
         <source>Verify &amp;Message</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1580,173 +1327,167 @@ Dirección: %4</translation>
         <location line="+3"/>
         <source>Enter Litecoin signature</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Firmar Mensaje</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
-        <source>The entered address is invalid.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-81"/>
-        <location line="+8"/>
-        <location line="+73"/>
-        <location line="+8"/>
-        <source>Please check the address and try again.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-81"/>
-        <location line="+81"/>
-        <source>The entered address does not refer to a key.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-73"/>
-        <source>Wallet unlock was cancelled.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Private key for the entered address is not available.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Message signing failed.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Message signed.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>The signature could not be decoded.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <location line="+13"/>
-        <source>Please check the signature and try again.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The signature did not match the message digest.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Message verification failed.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Message verified.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Litecoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>[testnet]</source>
         <translation>[red-de-pruebas]</translation>
     </message>
 </context>
 <context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+    </message>
+</context>
+<context>
     <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
-        <source>Open until %1</source>
-        <translation>Abierto hasta %1</translation>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Esta ventana muestra información detallada sobre la transacción</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Opciones:
+</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation>%1/fuera de linea</translation>
+        <source>Specify data directory</source>
+        <translation>Especifica directorio para los datos
+</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>%1/unconfirmed</source>
-        <translation>%1/no confirmado</translation>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Aceptar comandos consola y JSON-RPC
+</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>%1 confirmations</source>
-        <translation>%1 confirmaciónes</translation>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Correr como demonio y acepta comandos
+</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>Status</source>
-        <translation>Estado</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <source>Litecoin Core</source>
+        <translation>litecoin core</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Date</source>
-        <translation>Fecha</translation>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Conecta solo al nodo especificado
+</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Source</source>
+        <source>Error loading block database</source>
+        <translation>Error cargando blkindex.dat</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Atención: Poco espacio en el disco duro</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Información</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <location filename="../splashscreen.cpp" line="+22"/>
+        <source>The Litecoin developers</source>
         <translation type="unfinished"/>
+=======
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Enviar informacion de seguimiento a la consola en vez del archivo debug.log</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation>Generado</translation>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Usuario para las conexiones JSON-RPC
+</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <location line="+17"/>
-        <source>From</source>
-        <translation>De</translation>
+        <source>Warning</source>
+        <translation>Atención</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation type="unfinished"/>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Contraseña para las conexiones JSON-RPC
+</translation>
     </message>
     <message>
-        <location line="-77"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation type="unfinished"/>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Permite búsqueda DNS para addnode y connect
+</translation>
     </message>
     <message>
-        <location line="-2"/>
-        <source>label</source>
-        <translation>etiqueta</translation>
+        <source>Loading addresses...</source>
+        <translation>Cargando direcciónes...</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation>Credito</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Dirección -proxy invalida: '%s'</translation>
     </message>
     <message>
+        <source>Insufficient funds</source>
+        <translation>Fondos insuficientes</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Cargando el index de bloques...</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Agrega un nodo para conectarse and attempt to keep the connection open</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Cargando cartera...</translation>
+    </message>
+    <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>No es posible desactualizar la billetera</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>No se pudo escribir la dirección por defecto</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Rescaneando...</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation>Carga completa</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+2"/>
         <source>not accepted</source>
         <translation>no aceptada</translation>
@@ -2938,15 +2679,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-74"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Error</source>
         <translation>Error</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

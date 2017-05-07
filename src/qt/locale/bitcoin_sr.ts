@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="sr" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -33,21 +34,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="sr" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Адресар</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Kliknite desnim klikom radi izmene adrese ili oznake</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Кликните два пута да промените адресу и/или етикету</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
+<<<<<<< HEAD
         <translation>Прави нову адресу</translation>
     </message>
     <message>
@@ -64,43 +62,42 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Litecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Ово су Ваше Litecoin адресе за примање уплата. Можете да сваком пошиљаоцу дате другачију адресу да би пратили ко је вршио уплате.</translation>
+=======
+        <translation>Napravite novu adresu</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation type="unfinished"/>
+        <source>&amp;New</source>
+        <translation>Novo</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Prikaži &amp;QR kod</translation>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Kopirajte trenutno izabranu adresu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+11"/>
         <source>Sign a message to prove you own a Litecoin address</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Copy</source>
+        <translation>Kopirajte</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation type="unfinished"/>
+        <source>C&amp;lose</source>
+        <translation>Zatvorite</translation>
     </message>
     <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <translation>Izbrisite trenutno izabranu adresu sa liste</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <translation>Eksportuj podatke iz izabrane kartice u fajl</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Export</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified Litecoin address</source>
         <translation type="unfinished"/>
@@ -156,46 +153,30 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Није могуће писати у фајл %1.</translation>
     </message>
 </context>
+=======
+        <source>&amp;Delete</source>
+        <translation>&amp;Избриши</translation>
+    </message>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>Етикета</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Адреса</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(без етикете)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
-        <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Унесите лозинку</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Нова лозинка</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>Поновите нову лозинку</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -315,94 +296,77 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Лозинка за приступ новчанику је успешно промењена.</translation>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
-        <source>Sign &amp;message...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>Синхронизација са мрежом у току...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Општи преглед</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show general overview of wallet</source>
         <translation>Погледајте општи преглед новчаника</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Трансакције</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>Претражите историјат трансакција</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Уредите запамћене адресе и њихове етикете</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Прегледајте листу адреса на којима прихватате уплате</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
         <translation>I&amp;zlaz</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
         <translation>Напустите програм</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about Litecoin</source>
         <translation>Прегледајте информације о Litecoin-у</translation>
     </message>
     <message>
         <location line="+2"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>About &amp;Qt</source>
         <translation>О &amp;Qt-у</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
         <translation>Прегледајте информације о Qt-у</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>П&amp;оставке...</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Шифровање новчаника...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Backup новчаника</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+285"/>
         <source>Importing blocks from disk...</source>
         <translation type="unfinished"/>
@@ -414,10 +378,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Send coins to a Litecoin address</source>
         <translation>Пошаљите новац на litecoin адресу</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+49"/>
         <source>Modify configuration options for Litecoin</source>
         <translation>Изаберите могућности litecoin-а</translation>
@@ -429,10 +396,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+2"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Мењање лозинке којом се шифрује новчаник</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>&amp;Debug window</source>
         <translation type="unfinished"/>
@@ -455,12 +425,14 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-530"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Wallet</source>
         <translation>новчаник</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -502,28 +474,28 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Пошаљи</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+28"/>
         <source>&amp;File</source>
         <translation>&amp;Фајл</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Подешавања</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>П&amp;омоћ</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Трака са картицама</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+17"/>
         <location line="+10"/>
         <source>[testnet]</source>
@@ -606,30 +578,25 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-140"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Up to date</source>
         <translation>Ажурно</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
         <translation>Ажурирање у току...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
         <source>Sent transaction</source>
         <translation>Послана трансакција</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Incoming transaction</source>
         <translation>Придошла трансакција</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Date: %1
 Amount: %2
@@ -652,143 +619,184 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Новчаник јс &lt;b&gt;шифрован&lt;/b&gt; и тренутно &lt;b&gt;откључан&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Новчаник јс &lt;b&gt;шифрован&lt;/b&gt; и тренутно &lt;b&gt;закључан&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 </context>
 <context>
-    <name>ClientModel</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation type="unfinished"/>
+        <source>Amount:</source>
+        <translation>Iznos:</translation>
     </message>
-</context>
+    <message>
+        <source>Amount</source>
+        <translation>iznos</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>datum</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Potvrdjen</translation>
+    </message>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
         <translation>Измени адресу</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>&amp;Етикета</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Address</source>
         <translation>&amp;Адреса</translation>
     </message>
-    <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Унешена адреса &quot;%1&quot; се већ налази у адресару.</translation>
-    </message>
-    <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation>Немогуће откључати новчаник.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
     <message>
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>Litecoin-Qt</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-12"/>
         <source>version</source>
         <translation>верзија</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Usage:</source>
         <translation>Korišćenje:</translation>
     </message>
-    <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
+        <source>Options</source>
+        <translation>Поставке</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>новчаник</translation>
+    </message>
+    <message>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>&amp;Јединица за приказивање износа:</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <location line="-5"/>
+        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
+        <translation type="unfinished"/>
+=======
+        <source>&amp;OK</source>
+        <translation>&amp;OK</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>Форма</translation>
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>iznos</translation>
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
+        <location filename="../guiutil.cpp" line="+424"/>
+        <location line="+12"/>
+        <source>Litecoin-Qt</source>
+        <translation type="unfinished"/>
+=======
+        <source>&amp;Amount:</source>
+        <translation>Iznos:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Етикета</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>Poruka:</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>Kopirajte adresu</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Слање новца</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Iznos:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Потврди акцију слања</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>&amp;Пошаљи</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
         <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>Поставке</translation>
@@ -2627,173 +2635,115 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
         <translation type="unfinished"/>
+=======
+        <source>A&amp;mount:</source>
+        <translation>Iznos:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label:</source>
+        <translation>&amp;Етикета</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Alt+A</source>
+        <translation>Alt+</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"/>
+        <source>Alt+P</source>
+        <translation>Alt+П</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <source>Message:</source>
+        <translation>Poruka:</translation>
+    </message>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation type="unfinished"/>
+        <source>Alt+P</source>
+        <translation>Alt+П</translation>
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Ovaj odeljak pokazuje detaljan opis transakcije</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Opcije</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation type="unfinished"/>
+        <source>Specify data directory</source>
+        <translation>Gde je konkretni data direktorijum </translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Prihvati komandnu liniju i JSON-RPC komande</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Radi u pozadini kao daemon servis i prihvati komande</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction too large</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Korisničko ime za JSON-RPC konekcije</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-50"/>
         <source>Password for JSON-RPC connections</source>
         <translation>Lozinka za JSON-RPC konekcije</translation>
     </message>
     <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Dozvoli JSON-RPC konekcije sa posebne IP adrese</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Pošalji komande to nodu koji radi na &lt;ip&gt; (default: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="-120"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Odredi veličinu zaštićenih ključeva na &lt;n&gt; (default: 100)</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Ponovo skeniraj lanac blokova za nedostajuće transakcije iz novčanika</translation>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Koristi OpenSSL (https) za  JSON-RPC konekcije</translation>
-    </message>
-    <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>privatni ključ za Server (podrazumevan: server.pem)</translation>
-    </message>
-    <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Prihvatljive cifre (podrazumevano: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation>Ova poruka Pomoći</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+55"/>
         <source>Loading addresses...</source>
         <translation>učitavam adrese....</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation type="unfinished"/>
@@ -2855,10 +2805,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Loading block index...</source>
         <translation>Učitavam blok indeksa...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation type="unfinished"/>
@@ -2875,45 +2828,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+19"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Loading wallet...</source>
         <translation>Новчаник се учитава...</translation>
     </message>
     <message>
-        <location line="-52"/>
-        <source>Cannot downgrade wallet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot write default address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
         <translation>Ponovo skeniram...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
         <translation>Završeno učitavanje</translation>
     </message>
-    <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-74"/>
-        <source>Error</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 </TS>

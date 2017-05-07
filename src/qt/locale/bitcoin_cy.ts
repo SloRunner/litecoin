@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="cy" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -33,24 +34,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="cy" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Llyfr Cyfeiriadau</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Clicio dwywaith i olygu cyfeiriad neu label</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
         <translation>Creu cyfeiriad newydd</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Copio&apos;r cyfeiriad sydd wedi&apos;i ddewis i&apos;r clipfwrdd system</translation>
@@ -79,25 +73,26 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+11"/>
         <source>Sign a message to prove you own a Litecoin address</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;New</source>
+        <translation>&amp;Newydd</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation type="unfinished"/>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Copio'r cyfeiriad sydd wedi'i ddewis i'r clipfwrdd system</translation>
     </message>
     <message>
-        <location line="+25"/>
-        <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <source>&amp;Copy</source>
+        <translation>&amp;Copïo</translation>
     </message>
     <message>
-        <location line="+27"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <source>C&amp;lose</source>
+        <translation>C&amp;au</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -109,12 +104,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+3"/>
         <source>&amp;Verify Message</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Allforio</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Dileu</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
@@ -156,46 +154,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Ni ellir ysgrifennu i ffeil %1.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Cyfeiriad</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(heb label)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
-        <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Teipiwch gyfrinymadrodd</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Cyfrinymadrodd newydd</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>Ailadroddwch gyfrinymadrodd newydd</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -315,104 +294,69 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
-        <source>Sign &amp;message...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Cysoni â&apos;r rhwydwaith...</translation>
+        <translation>Cysoni â'r rhwydwaith...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Trosolwg</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show general overview of wallet</source>
         <translation>Dangos trosolwg cyffredinol y waled</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Trafodion</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>Pori hanes trafodion</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Golygu&apos;r rhestr o cyfeiriadau a labeli ar gadw</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Dangos rhestr o gyfeiriadau ar gyfer derbyn taliadau</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;llanfa</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
         <translation>Gadael rhaglen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about Litecoin</source>
         <translation>Dangos gwybodaeth am Litecoin</translation>
     </message>
     <message>
         <location line="+2"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>About &amp;Qt</source>
-        <translation type="unfinished"/>
+        <translation>Ynghylch &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show information about Qt</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>&amp;Opsiynau</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Amgryptio'r waled...</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Newid cyfrinymadrodd...</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-347"/>
         <source>Send coins to a Litecoin address</source>
         <translation type="unfinished"/>
@@ -421,23 +365,29 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+49"/>
         <source>Modify configuration options for Litecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Cyfeiriadau anfon...</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Backup wallet to another location</source>
-        <translation type="unfinished"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Cyfeiriadau derbyn...</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+2"/>
+        <source>Open &amp;URI...</source>
+        <translation>Agor &amp;URI...</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio&apos;r waled</translation>
+        <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>&amp;Debug window</source>
-        <translation type="unfinished"/>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
         <translation type="unfinished"/>
@@ -455,25 +405,21 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-530"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Wallet</source>
-        <translation type="unfinished"/>
+        <translation>Waled</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Anfon</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Derbyn</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+22"/>
         <source>&amp;About Litecoin</source>
         <translation type="unfinished"/>
@@ -505,24 +451,28 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+28"/>
+=======
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Dangos / Cuddio</translation>
+    </message>
+    <message>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;File</source>
         <translation>&amp;Ffeil</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Gosodiadau</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Cymorth</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Bar offer tabiau</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location line="+17"/>
         <location line="+10"/>
@@ -556,339 +506,365 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message numerus="yes">
         <location line="+20"/>
+=======
+    <message numerus="yes">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>%n hour(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n awr</numerusform><numerusform>%n awr</numerusform><numerusform>%n awr</numerusform><numerusform>%n awr</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n day(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n dydd</numerusform><numerusform>%n dydd</numerusform><numerusform>%n dydd</numerusform><numerusform>%n dydd</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n week(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n wythnos</numerusform><numerusform>%n wythnos</numerusform><numerusform>%n wythnos</numerusform><numerusform>%n wythnos</numerusform></translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>%1 behind</source>
-        <translation type="unfinished"/>
+        <source>%1 and %2</source>
+        <translation>%1 a %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n blwydd</numerusform><numerusform>%n blwydd</numerusform><numerusform>%n blwydd</numerusform><numerusform>%n blwydd</numerusform></translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+22"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Gwall</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>Rhybudd</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>Gwybodaeth</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
         <translation>Cyfamserol</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
         <translation>Dal i fyny</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
+        <source>Date: %1
+</source>
+        <translation>Dyddiad: %1
+</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <source>Type: %1
+</source>
+        <translation>Math: %1
+</translation>
+    </message>
+    <message>
+        <source>Label: %1
+</source>
+        <translation>Label: %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>Cyfeiriad: %1
+</translation>
+    </message>
+    <message>
         <source>Sent transaction</source>
         <translation>Trafodiad a anfonwyd</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Incoming transaction</source>
-        <translation>Trafodiad sy&apos;n cyrraedd</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
+=======
+        <source>Incoming transaction</source>
+        <translation>Trafodiad sy'n cyrraedd</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Mae&apos;r waled &lt;b&gt;wedi&apos;i amgryptio&lt;/b&gt; ac &lt;b&gt;heb ei gloi&lt;/b&gt; ar hyn o bryd</translation>
+        <translation>Mae'r waled &lt;b&gt;wedi'i amgryptio&lt;/b&gt; ac &lt;b&gt;heb ei gloi&lt;/b&gt; ar hyn o bryd</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+<<<<<<< HEAD
         <translation>Mae&apos;r waled &lt;b&gt;wedi&apos;i amgryptio&lt;/b&gt; ac &lt;b&gt;ar glo&lt;/b&gt; ar hyn o bryd</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Mae'r waled &lt;b&gt;wedi'i amgryptio&lt;/b&gt; ac &lt;b&gt;ar glo&lt;/b&gt; ar hyn o bryd</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
 </context>
 <context>
-    <name>ClientModel</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation type="unfinished"/>
+        <source>Amount:</source>
+        <translation>Maint</translation>
     </message>
-</context>
+    <message>
+        <source>Date</source>
+        <translation>Dyddiad</translation>
+    </message>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Golygu&apos;r cyfeiriad</translation>
+        <translation>Golygu'r cyfeiriad</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>&amp;Label</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>Mae&apos;r label hon yn cysylltiedig gyda&apos;r cofnod llyfr cyfeiriad hon</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Address</source>
         <translation>&amp;Cyfeiriad</translation>
     </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Mae&apos;r cyfeiriad hon yn cysylltiedig gyda&apos;r cofnod llyfr cyfeiriad hon. Gall hyn gael ei olygu dim ond ar gyfer y pwrpas o anfon cyfeiriadau.</translation>
+        <source>name</source>
+        <translation>enw</translation>
+    </message>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Usage:</source>
+        <translation>Cynefod:</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Croeso</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation>Cyfeiriad derbyn newydd</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation>Cyfeiriad anfon newydd</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation>Golygu&apos;r cyfeiriad derbyn</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation>Golygu&apos;r cyfeiriad anfon</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Mae&apos;r cyfeiriad &quot;%1&quot; sydd newydd gael ei geisio gennych yn y llyfr cyfeiriad yn barod.</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
         <translation type="unfinished"/>
+=======
+        <source>Error</source>
+        <translation>Gwall</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-    <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation>Methodd ddatgloi&apos;r waled.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation>Methodd gynhyrchu allwedd newydd.</translation>
-    </message>
-</context>
+    </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>OpenURIDialog</name>
     <message>
+        <source>Open URI</source>
+        <translation>Agor URI</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+<<<<<<< HEAD
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>Litecoin-Qt</source>
         <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>version</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Usage:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>OptionsDialog</name>
-    <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
+=======
         <source>Options</source>
         <translation>Opsiynau</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+16"/>
-        <source>&amp;Main</source>
-        <translation type="unfinished"/>
+        <source>&amp;Network</source>
+        <translation>&amp;Rhwydwaith</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
+        <source>W&amp;allet</source>
+        <translation>W&amp;aled</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation type="unfinished"/>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
     </message>
     <message>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
+    </message>
+    <message>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Ffenestr</translation>
+    </message>
+    <message>
+        <source>&amp;Display</source>
+        <translation>&amp;Dangos</translation>
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>Ffurflen</translation>
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>&amp;Information</source>
+        <translation>Gwybodaeth</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>Rhwydwaith</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Agor</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <location line="+31"/>
         <source>Automatically start Litecoin after logging in to the system.</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>&amp;Start Litecoin on system login</source>
         <translation type="unfinished"/>
+=======
+        <source>Copy &amp;Address</source>
+        <translation>&amp;Cyfeiriad Copi</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Anfon arian</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <source>Amount:</source>
+        <translation>Maint</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <source>Send to multiple recipients at once</source>
+        <translation>Anfon at pobl lluosog ar yr un pryd</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>&amp;Network</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
+=======
+        <source>Balance:</source>
+        <translation>Gweddill:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished"/>
+        <source>Confirm the send action</source>
+        <translation>Cadarnhau'r gweithrediad anfon</translation>
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
+=======
+        <source>A&amp;mount:</source>
+        <translation>&amp;Maint</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"/>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation type="unfinished"/>
+        <source>Paste address from clipboard</source>
+        <translation>Gludo cyfeiriad o'r glipfwrdd</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Port:</source>
-        <translation type="unfinished"/>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished"/>
+        <source>Message:</source>
+        <translation>Neges:</translation>
+    </message>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation type="unfinished"/>
+        <source>Paste address from clipboard</source>
+        <translation>Gludo cyfeiriad o'r glipfwrdd</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation type="unfinished"/>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
     </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
     <message>
-        <location line="+36"/>
-        <source>&amp;Window</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation type="unfinished"/>
@@ -1064,65 +1040,23 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
-<context>
-    <name>QRCodeDialog</name>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Save QR Code</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation type="unfinished"/>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
     </message>
 </context>
 <context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+<<<<<<< HEAD
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="+46"/>
@@ -1269,117 +1203,15 @@ Address: %4
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    <name>TransactionTableModel</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
-    <name>SendCoinsDialog</name>
-    <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <source>Send Coins</source>
-        <translation>Anfon arian</translation>
-    </message>
-    <message>
-        <location line="+50"/>
-        <source>Send to multiple recipients at once</source>
-        <translation>Anfon at pobl lluosog ar yr un pryd</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Add &amp;Recipient</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>Balance:</source>
-        <translation>Gweddill:</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Confirm the send action</source>
-        <translation>Cadarnhau&apos;r gweithrediad anfon</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>S&amp;end</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>Ydych chi&apos;n siwr eich bod chi eisiau anfon %1?</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation>a</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount exceeds your balance.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    <name>TransactionView</name>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>SendCoinsEntry</name>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
@@ -1427,30 +1259,45 @@ Address: %4
         <source>Paste address from clipboard</source>
         <translation>Gludo cyfeiriad o&apos;r glipfwrdd</translation>
     </message>
+=======
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     <message>
-        <location line="+10"/>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <source>Options:</source>
+        <translation>Opsiynau:</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation type="unfinished"/>
+        <source>Litecoin Core</source>
+        <translation>Craidd Litecoin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>SignVerifyMessageDialog</name>
-    <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
-        <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished"/>
+=======
+        <source>Information</source>
+        <translation>Gwybodaeth</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
+        <source>Warning</source>
+        <translation>Rhybudd</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+13"/>
         <source>&amp;Sign Message</source>
         <translation type="unfinished"/>
@@ -2903,15 +2750,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-74"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Error</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"/>
+        <translation>Gwall</translation>
     </message>
 </context>
 </TS>

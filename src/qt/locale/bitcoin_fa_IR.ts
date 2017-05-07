@@ -1,6 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fa_IR" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
+<TS language="fa_IR" version="2.1">
 <context>
+<<<<<<< HEAD
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
@@ -2279,17 +2279,19 @@ Address: %4
         <source>Run in the background as a daemon and accept commands</source>
         <translation>به عنوان daemon بک گراند را اجرا کنید و دستورات را قبول نمایید</translation>
     </message>
+=======
+    <name>AddressBookPage</name>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     <message>
-        <location line="+37"/>
-        <source>Use the test network</source>
-        <translation>از تستِ شبکه استفاده نمایید</translation>
+        <source>Create a new address</source>
+        <translation>گشایش حسابی جدید</translation>
     </message>
     <message>
-        <location line="-112"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation type="unfinished"/>
+        <source>&amp;New</source>
+        <translation>جدید</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-80"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
@@ -2303,503 +2305,535 @@ It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
+=======
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>کپی کردن حساب انتخاب شده به حافظه سیستم - کلیپ بورد</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"/>
+        <source>&amp;Copy</source>
+        <translation>کپی</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"/>
+        <source>C&amp;lose</source>
+        <translation>بستن</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Litecoin is probably already running.</source>
         <translation type="unfinished"/>
+=======
+        <source>Delete the currently selected address from the list</source>
+        <translation>حذف آدرس های انتخاب شده از لیست</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
+        <source>Export the data in the current tab to a file</source>
+        <translation>صدور داده نوار جاری به یک فایل</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"/>
+        <source>&amp;Export</source>
+        <translation>صدور</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Delete</source>
+        <translation>حذف</translation>
+    </message>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    </context>
+<context>
+    <name>AskPassphraseDialog</name>
+    <message>
+        <source>Passphrase Dialog</source>
+        <translation>دیالوگ رمزعبور</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation type="unfinished"/>
+        <source>Enter passphrase</source>
+        <translation>رمز/پَس فرِیز را وارد کنید</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation type="unfinished"/>
+        <source>New passphrase</source>
+        <translation>رمز/پَس فرِیز جدید را وارد کنید</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"/>
+        <source>Repeat new passphrase</source>
+        <translation>رمز/پَس فرِیز را دوباره وارد کنید</translation>
+    </message>
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>امضا و پیام</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litecoin will not work properly.</source>
         <translation type="unfinished"/>
+=======
+        <source>Synchronizing with network...</source>
+        <translation>به روز رسانی با شبکه...</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"/>
+        <source>&amp;Overview</source>
+        <translation>و بازبینی</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"/>
+        <source>Show general overview of wallet</source>
+        <translation>نمای کلی از wallet را نشان بده</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"/>
+        <source>&amp;Transactions</source>
+        <translation>و تراکنش</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Block creation options:</source>
-        <translation type="unfinished"/>
+        <source>Browse transaction history</source>
+        <translation>تاریخچه تراکنش را باز کن</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation type="unfinished"/>
+        <source>E&amp;xit</source>
+        <translation>خروج</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Corrupted block database detected</source>
-        <translation type="unfinished"/>
+        <source>Quit application</source>
+        <translation>از "درخواست نامه"/ application خارج شو</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation type="unfinished"/>
+        <source>About &amp;Qt</source>
+        <translation>درباره و Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished"/>
+        <source>Show information about Qt</source>
+        <translation>نمایش اطلاعات درباره Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Error initializing block database</source>
-        <translation type="unfinished"/>
+        <source>&amp;Options...</source>
+        <translation>و انتخابها</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished"/>
+        <source>&amp;Encrypt Wallet...</source>
+        <translation>و رمزگذاری wallet</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error loading block database</source>
-        <translation type="unfinished"/>
+        <source>&amp;Backup Wallet...</source>
+        <translation>و گرفتن نسخه پیشتیبان از wallet</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error opening block database</source>
-        <translation type="unfinished"/>
+        <source>&amp;Change Passphrase...</source>
+        <translation>تغییر رمز/پَس فرِیز</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Error: Disk space is low!</source>
-        <translation type="unfinished"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>دریافت آدرس ها</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"/>
+        <source>Backup wallet to another location</source>
+        <translation>گرفتن نسخه پیشتیبان در آدرسی دیگر</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation type="unfinished"/>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>رمز مربوط به رمزگذاریِ wallet را تغییر دهید</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"/>
+        <source>Litecoin</source>
+        <translation>litecoin</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation type="unfinished"/>
+        <source>Wallet</source>
+        <translation>کیف پول</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation type="unfinished"/>
+        <source>&amp;Send</source>
+        <translation>و ارسال</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation type="unfinished"/>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;نمایش/ عدم نمایش و</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation type="unfinished"/>
+        <source>&amp;File</source>
+        <translation>و فایل</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation type="unfinished"/>
+        <source>&amp;Settings</source>
+        <translation>و تنظیمات</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation type="unfinished"/>
+        <source>&amp;Help</source>
+        <translation>و راهنما</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation type="unfinished"/>
+        <source>Tabs toolbar</source>
+        <translation>نوار ابزار</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation type="unfinished"/>
+        <source>Error</source>
+        <translation>خطا</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation type="unfinished"/>
+        <source>Up to date</source>
+        <translation>روزآمد</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation type="unfinished"/>
+        <source>Catching up...</source>
+        <translation>در حال روزآمد سازی..</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation type="unfinished"/>
+        <source>Sent transaction</source>
+        <translation>ارسال تراکنش</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Incoming transaction</source>
+        <translation>تراکنش دریافتی</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation type="unfinished"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>wallet رمزگذاری شد و در حال حاضر از حالت قفل در آمده است</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation type="unfinished"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>wallet رمزگذاری شد و در حال حاضر قفل است</translation>
+    </message>
+</context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>Amount:</source>
+        <translation>میزان وجه:</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
+        <source>Amount</source>
+        <translation>میزان</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation type="unfinished"/>
+        <source>Date</source>
+        <translation>تاریخ</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"/>
+        <source>Confirmed</source>
+        <translation>تایید شده</translation>
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+        <source>Edit Address</source>
+        <translation>ویرایش حساب</translation>
     </message>
     <message>
-        <location line="+26"/>
-        <source>Verifying blocks...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label</source>
+        <translation>و برچسب</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Verifying wallet...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Address</source>
+        <translation>حساب&amp;</translation>
+    </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>version</source>
+        <translation>نسخه</translation>
     </message>
     <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation type="unfinished"/>
+        <source>Usage:</source>
+        <translation>میزان استفاده:</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Error</source>
+        <translation>خطا</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>انتخاب/آپشن</translation>
     </message>
     <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Network</source>
+        <translation>شبکه</translation>
     </message>
     <message>
-        <location line="+77"/>
-        <source>Information</source>
-        <translation type="unfinished"/>
+        <source>W&amp;allet</source>
+        <translation>کیف پول</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>&amp;OK</source>
+        <translation>و تایید</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>&amp;Cancel</source>
+        <translation>و رد</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>default</source>
+        <translation>پیش فرض</translation>
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>فرم</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه litecoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation type="unfinished"/>
+        <source>Amount</source>
+        <translation>میزان</translation>
     </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
     <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>برونداد اشکال زدایی با timestamp</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+5"/>
         <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
+=======
+        <source>Client version</source>
+        <translation>ویرایش کنسول RPC</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation type="unfinished"/>
+        <source>Network</source>
+        <translation>شبکه</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>ارسال اطلاعات پیگیری/خطایابی به کنسول به جای ارسال به فایل debug.log</translation>
+        <source>Number of connections</source>
+        <translation>تعداد اتصال</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>ارسال اطاعات خطایابی/پیگیری به سیستم خطایاب</translation>
+        <source>Block chain</source>
+        <translation>زنجیره مجموعه تراکنش ها</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation type="unfinished"/>
+        <source>Current number of blocks</source>
+        <translation>تعداد زنجیره های حاضر</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>میزان وجه:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label:</source>
+        <translation>و برچسب</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Message:</source>
+        <translation>پیام:</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>کپی آدرس</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>سکه های ارسالی</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <source>Insufficient funds!</source>
+        <translation>وجوه ناکافی</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>تعیین مدت زمان وقفه (time out) به هزارم ثانیه</translation>
+        <source>Amount:</source>
+        <translation>میزان وجه:</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation type="unfinished"/>
+        <source>Send to multiple recipients at once</source>
+        <translation>ارسال همزمان به گیرنده های متعدد</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
+        <source>Balance:</source>
+        <translation>مانده حساب:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
+        <source>Confirm the send action</source>
+        <translation>تایید عملیات ارسال </translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction too large</source>
-        <translation type="unfinished"/>
+        <source>S&amp;end</source>
+        <translation>و ارسال</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>و میزان وجه</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Pay &amp;To:</source>
+        <translation>پرداخت و به چه کسی</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label:</source>
+        <translation>و برچسب</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"/>
+        <source>Alt+A</source>
+        <translation>Alt و A</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Username for JSON-RPC connections</source>
-        <translation>شناسه کاربری برای ارتباطاتِ JSON-RPC</translation>
+        <source>Paste address from clipboard</source>
+        <translation>آدرس را بر کلیپ بورد کپی کنید</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
+        <source>Alt+P</source>
+        <translation>Alt و P</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"/>
+        <source>Message:</source>
+        <translation>پیام:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation type="unfinished"/>
+        <source>Pay To:</source>
+        <translation>پرداخت به:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
+        <source>Memo:</source>
+        <translation>یادداشت:</translation>
+    </message>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>تا پیش از بسته شدن این پنجره کامپیوتر خود را خاموش نکنید.</translation>
+    </message>
+</context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>و امضای پیام </translation>
     </message>
     <message>
-        <location line="-50"/>
-        <source>Password for JSON-RPC connections</source>
-        <translation>رمز برای ارتباطاتِ JSON-RPC</translation>
+        <source>Alt+A</source>
+        <translation>Alt و A</translation>
     </message>
     <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>ارتباطاتِ JSON-RPC  را از آدرس آی.پی. مشخصی برقرار کنید.</translation>
+        <source>Paste address from clipboard</source>
+        <translation>آدرس را بر کلیپ بورد کپی کنید</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>دستورات را به گره اجرا شده در&lt;ip&gt; ارسال کنید (پیش فرض:127.0.0.1)</translation>
+        <source>Alt+P</source>
+        <translation>Alt و P</translation>
     </message>
     <message>
-        <location line="-120"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>دستور را وقتی بهترین بلاک تغییر کرد اجرا کن (%s در دستور توسط block hash جایگزین شده است)</translation>
+        <source>Sign &amp;Message</source>
+        <translation>و امضای پیام </translation>
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>این بخش جزئیات تراکنش را نشان می دهد</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>انتخابها:</translation>
     </message>
     <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation>wallet را به جدیدترین نسخه روزآمد کنید</translation>
+        <source>Specify data directory</source>
+        <translation>دایرکتوری داده را مشخص کن</translation>
     </message>
     <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>حجم key pool  را به اندازه &lt;n&gt; تنظیم کنید (پیش فرض:100)</translation>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>command line  و JSON-RPC commands را قبول کنید</translation>
     </message>
     <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>زنجیره بلاک را برای تراکنش جا افتاده در WALLET دوباره اسکن کنید</translation>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>به عنوان daemon بک گراند را اجرا کنید و دستورات را قبول نمایید</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>برای ارتباطاتِ JSON-RPC  از OpenSSL (https) استفاده کنید</translation>
+        <source>The transaction amount is too small to send after the fee has been deducted</source>
+        <translation>مبلغ تراکنش کمتر از آن است که پس از کسر هزینه  تراکنش قابل ارسال باشد</translation>
     </message>
     <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>فایل certificate  سرور (پیش فرض server.cert)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>رمز اختصاصی سرور  (پیش فرض: server.pem)</translation>
-    </message>
-    <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>ciphers  قابل قبول (پیش فرض: default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation>این پیام راهنما</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+55"/>
-        <source>Loading addresses...</source>
-        <translation>لود شدن آدرسها..</translation>
-    </message>
-    <message>
-        <location line="-35"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>خطا در هنگام لود شدن wallet.dat: Wallet corrupted</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Litecoin</source>
         <translation>خطا در هنگام لود شدن wallet.dat.  به نسخه جدید Bitocin برای wallet نیاز است.</translation>
@@ -2808,63 +2842,61 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Litecoin to complete</source>
         <translation>wallet نیاز به بازنویسی دارد. Litecoin را برای تکمیل عملیات دوباره اجرا کنید.</translation>
+=======
+        <source>RPC server options:</source>
+        <translation>گزینه های سرویس دهنده RPC:</translation>
     </message>
     <message>
-        <location line="-95"/>
-        <source>Error loading wallet.dat</source>
-        <translation>خطا در هنگام لود شدن wallet.dat</translation>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>ارسال اطلاعات پیگیری/خطایابی به کنسول به جای ارسال به فایل debug.log</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>ارسال تراکنش ها به صورت بدون کارمزد در صورت امکان (پیش فرض: %u)</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Username for JSON-RPC connections</source>
+        <translation>شناسه کاربری برای ارتباطاتِ JSON-RPC</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished"/>
+        <source>Password for JSON-RPC connections</source>
+        <translation>رمز برای ارتباطاتِ JSON-RPC</translation>
     </message>
     <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>دستور را وقتی بهترین بلاک تغییر کرد اجرا کن (%s در دستور توسط block hash جایگزین شده است)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Loading addresses...</source>
+        <translation>لود شدن آدرسها..</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>میزان اشتباه است for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>تنظیم تعداد ریسمان ها برای سرویس دهی فراخوانی های RPC (پیش فرض: %d)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation>میزان اشتباه است</translation>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>فایل تنظیمات را مشخص کنید (پیش فرض: %s)</translation>
     </message>
     <message>
-        <location line="-6"/>
+        <source>Specify pid file (default: %s)</source>
+        <translation>فایل pid را مشخص کنید (پیش فرض: %s)</translation>
+    </message>
+    <message>
         <source>Insufficient funds</source>
         <translation>وجوه ناکافی</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Loading block index...</source>
         <translation>لود شدن نمایه بلاکها..</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>یک گره برای اتصال اضافه کنید و تلاش کنید تا اتصال را باز نگاه دارید</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. Litecoin is probably already running.</source>
         <translation type="unfinished"/>
@@ -2876,46 +2908,30 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+19"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Loading wallet...</source>
         <translation>wallet در حال لود شدن است...</translation>
     </message>
     <message>
-        <location line="-52"/>
         <source>Cannot downgrade wallet</source>
         <translation>قابلیت برگشت به نسخه قبلی برای wallet امکان پذیر نیست</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Cannot write default address</source>
         <translation>آدرس پیش فرض قابل ذخیره نیست</translation>
     </message>
     <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
         <translation>اسکنِ دوباره...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
         <translation>اتمام لود شدن</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation>برای استفاده از %s  از اختیارات</translation>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
         <translation>خطا</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>شما باید یک رمز rpcpassword=&lt;password&gt; را در فایل تنظیمات ایجاد کنید⏎ %s ⏎ اگر فایل ایجاد نشده است، آن را با یک فایل &quot;فقط متنی&quot; ایجاد کنید.
-</translation>
     </message>
 </context>
 </TS>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="lv_LV" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -33,24 +34,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="lv_LV" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Adrešu grāmata</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Adresi vai nosaukumu rediģē ar dubultklikšķi</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
         <translation>Izveidot jaunu adresi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopēt iezīmēto adresi uz starpliktuvi</translation>
@@ -69,35 +63,40 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopēt adresi</translation>
+=======
+        <source>&amp;New</source>
+        <translation>&amp;Jauns</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Parādīt &amp;QR kodu</translation>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Kopēt iezīmēto adresi uz starpliktuvi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+11"/>
         <source>Sign a message to prove you own a Litecoin address</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Copy</source>
+        <translation>&amp;Kopēt</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation type="unfinished"/>
+        <source>C&amp;lose</source>
+        <translation>&amp;Aizvērt</translation>
     </message>
     <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <translation>Izdzēst iezīmētās adreses no saraksta</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <translation>Datus no tekošā ieliktņa eksportēt uz failu</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -109,12 +108,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+3"/>
         <source>&amp;Verify Message</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Eksportēt</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Dzēst</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
@@ -156,46 +158,31 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Nevar ierakstīt failā %1.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>Nosaukums</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Adrese</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(bez nosaukuma)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
         <translation>Paroles dialogs</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Ierakstiet paroli</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Jauna parole</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>Jaunā parole vēlreiz</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -315,104 +302,97 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
         <translation>Parakstīt &amp;ziņojumu...</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>Sinhronizācija ar tīklu...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Pārskats</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Node</source>
+        <translation>Node</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Rādīt vispārēju maciņa pārskatu</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transakcijas</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>Skatīt transakciju vēsturi</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Rediģēt saglabātās adreses un nosaukumus</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Rādīt maksājumu saņemšanas adreses</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
         <translation>&amp;Iziet</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
         <translation>Aizvērt programmu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about Litecoin</source>
         <translation>Parādīt informāciju par Litecoin</translation>
     </message>
     <message>
         <location line="+2"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>About &amp;Qt</source>
         <translation>Par &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
         <translation>Parādīt informāciju par Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>&amp;Iespējas</translation>
+        <translation>&amp;Iespējas...</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Š&amp;ifrēt maciņu...</translation>
+        <translation>Šifrēt &amp;maciņu...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Izveidot maciņa rezerves kopiju</translation>
+        <translation>&amp;Maciņa Rezerves Kopija...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Mainīt paroli</translation>
+        <translation>Mainīt &amp;Paroli...</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Sūtīšanas adreses...</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Saņemšanas &amp;adreses...</translation>
     </message>
     <message>
+        <source>Open &amp;URI...</source>
+        <translation>Atvērt &amp;URI...</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="-347"/>
         <source>Send coins to a Litecoin address</source>
         <translation>Nosūtīt bitkoinus uz Litecoin adresi</translation>
@@ -421,79 +401,81 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+49"/>
         <source>Modify configuration options for Litecoin</source>
         <translation>Mainīt Litecoin konfigurācijas uzstādījumus</translation>
+=======
+        <source>Reindexing blocks on disk...</source>
+        <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Nosūtīt bitkoinus uz Litecoin adresi</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Izveidot maciņa rezerves kopiju citur</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Mainīt maciņa šifrēšanas paroli</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation>&amp;Debug logs</translation>
+        <translation>&amp;Atkļūdošanas logs</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
         <translation>Atvērt atkļūdošanas un diagnostikas konsoli</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-165"/>
         <location line="+530"/>
         <source>Litecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
         <translation>Maciņš</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Sūtīt</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Saņemt</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+22"/>
         <source>&amp;About Litecoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+9"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Show / Hide</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Rādīt / Paslēpt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation type="unfinished"/>
+        <translation>Parādīt vai paslēpt galveno Logu</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished"/>
+        <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation type="unfinished"/>
@@ -502,34 +484,37 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation type="unfinished"/>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Parakstīt ziņojumus ar savām Litecoin adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Litecoin adresēm</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>&amp;File</source>
         <translation>&amp;Fails</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Uzstādījumi</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Palīdzība</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un litecoin: URIs)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+47"/>
         <source>Litecoin client</source>
         <translation>Litecoin klients</translation>
@@ -538,281 +523,280 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+141"/>
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktīvu savienojumu ar Litecoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar Litecoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as Litecoin tīklu</numerusform></translation>
+=======
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Atvērt litecoin URI vai maksājuma pieprasījumu</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+22"/>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Komandrindas iespējas</translation>
+    </message>
+    <message>
         <source>No block source available...</source>
-        <translation type="unfinished"/>
+        <translation>Nav pieejams neviens bloku avots...</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation type="unfinished"/>
+        <source>%1 and %2</source>
+        <translation>%1 un %2</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+20"/>
-        <source>%n hour(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n day(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n week(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>%1 behind</source>
-        <translation type="unfinished"/>
+        <translation>%1 aizmugurē</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
+        <translation>Transakcijas pēc šī vel nebūs redzamas</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
         <translation>Kļūda</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
         <translation>Brīdinājums</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>Informācija</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
         <translation>Sinhronizēts</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
         <translation>Sinhronizējos...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation>Apstiprināt transakcijas maksu</translation>
-    </message>
-    <message>
-        <location line="+8"/>
         <source>Sent transaction</source>
         <translation>Transakcija nosūtīta</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Incoming transaction</source>
         <translation>Ienākoša transakcija</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation>Datums: %1
-Daudzums: %2
-Tips: %3
-Adrese: %4
-</translation>
-    </message>
-    <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Maciņš ir &lt;b&gt;šifrēts&lt;/b&gt; un pašlaik &lt;b&gt;atslēgts&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Maciņš ir &lt;b&gt;šifrēts&lt;/b&gt; un pašlaik &lt;b&gt;slēgts&lt;/b&gt;</translation>
     </message>
+</context>
+<context>
+    <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
+        <location line="-23"/>
+        <location line="+23"/>
+        <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation type="unfinished"/>
+=======
+        <source>Quantity:</source>
+        <translation>Daudzums:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Baiti:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Daudzums:</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
+=======
+        <source>Priority:</source>
+        <translation>Prioritāte:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
-<context>
-    <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation>Tīkla brīdinājums</translation>
+        <source>Fee:</source>
+        <translation>Maksa:</translation>
     </message>
-</context>
+    <message>
+        <source>After Fee:</source>
+        <translation>Pēc Maksas:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Atlikums:</translation>
+    </message>
+    <message>
+        <source>(un)select all</source>
+        <translation>iezīmēt visus</translation>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation>Koka režīms</translation>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation>Saraksta režīms</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Daudzums</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datums</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>Apstiprinājumi</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Apstiprināts</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation>Prioritāte</translation>
+    </message>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
+<<<<<<< HEAD
+        <location line="-5"/>
+        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
+        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga Litecoin adrese.</translation>
+=======
         <source>Edit Address</source>
         <translation>Mainīt adrese</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>&amp;Nosaukums</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>Adrešu grāmatas ieraksta nosaukums</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Address</source>
         <translation>&amp;Adrese</translation>
     </message>
-    <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Adrese adrešu grāmatas ierakstā. To var mainīt tikai nosūtīšanas adresēm.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation>Jauna saņemšanas adrese</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation>Jauna nosūtīšanas adrese</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation>Mainīt saņemšanas adresi</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation>Mainīt nosūtīšanas adresi</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Nupat ierakstītā adrese &quot;%1&quot; jau atrodas adrešu grāmatā.</translation>
-    </message>
-    <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
-        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga Litecoin adrese.</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation>Nav iespējams atslēgt maciņu.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation>Neizdevās ģenerēt jaunu atslēgu.</translation>
-    </message>
-</context>
+    </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>FreespaceChecker</name>
     <message>
+        <source>A new data directory will be created.</source>
+        <translation>Tiks izveidota jauna datu mape.</translation>
+    </message>
+    <message>
+        <source>name</source>
+        <translation>vārds</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Šāds ceļš jau pastāv un tā nav mape.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>Litecoin-Qt</source>
         <translation>Litecoin-Qt</translation>
+=======
+        <source>Cannot create data directory here.</source>
+        <translation>Šeit nevar izveidot datu mapi.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
     <message>
-        <location line="-12"/>
         <source>version</source>
         <translation>versija</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>(%1-bit)</source>
+        <translation>(%1-biti)</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Komandrindas iespējas</translation>
+    </message>
+    <message>
         <source>Usage:</source>
         <translation>Lietojums:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>command-line options</source>
         <translation>komandrindas izvēles</translation>
     </message>
+    </context>
+<context>
+    <name>Intro</name>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation>Lietotāja interfeisa izvēlnes</translation>
+        <source>Welcome</source>
+        <translation>Sveiciens</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Uzstādiet valodu, piemēram &quot;de_DE&quot; (pēc noklusēšanas: sistēmas lokāle)</translation>
+        <source>Use the default data directory</source>
+        <translation>Izmantot noklusēto datu mapi</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation>Sākt minimizētu</translation>
+        <source>Use a custom data directory:</source>
+        <translation>Izmantot pielāgotu datu mapi:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>Uzsākot, parādīt programmas informācijas logu (pēc noklusēšanas: 1)</translation>
+        <source>Error</source>
+        <translation>Kļūda</translation>
     </message>
-</context>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Atvērt URI</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Atvērt maksājuma pieprasījumu no URI vai datnes</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Izvēlies maksājuma pieprasījuma datni</translation>
+    </message>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>Iespējas</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>&amp;Main</source>
         <translation>&amp;Galvenais</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
+        <source>Size of &amp;database cache</source>
+        <translation>&amp;Datubāzes kešatmiņas izmērs</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>&amp;Maksāt par transakciju</translation>
+        <source>MB</source>
+        <translation>MB</translation>
     </message>
     <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Skriptu &amp;pārbaudes pavedienu skaits</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Atļaut ienākošos savienojumus</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+31"/>
         <source>Automatically start Litecoin after logging in to the system.</source>
         <translation>Automātiski sākt Litecoin pēc pieteikšanās sistēmā.</translation>
@@ -821,193 +805,174 @@ Adrese: %4
         <location line="+3"/>
         <source>&amp;Start Litecoin on system login</source>
         <translation>&amp;Sākt Litecoin reizē ar sistēmu</translation>
+=======
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>Starpniekservera IP adrese (piem. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>Minimizēt nevis aizvērt aplikāciju, kad logs tiek aizvērts. Kad šī iespēja ir ieslēgta, aplikācija tiks aizvērta, izvēloties Aizvērt izvēlnē.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Trešo personu transakciju URLs</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Aktīvās komandrindas opcijas, kuras pārspēko šos iestatījumus:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <translation>Atiestatīt visus klienta iestatījumus uz noklusējumu.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Atiestatīt Iestatījumus.</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Network</source>
         <translation>&amp;Tīkls</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt Litecoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+=======
+        <source>W&amp;allet</source>
+        <translation>&amp;Maciņš</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Eksperts</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <location line="+7"/>
+        <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation type="unfinished"/>
+=======
+        <source>Enable coin &amp;control features</source>
+        <translation>Ieslēgt litecoin &amp;kontroles funkcijas</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
+    </message>
+    <message>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Uz rūtera automātiski atvērt Litecoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Kartēt portu, izmantojot &amp;UPnP</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Savienoties caur SOCKS proxy:</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP:</translation>
+        <translation>Starpniekservera &amp;IP:</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>proxy IP adrese (piem. 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
         <translation>&amp;Ports:</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Proxy ports (piem. 9050)</translation>
+        <translation>Starpniekservera ports (piem. 9050)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS &amp;Versija:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>proxy SOCKS versija (piem. 5)</translation>
-    </message>
-    <message>
-        <location line="+36"/>
         <source>&amp;Window</source>
         <translation>&amp;Logs</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>Pēc loga minimizācijas rādīt tikai ikonu sistēmas teknē.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
         <translation>&amp;Minimizēt uz sistēmas tekni, nevis rīkjoslu</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Logu aizverot, minimizēt, nevis beigt darbu. Kad šī izvēlne iespējota, programma aizvērsies tikai pēc Beigt komandas izvēlnē.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>M&amp;inimize on close</source>
         <translation>M&amp;inimizēt aizverot</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Display</source>
         <translation>&amp;Izskats</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>User Interface &amp;language:</source>
         <translation>Lietotāja interfeiss un &amp;valoda:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
         <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Litecoin pārstartēšanas.</translation>
     </message>
     <message>
         <location line="+11"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Vienības, kurās attēlot daudzumus:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot bitkoinus.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>Whether to show Litecoin addresses in the transaction list or not.</source>
         <translation>Rādīt vai nē Litecoin adreses transakciju sarakstā.</translation>
+=======
+        <source>Whether to show coin control features or not.</source>
+        <translation>Vai rādīt Litecoin kontroles funkcijas vai nē.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Attēlot adreses transakciju sarakstā</translation>
-    </message>
-    <message>
-        <location line="+71"/>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;Labi</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Atcelt</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>&amp;Pielietot</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
         <translation>pēc noklusēšanas</translation>
     </message>
     <message>
-        <location line="+130"/>
-        <source>Confirm options reset</source>
-        <translation type="unfinished"/>
+        <source>none</source>
+        <translation>neviena</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>Brīdinājums</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Litecoin.</source>
         <translation>Iestatījums aktivizēsies pēc Bitkoin pārstartēšanas.</translation>
+=======
+        <source>Confirm options reset</source>
+        <translation>Apstiprināt iestatījumu atiestatīšanu</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Norādītā proxy adrese nav derīga.</translation>
+        <translation>Norādītā starpniekservera adrese nav derīga.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
@@ -1022,70 +987,71 @@ Adrese: %4
         <location line="+29"/>
         <source>Unconfirmed:</source>
         <translation>Neapstiprinātas:</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Litecoin tīklu, taču šis process vēl nav beidzies.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-78"/>
-        <source>Wallet</source>
-        <translation>Maciņš</translation>
+        <source>Available:</source>
+        <translation>Pieejams:</translation>
     </message>
     <message>
-        <location line="+107"/>
+        <source>Your current spendable balance</source>
+        <translation>Tava pašreizējā tērējamā bilance</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation>Neizšķirts:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>Kopējā apstiprināmo transakciju vērtība, vēl nav ieskaitīta tērējamajā bilancē</translation>
+    </message>
+    <message>
         <source>Immature:</source>
-        <translation type="unfinished"/>
+        <translation>Nenobriedušu:</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished"/>
+        <source>Total:</source>
+        <translation>Kopsumma:</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Pēdējās transakcijas&lt;/b&gt;</translation>
+        <source>Your current total balance</source>
+        <translation>Jūsu kopējā tekošā bilance</translation>
     </message>
-    <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation>Jūsu tekošā bilance</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Kopējā apstiprināmo transakciju vērtība, vēl nav ieskaitīta kopējā bilancē</translation>
-    </message>
-    <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation>nav sinhronizēts</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>PaymentServer</name>
+<<<<<<< HEAD
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start litecoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
-    <name>QRCodeDialog</name>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>QR koda dialogs</translation>
+        <source>Amount</source>
+        <translation>Daudzums</translation>
     </message>
     <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Pieprasīt maksājumu</translation>
+        <source>%1 h</source>
+        <translation>%1 st</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>Daudzums:</translation>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-44"/>
         <source>Label:</source>
         <translation>Nosaukums:</translation>
@@ -1995,222 +1961,178 @@ Adrese: %4
         <location line="+1"/>
         <source>Range...</source>
         <translation>Diapazons...</translation>
+=======
+        <source>N/A</source>
+        <translation>N/A</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-    <message>
-        <location line="+11"/>
-        <source>Received with</source>
-        <translation>Saņemts ar</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Sent to</source>
-        <translation>Nosūtīts</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>To yourself</source>
-        <translation>Sev</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Mined</source>
-        <translation>Atrasts</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Other</source>
-        <translation>Cits</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Enter address or label to search</source>
-        <translation>Ierakstiet meklējamo nosaukumu vai adresi</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Min amount</source>
-        <translation>Minimālais daudzums</translation>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>Copy address</source>
-        <translation>Kopēt adresi</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy label</source>
-        <translation>Kopēt nosaukumu</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy amount</source>
-        <translation>Kopēt daudzumu</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Edit label</source>
-        <translation>Mainīt nosaukumu</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show transaction details</source>
-        <translation>Rādīt transakcijas detaļas</translation>
-    </message>
-    <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation>Eksportēt transakcijas datus</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Fails ar komatu kā atdalītāju (*.csv)</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Confirmed</source>
-        <translation>Apstiprināts</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date</source>
-        <translation>Datums</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type</source>
-        <translation>Tips</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Label</source>
-        <translation>Nosaukums</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Address</source>
-        <translation>Adrese</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>Daudzums</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>ID</source>
-        <translation>ID</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>Eksportēšanas kļūda</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Nevar ierakstīt failā %1.</translation>
-    </message>
-    <message>
-        <location line="+100"/>
-        <source>Range:</source>
-        <translation>Diapazons:</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>to</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
-    <name>WalletModel</name>
-    <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
-        <source>Send Coins</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    <name>QRImageWidget</name>
+    </context>
 <context>
-    <name>WalletView</name>
+    <name>RPCConsole</name>
     <message>
-        <location filename="../walletview.cpp" line="+42"/>
-        <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <source>N/A</source>
+        <translation>N/A</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <source>Client version</source>
+        <translation>Klienta versija</translation>
     </message>
     <message>
-        <location line="+193"/>
-        <source>Backup Wallet</source>
-        <translation>Izveidot maciņa rezerves kopiju</translation>
+        <source>&amp;Information</source>
+        <translation>&amp;Informācija</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Maciņa dati (*.dat)</translation>
+        <source>Debug window</source>
+        <translation>Atkļūdošanas logs</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Backup Failed</source>
-        <translation>Rezerves kopēšana neizdevās</translation>
+        <source>General</source>
+        <translation>Vispārējs</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Kļūda, saglabājot maciņu jaunajā vietā.</translation>
+        <source>Startup time</source>
+        <translation>Sākuma laiks</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Backup Successful</source>
-        <translation type="unfinished"/>
+        <source>Network</source>
+        <translation>Tīkls</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation type="unfinished"/>
+        <source>Name</source>
+        <translation>Vārds</translation>
     </message>
-</context>
+    <message>
+        <source>Number of connections</source>
+        <translation>Savienojumu skaits</translation>
+    </message>
+    <message>
+        <source>Block chain</source>
+        <translation>Bloku virkne</translation>
+    </message>
+    <message>
+        <source>Current number of blocks</source>
+        <translation>Pašreizējais bloku skaits</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Pēdējā bloka laiks</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Atvērt</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>&amp;Konsole</translation>
+    </message>
+    <message>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Tīkla Satiksme</translation>
+    </message>
+    <message>
+        <source>&amp;Clear</source>
+        <translation>&amp;Notīrīt</translation>
+    </message>
+    <message>
+        <source>Totals</source>
+        <translation>Kopsummas</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>Ie.:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Iz.:</translation>
+    </message>
+    <message>
+        <source>Debug log file</source>
+        <translation>Atkļūdošanas žurnāla datne</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>Notīrīt konsoli</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Izmantojiet bultiņas uz augšu un leju, lai pārvietotos pa vēsturi, un &lt;b&gt;Ctrl-L&lt;/b&gt; ekrāna notīrīšanai.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Ierakstiet &lt;b&gt;help&lt;/b&gt; lai iegūtu pieejamo komandu sarakstu.</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>ReceiveCoinsDialog</name>
     <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Daudzums:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Nosaukums:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Ziņojums:</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Litecoin version</source>
         <translation>Litecoin versija</translation>
+=======
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>&amp;Atkārtoti izmantot esošo saņemšanas adresi (nav ieteicams)</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>Lietojums:</translation>
+        <source>Clear all fields of the form.</source>
+        <translation>Notīrīt visus laukus formā.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-29"/>
         <source>Send command to -server or litecoind</source>
         <translation>Nosūtīt komantu uz -server vai litecoind</translation>
+=======
+        <source>Clear</source>
+        <translation>Notīrīt</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>Komandu saraksts</translation>
+        <source>Requested payments history</source>
+        <translation>Pieprasīto maksājumu vēsture</translation>
     </message>
     <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>Palīdzība par komandu</translation>
+        <source>&amp;Request payment</source>
+        <translation>&amp;Pieprasīt maksājumu</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Options:</source>
-        <translation>Iespējas:</translation>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>Parādīt atlasītos pieprasījumus (tas pats, kas dubultklikšķis uz ieraksta)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+24"/>
         <source>Specify configuration file (default: litecoin.conf)</source>
         <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: litecoin.conf)</translation>
@@ -2219,78 +2141,94 @@ Adrese: %4
         <location line="+3"/>
         <source>Specify pid file (default: litecoind.pid)</source>
         <translation>Norādiet pid failu (pēc noklusēšanas: litecoind.pid)</translation>
+=======
+        <source>Show</source>
+        <translation>Rādīt</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Specify data directory</source>
-        <translation>Norādiet datu direktoriju</translation>
+        <source>Remove the selected entries from the list</source>
+        <translation>Noņemt atlasītos ierakstus no saraksta.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Uzstādiet datu bāzes bufera izmēru megabaitos (pēc noklusēšanas: 25)</translation>
+        <source>Remove</source>
+        <translation>Noņemt</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR Kods</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-28"/>
         <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
         <translation>Gaidīt savienojumus portā &lt;port&gt; (pēc noklusēšanas: 9333 vai testnet: 19333)</translation>
+=======
+        <source>Copy &amp;URI</source>
+        <translation>Kopēt &amp;URI</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Uzturēt līdz &lt;n&gt; savienojumiem ar citiem mezgliem(pēc noklusēšanas: 125)</translation>
+        <source>Copy &amp;Address</source>
+        <translation>Kopēt &amp;Adresi</translation>
     </message>
     <message>
-        <location line="-48"/>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Pievienoties mezglam, lai iegūtu citu mezglu adreses, un atvienoties</translation>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Saglabāt Attēlu...</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Sūtīt Bitkoinus</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>Specify your own public address</source>
-        <translation>Norādiet savu publisko adresi</translation>
+        <source>Coin Control Features</source>
+        <translation>Litecoin Kontroles Funkcijas</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Slieksnis pārkāpējmezglu atvienošanai (pēc noklusēšanas: 100)</translation>
+        <source>Inputs...</source>
+        <translation>Ieejas...</translation>
     </message>
     <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Sekundes, cik ilgi atturēt pārkāpējmezglus no atkārtotas pievienošanās (pēc noklusēšanas: 86400)</translation>
+        <source>automatically selected</source>
+        <translation>automātiski atlasīts</translation>
     </message>
     <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+27"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
         <translation type="unfinished"/>
+=======
+        <source>Insufficient funds!</source>
+        <translation>Nepietiekami līdzekļi!</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+37"/>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Pieņemt komandrindas un JSON-RPC komandas</translation>
+        <source>Quantity:</source>
+        <translation>Daudzums:</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
+        <source>Bytes:</source>
+        <translation>Baiti:</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <source>Use the test network</source>
-        <translation>Izmantot testa tīklu</translation>
+        <source>Amount:</source>
+        <translation>Daudzums:</translation>
     </message>
     <message>
-        <location line="-112"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation type="unfinished"/>
+        <source>Priority:</source>
+        <translation>Prioritāte:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-80"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
@@ -2304,498 +2242,372 @@ It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
+=======
+        <source>Fee:</source>
+        <translation>Maksa:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"/>
+        <source>After Fee:</source>
+        <translation>Pēc Maksas:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"/>
+        <source>Change:</source>
+        <translation>Atlikums:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Litecoin is probably already running.</source>
         <translation type="unfinished"/>
+=======
+        <source>Custom change address</source>
+        <translation>Pielāgota atlikuma adrese</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
+        <source>Transaction Fee:</source>
+        <translation>Transakcijas maksa:</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"/>
+        <source>Send to multiple recipients at once</source>
+        <translation>Sūtīt vairākiem saņēmējiem uzreiz</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"/>
+        <source>Add &amp;Recipient</source>
+        <translation>&amp;Pievienot Saņēmēju</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation type="unfinished"/>
+        <source>Clear all fields of the form.</source>
+        <translation>Notīrīt visus laukus formā.</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation type="unfinished"/>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Notīrīt visu</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"/>
+        <source>Balance:</source>
+        <translation>Bilance:</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished"/>
+        <source>Confirm the send action</source>
+        <translation>Apstiprināt nosūtīšanu</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished"/>
+        <source>S&amp;end</source>
+        <translation>&amp;Sūtīt</translation>
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litecoin will not work properly.</source>
         <translation type="unfinished"/>
+=======
+        <source>A&amp;mount:</source>
+        <translation>Apjo&amp;ms</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"/>
+        <source>Pay &amp;To:</source>
+        <translation>&amp;Saņēmējs:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label:</source>
+        <translation>&amp;Nosaukums:</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"/>
+        <source>Choose previously used address</source>
+        <translation>Izvēlies iepriekš izmantoto adresi</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>This is a normal payment.</source>
+        <translation>Šis ir parasts maksājums.</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>ielīmēt adresi no starpliktuves</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Remove this entry</source>
+        <translation>Noņem šo ierakstu</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Ziņojums:</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Maksāt:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>Memo:</translation>
+    </message>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Neizslēdziet datoru kamēr šis logs nepazūd.</translation>
+    </message>
+</context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Paraksti - Parakstīt / Pabaudīt Ziņojumu</translation>
+    </message>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>Parakstīt &amp;Ziņojumu</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Izvēlies iepriekš izmantoto adresi</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>ielīmēt adresi no starpliktuves</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Šeit ievadi ziņojumu kuru vēlies parakstīt</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Paraksts</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Litecoin address</source>
+        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Litecoin adreses īpašnieks.</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>Parakstīt &amp;Ziņojumu</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Atiestatīt visus laukus</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Notīrīt visu</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Pārbaudīt Ziņojumu</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>&amp;Pārbaudīt Ziņojumu</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Atiestatīt visus laukus</translation>
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnets]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Šis panelis parāda transakcijas detaļas</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Iespējas:</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Norādiet datu direktoriju</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Pievienoties mezglam, lai iegūtu citu mezglu adreses, un atvienoties</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Norādiet savu publisko adresi</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Pieņemt komandrindas un JSON-RPC komandas</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
+    </message>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; var būt:</translation>
+    </message>
+    <message>
         <source>Block creation options:</source>
-        <translation type="unfinished"/>
+        <translation>Bloka izveidošanas iestatījumi:</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Connect only to the specified node(s)</source>
-        <translation type="unfinished"/>
+        <translation>Savienoties tikai ar norādītajām nodēm.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Corrupted block database detected</source>
-        <translation type="unfinished"/>
+        <source>Connection options:</source>
+        <translation>Savienojuma iestatījumi:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation type="unfinished"/>
+        <source>Debugging/Testing options:</source>
+        <translation>Atkļūdošanas/Testēšanas iestatījumi:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Error initializing block database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Error loading block database</source>
-        <translation type="unfinished"/>
+        <translation>Kļūda ielādējot bloku datubāzi</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error opening block database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation type="unfinished"/>
+        <translation>Kļūda: Zema diska vieta!</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"/>
+        <source>Importing...</source>
+        <translation>Importē...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+26"/>
         <source>Verifying blocks...</source>
-        <translation type="unfinished"/>
+        <translation>Pārbauda blokus...</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Verifying wallet...</source>
-        <translation type="unfinished"/>
+        <translation>Pārbauda maciņu...</translation>
     </message>
     <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation type="unfinished"/>
+        <source>Wallet options:</source>
+        <translation>Maciņa iespējas:</translation>
     </message>
     <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+77"/>
-        <source>Information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>Debug izvadei sākumā pievienot laika zīmogu</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+5"/>
         <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
+=======
+        <source>Information</source>
+        <translation>Informācija</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation type="unfinished"/>
+        <source>RPC server options:</source>
+        <translation>RPC servera iestatījumi:</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Debug/trace informāciju izvadīt konsolē, nevis debug.log failā</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>Debug/trace informāciju izvadīt debug programmai</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <translation>Transakcijas parakstīšana neizdevās</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
+        <translation>Transakcijas summa ir pārāk maza</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
+        <translation>Transakcijas summai ir jābūt pozitīvai</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Transaction too large</source>
-        <translation type="unfinished"/>
+        <translation>Transakcija ir pārāk liela</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
         <translation>JSON-RPC savienojumu lietotājvārds</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Warning</source>
         <translation>Brīdinājums</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-50"/>
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC savienojumu parole</translation>
     </message>
     <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Atļaut JSON-RPC savienojumus no norādītās IP adreses</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Nosūtīt komandas mezglam, kas darbojas adresē &lt;ip&gt; (pēc noklusēšanas: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Izpildīt komandu, kad labāk atbilstošais bloks izmainās (%s cmd aizvieto ar bloka hešu)</translation>
     </message>
     <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Atjaunot maciņa formātu uz jaunāko</translation>
-    </message>
-    <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Uzstādīt atslēgu bufera izmēru uz &lt;n&gt; (pēc noklusēšanas: 100)</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Atkārtoti skanēt bloku virkni, meklējot trūkstošās maciņa transakcijas</translation>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>JSON-RPC savienojumiem izmantot OpenSSL (https)</translation>
-    </message>
-    <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Servera sertifikāta fails (pēc noklusēšanas: server.cert)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Servera privātā atslēga (pēc noklusēšanas: server.pem)</translation>
-    </message>
-    <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Pieņemamie šifri (pēc noklusēšanas: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation>Šis palīdzības paziņojums</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Nevar pievienoties pie %s šajā datorā (pievienošanās atgrieza kļūdu %d, %s)</translation>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation>Savienoties caurs socks proxy</translation>
-    </message>
-    <message>
-        <location line="-10"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Atļaut DNS uzmeklēšanu priekš -addnode, -seednode un -connect</translation>
     </message>
     <message>
-        <location line="+55"/>
         <source>Loading addresses...</source>
         <translation>Ielādē adreses...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>Nevar ielādēt wallet.dat: maciņš bojāts</translation>
@@ -2824,48 +2636,29 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
         <location line="+56"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
         <translation>-onlynet komandā norādīts nepazīstams tīkls: &apos;%s&apos;</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Nederīga -proxy adrese: '%s'</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Pieprasīta nezināma -socks proxy versija: %i</translation>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet komandā norādīts nepazīstams tīkls: '%s'</translation>
     </message>
     <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Nevar uzmeklēt -bind adresi: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Nevar atrisināt -externalip adresi: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Nederīgs daudzums priekš -paytxfree=&lt;amount&gt;: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation>Nederīgs daudzums</translation>
-    </message>
-    <message>
-        <location line="-6"/>
         <source>Insufficient funds</source>
         <translation>Nepietiek bitkoinu</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Loading block index...</source>
         <translation>Ielādē bloku indeksu...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Pievienot mezglu, kam pievienoties un turēt savienojumu atvērtu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. Litecoin is probably already running.</source>
         <translation>Nevar pievienoties %s uz šī datora. Litecoin droši vien jau darbojas.</translation>
@@ -2877,47 +2670,30 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+19"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Loading wallet...</source>
         <translation>Ielādē maciņu...</translation>
     </message>
     <message>
-        <location line="-52"/>
         <source>Cannot downgrade wallet</source>
         <translation>Nevar maciņa formātu padarīt vecāku</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Cannot write default address</source>
         <translation>Nevar ierakstīt adresi pēc noklusēšanas</translation>
     </message>
     <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
         <translation>Skanēju no jauna...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
         <translation>Ielāde pabeigta</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation>Izmantot opciju %s</translation>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
         <translation>Kļūda</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Konfigurācijas failā jāuzstāda rpcpassword=&lt;password&gt;:
-%s
-Ja fails neeksistē, izveidojiet to ar atļauju lasīšanai tikai īpašniekam.</translation>
     </message>
 </context>
 </TS>

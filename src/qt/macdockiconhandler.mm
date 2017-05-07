@@ -1,17 +1,32 @@
+// Copyright (c) 2011-2013 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #include "macdockiconhandler.h"
 
+#include <QImageWriter>
 #include <QMenu>
+#include <QBuffer>
 #include <QWidget>
+<<<<<<< HEAD
 #include <QTemporaryFile>
 #include <QImageWriter>
 
 #undef slots
 #include <Cocoa/Cocoa.h>
+=======
+
+#undef slots
+#include <Cocoa/Cocoa.h>
+#include <objc/objc.h>
+#include <objc/message.h>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 
 #if QT_VERSION < 0x050000
 extern void qt_mac_set_dock_menu(QMenu *);
 #endif
 
+<<<<<<< HEAD
 @interface DockIconClickEventHandler : NSObject
 {
     MacDockIconHandler* dockIconHandler;
@@ -34,30 +49,55 @@ extern void qt_mac_set_dock_menu(QMenu *);
                  andEventID:kAEReopenApplication];
     }
     return self;
+=======
+static MacDockIconHandler *s_instance = NULL;
+
+bool dockClickHandler(id self,SEL _cmd,...) {
+    Q_UNUSED(self)
+    Q_UNUSED(_cmd)
+    
+    s_instance->handleDockIconClickEvent();
+    
+    // Return NO (false) to suppress the default OS X actions
+    return false;
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 }
 
-- (void)handleDockClickEvent:(NSAppleEventDescriptor*)event withReplyEvent:(NSAppleEventDescriptor*)replyEvent
-{
-    Q_UNUSED(event)
-    Q_UNUSED(replyEvent)
-
-    if (dockIconHandler) {
-        dockIconHandler->handleDockIconClickEvent();
+void setupDockClickHandler() {
+    Class cls = objc_getClass("NSApplication");
+    id appInst = objc_msgSend((id)cls, sel_registerName("sharedApplication"));
+    
+    if (appInst != NULL) {
+        id delegate = objc_msgSend(appInst, sel_registerName("delegate"));
+        Class delClass = (Class)objc_msgSend(delegate,  sel_registerName("class"));
+        SEL shouldHandle = sel_registerName("applicationShouldHandleReopen:hasVisibleWindows:");
+        if (class_getInstanceMethod(delClass, shouldHandle))
+            class_replaceMethod(delClass, shouldHandle, (IMP)dockClickHandler, "B@:");
+        else
+            class_addMethod(delClass, shouldHandle, (IMP)dockClickHandler,"B@:");
     }
 }
 
-@end
 
 MacDockIconHandler::MacDockIconHandler() : QObject()
 {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 
+<<<<<<< HEAD
     this->m_dockIconClickEventHandler = [[DockIconClickEventHandler alloc] initWithDockIconHandler:this];
+=======
+    setupDockClickHandler();
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     this->m_dummyWidget = new QWidget();
     this->m_dockMenu = new QMenu(this->m_dummyWidget);
     this->setMainWindow(NULL);
 #if QT_VERSION < 0x050000
     qt_mac_set_dock_menu(this->m_dockMenu);
+<<<<<<< HEAD
+=======
+#elif QT_VERSION >= 0x050200
+    this->m_dockMenu->setAsDockMenu();
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 #endif
     [pool release];
 }
@@ -68,7 +108,6 @@ void MacDockIconHandler::setMainWindow(QMainWindow *window) {
 
 MacDockIconHandler::~MacDockIconHandler()
 {
-    [this->m_dockIconClickEventHandler release];
     delete this->m_dummyWidget;
     this->setMainWindow(NULL);
 }
@@ -89,6 +128,7 @@ void MacDockIconHandler::setIcon(const QIcon &icon)
         QSize size = icon.actualSize(QSize(128, 128));
         QPixmap pixmap = icon.pixmap(size);
 
+<<<<<<< HEAD
         // write temp file hack (could also be done through QIODevice [memory])
         QTemporaryFile notificationIconFile;
         if (!pixmap.isNull() && notificationIconFile.open()) {
@@ -97,6 +137,16 @@ void MacDockIconHandler::setIcon(const QIcon &icon)
                 const char *cString = notificationIconFile.fileName().toUtf8().data();
                 NSString *macString = [NSString stringWithCString:cString encoding:NSUTF8StringEncoding];
                 image =  [[NSImage alloc] initWithContentsOfFile:macString];
+=======
+        // Write image into a R/W buffer from raw pixmap, then save the image.
+        QBuffer notificationBuffer;
+        if (!pixmap.isNull() && notificationBuffer.open(QIODevice::ReadWrite)) {
+            QImageWriter writer(&notificationBuffer, "PNG");
+            if (writer.write(pixmap.toImage())) {
+                NSData* macImgData = [NSData dataWithBytes:notificationBuffer.buffer().data()
+                                             length:notificationBuffer.buffer().size()];
+                image =  [[NSImage alloc] initWithData:macImgData];
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
             }
         }
 
@@ -113,10 +163,14 @@ void MacDockIconHandler::setIcon(const QIcon &icon)
 
 MacDockIconHandler *MacDockIconHandler::instance()
 {
-    static MacDockIconHandler *s_instance = NULL;
     if (!s_instance)
         s_instance = new MacDockIconHandler();
     return s_instance;
+}
+
+void MacDockIconHandler::cleanup()
+{
+    delete s_instance;
 }
 
 void MacDockIconHandler::handleDockIconClickEvent()
@@ -127,5 +181,5 @@ void MacDockIconHandler::handleDockIconClickEvent()
         this->mainWindow->show();
     }
 
-    emit this->dockIconClicked();
+    Q_EMIT this->dockIconClicked();
 }

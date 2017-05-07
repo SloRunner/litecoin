@@ -1,8 +1,33 @@
+<<<<<<< HEAD
 #include "macnotificationhandler.h"
 
 #undef slots
 #include <Cocoa/Cocoa.h>
 
+=======
+// Copyright (c) 2011-2013 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#include "macnotificationhandler.h"
+
+#undef slots
+#import <objc/runtime.h>
+#include <Cocoa/Cocoa.h>
+
+// Add an obj-c category (extension) to return the expected bundle identifier
+@implementation NSBundle(returnCorrectIdentifier)
+- (NSString *)__bundleIdentifier
+{
+    if (self == [NSBundle mainBundle]) {
+        return @"org.litecoin.Litecoin-Qt";
+    } else {
+        return [self __bundleIdentifier];
+    }
+}
+@end
+
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 void MacNotificationHandler::showNotification(const QString &title, const QString &text)
 {
     // check if users OS has support for NSUserNotification
@@ -59,7 +84,21 @@ bool MacNotificationHandler::hasUserNotificationCenterSupport(void)
 MacNotificationHandler *MacNotificationHandler::instance()
 {
     static MacNotificationHandler *s_instance = NULL;
+<<<<<<< HEAD
     if (!s_instance)
         s_instance = new MacNotificationHandler();
+=======
+    if (!s_instance) {
+        s_instance = new MacNotificationHandler();
+        
+        Class aPossibleClass = objc_getClass("NSBundle");
+        if (aPossibleClass) {
+            // change NSBundle -bundleIdentifier method to return a correct bundle identifier
+            // a bundle identifier is required to use OSXs User Notification Center
+            method_exchangeImplementations(class_getInstanceMethod(aPossibleClass, @selector(bundleIdentifier)),
+                                           class_getInstanceMethod(aPossibleClass, @selector(__bundleIdentifier)));
+        }
+    }
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     return s_instance;
 }

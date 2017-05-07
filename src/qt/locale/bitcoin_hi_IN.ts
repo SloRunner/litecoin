@@ -1,6 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="hi_IN" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
+<TS language="hi_IN" version="2.1">
 <context>
+<<<<<<< HEAD
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
@@ -2426,442 +2426,460 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
         <source>Error opening block database</source>
         <translation type="unfinished"/>
     </message>
+=======
+    <name>AddressBookPage</name>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     <message>
-        <location line="+2"/>
-        <source>Error: Disk space is low!</source>
-        <translation type="unfinished"/>
+        <source>Create a new address</source>
+        <translation>नया पता लिखिए !</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"/>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>चुनिन्दा पते को सिस्टम क्लिपबोर्ड पर कापी करे !</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation type="unfinished"/>
+        <source>&amp;Delete</source>
+        <translation>&amp;मिटाए !!</translation>
+    </message>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    </context>
+<context>
+    <name>AskPassphraseDialog</name>
+    <message>
+        <source>Enter passphrase</source>
+        <translation>पहचान शब्द/अक्षर डालिए !</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"/>
+        <source>New passphrase</source>
+        <translation>नया पहचान शब्द/अक्षर डालिए !</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation type="unfinished"/>
+        <source>Repeat new passphrase</source>
+        <translation>दोबारा नया पहचान शब्द/अक्षर डालिए !</translation>
+    </message>
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+        <source>Synchronizing with network...</source>
+        <translation>नेटवर्क से समकालिक (मिल) रहा है ...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation type="unfinished"/>
+        <source>&amp;Overview</source>
+        <translation>&amp;विवरण</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation type="unfinished"/>
+        <source>Show general overview of wallet</source>
+        <translation>वॉलेट का सामानया विवरण दिखाए !</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation type="unfinished"/>
+        <source>&amp;Transactions</source>
+        <translation>&amp; लेन-देन
+</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation type="unfinished"/>
+        <source>Browse transaction history</source>
+        <translation>देखिए पुराने लेन-देन के विवरण !</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation type="unfinished"/>
+        <source>E&amp;xit</source>
+        <translation>बाहर जायें</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation type="unfinished"/>
+        <source>Quit application</source>
+        <translation>अप्लिकेशन से बाहर निकलना !</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation type="unfinished"/>
+        <source>&amp;Options...</source>
+        <translation>&amp;विकल्प</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation type="unfinished"/>
+        <source>&amp;Backup Wallet...</source>
+        <translation>&amp;बैकप वॉलेट</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation type="unfinished"/>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>पहचान शब्द/अक्षर जो वॉलेट एनक्रिपशन के लिए इस्तेमाल किया है उसे बदलिए!</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation type="unfinished"/>
+        <source>Bitcoin</source>
+        <translation>बीटकोइन</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Wallet</source>
+        <translation>वॉलेट</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation type="unfinished"/>
+        <source>&amp;File</source>
+        <translation>&amp;फाइल</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Settings</source>
+        <translation>&amp;सेट्टिंग्स</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
+        <source>&amp;Help</source>
+        <translation>&amp;मदद</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation type="unfinished"/>
+        <source>Tabs toolbar</source>
+        <translation>टैबस टूलबार</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"/>
+        <source>%1 behind</source>
+        <translation>%1 पीछे</translation>
     </message>
     <message>
-        <location line="+26"/>
-        <source>Verifying blocks...</source>
-        <translation>ब्लॉक्स जाँचे जा रहा है...</translation>
+        <source>Error</source>
+        <translation>भूल</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Verifying wallet...</source>
-        <translation>वॉलेट जाँचा जा रहा है...</translation>
-    </message>
-    <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+77"/>
-        <source>Information</source>
-        <translation>जानकारी</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction too large</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Username for JSON-RPC connections</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>Warning</source>
         <translation>चेतावनी</translation>
     </message>
     <message>
+        <source>Information</source>
+        <translation>जानकारी</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>नवीनतम</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>भेजी ट्रांजक्शन</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>प्राप्त हुई ट्रांजक्शन</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>वॉलेट एन्क्रिप्टेड है तथा अभी लॉक्ड नहीं है</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <location line="+5"/>
+        <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <translation type="unfinished"/>
+=======
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>वॉलेट एन्क्रिप्टेड है तथा अभी लॉक्ड है</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+</context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>Amount:</source>
+        <translation>राशि :</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>राशि</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>taareek</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>पक्का</translation>
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+        <source>Edit Address</source>
+        <translation>पता एडिट करना</translation>
+    </message>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;लेबल</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;पता</translation>
+    </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>version</source>
+        <translation>संस्करण</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>खपत :</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Error</source>
+        <translation>भूल</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>विकल्प</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>वॉलेट</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;ओके</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;कैन्सल</translation>
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>फार्म</translation>
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>राशि</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>लागू नही
+</translation>
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>N/A</source>
+        <translation>लागू नही
+</translation>
+    </message>
+    <message>
+        <source>&amp;Information</source>
+        <translation>जानकारी</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>राशि :</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>लेबल:</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>&amp;पता कॉपी करे</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>सिक्के भेजें|</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>राशि :</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>एक साथ कई प्राप्तकर्ताओं को भेजें</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>बाकी रकम :</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>भेजने की पुष्टि करें</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>अमाउंट:</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>प्राप्तकर्ता:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>लेबल:</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt-A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Clipboard से एड्रेस paste करें</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt-P</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>प्राप्तकर्ता:</translation>
+    </message>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt-A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Clipboard से एड्रेस paste करें</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt-P</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>Signature</source>
+        <translation>हस्ताक्षर</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
+        <location line="+93"/>
+        <source>Wallet needed to be rewritten: restart Litecoin to complete</source>
+        <translation type="unfinished"/>
+=======
+        <source>[testnet]</source>
+        <translation>[टेस्टनेट]</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation> ये खिड़की आपको लेन-देन का विस्तृत विवरण देगी !</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>विकल्प:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation type="unfinished"/>
+        <source>Specify data directory</source>
+        <translation>डेटा डायरेक्टरी बताएं </translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>बैकग्राउंड में डेमॉन बन कर रन करे तथा कमांड्स स्वीकार करें </translation>
     </message>
     <message>
-        <location line="-50"/>
-        <source>Password for JSON-RPC connections</source>
-        <translation type="unfinished"/>
+        <source>Verifying blocks...</source>
+        <translation>ब्लॉक्स जाँचे जा रहा है...</translation>
     </message>
     <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation type="unfinished"/>
+        <source>Verifying wallet...</source>
+        <translation>वॉलेट जाँचा जा रहा है...</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation type="unfinished"/>
+        <source>Information</source>
+        <translation>जानकारी</translation>
     </message>
     <message>
-        <location line="-120"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation type="unfinished"/>
+        <source>Warning</source>
+        <translation>चेतावनी</translation>
     </message>
     <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+55"/>
         <source>Loading addresses...</source>
         <translation>पता पुस्तक आ रही है...</translation>
     </message>
     <message>
-        <location line="-35"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Litecoin to complete</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-95"/>
-        <source>Error loading wallet.dat</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation>राशि ग़लत है</translation>
-    </message>
-    <message>
-        <location line="-6"/>
-        <source>Insufficient funds</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+10"/>
         <source>Loading block index...</source>
         <translation>ब्लॉक इंडेक्स आ रहा है...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation type="unfinished"/>
@@ -2878,45 +2896,22 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+19"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Loading wallet...</source>
         <translation>वॉलेट आ रहा है...</translation>
     </message>
     <message>
-        <location line="-52"/>
-        <source>Cannot downgrade wallet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot write default address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
         <translation>रि-स्केनी-इंग...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
         <translation>लोड हो गया|</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
         <translation>भूल</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

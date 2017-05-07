@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="eo" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -33,21 +34,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="eo" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Adresaro</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Dekstre-klaku por redakti adreson aŭ etikedon</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Duoble-klaku por redakti adreson aŭ etikedon</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
+<<<<<<< HEAD
         <translation>Kreu novan adreson</translation>
     </message>
     <message>
@@ -64,40 +62,43 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Litecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Krei novan adreson</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiu Adreson</translation>
+        <source>&amp;New</source>
+        <translation>&amp;Nova</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation type="unfinished"/>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Kopii elektitan adreson al la tondejo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+11"/>
         <source>Sign a message to prove you own a Litecoin address</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Copy</source>
+        <translation>&amp;Kopii</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation type="unfinished"/>
+        <source>C&amp;lose</source>
+        <translation>&amp;Fermi</translation>
     </message>
     <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <translation>Forigi la elektitan adreson el la listo</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <translation>Eksporti la datumojn el la aktuala langeto al dosiero</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -109,10 +110,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+3"/>
         <source>&amp;Verify Message</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Eksporti</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
+<<<<<<< HEAD
         <translation>&amp;Forviŝu</translation>
     </message>
     <message>
@@ -124,108 +128,33 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+13"/>
         <source>Copy &amp;Label</source>
         <translation>Kopiu &amp;Etikedon</translation>
+=======
+        <translation>&amp;Forigi</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-    <message>
-        <location line="+1"/>
-        <source>&amp;Edit</source>
-        <translation>&amp;Redaktu</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>Eksportu Adresarajn Datumojn</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Diskoma dosiero (*.csv)</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>Eraro dum eksportado</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Ne eblis skribi al dosiero %1.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>Etikedo</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Adreso</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(ne etikedo)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Dialogo pri pasfrazo</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Enigu pasfrazon</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Nova pasfrazo</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Ripetu novan pasfrazon</translation>
+        <translation>Ripetu la novan pasfrazon</translation>
     </message>
-    <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Enigu novan pasfrazon por la monujo.&lt;br/&gt;Bonvolu, uzu pasfrazon kun &lt;b&gt;10 aŭ pli hazardaj signoj&lt;/b&gt;, aŭ &lt;b&gt;ok aŭ pli vortoj&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Encrypt wallet</source>
-        <translation>Ĉifru monujon</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ĉi tiu operacio devas vian monujan pasfrazon, por malŝlosi la monujon.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Unlock wallet</source>
-        <translation>Malŝlosu monujon</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ĉi tiu operacio devas vian monujan pasfrazon, por malĉifri la monujon.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Decrypt wallet</source>
-        <translation>Malĉifru monujon</translation>
-    </message>
+<<<<<<< HEAD
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
@@ -315,104 +244,97 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>Subskribu &amp;mesaĝon...</translation>
+        <translation>Subskribi &amp;mesaĝon...</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>Sinkronigante kun reto...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Superrigardo</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show general overview of wallet</source>
-        <translation type="unfinished"/>
+        <source>Node</source>
+        <translation>Nodo</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <source>Show general overview of wallet</source>
+        <translation>Vidigi ĝeneralan superrigardon de la monujo</translation>
+    </message>
+    <message>
         <source>&amp;Transactions</source>
         <translation>&amp;Transakcioj</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Esploru historion de transakcioj</translation>
+        <translation>Esplori historion de transakcioj</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>&amp;Eliru</translation>
+        <translation>&amp;Eliri</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
-        <translation>Eliru de aplikaĵo</translation>
+        <translation>Eliri la aplikaĵon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about Litecoin</source>
         <translation>Vidigu informaĵon pri Bitmono</translation>
     </message>
     <message>
         <location line="+2"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>About &amp;Qt</source>
-        <translation>Pri &amp;QT</translation>
+        <translation>Pri &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Vidigu informaĵon pri Qt</translation>
+        <translation>Vidigi informojn pri Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>&amp;Opcioj...</translation>
+        <translation>&amp;Agordoj...</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Ĉifru Monujon...</translation>
+        <translation>Ĉifri &amp;Monujon...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Krei sekurkopion de la monujo...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Anstataŭigu pasfrazon...</translation>
+        <translation>Ŝanĝi &amp;Pasfrazon...</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Sendaj adresoj...</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Ricevaj adresoj...</translation>
     </message>
     <message>
+        <source>Open &amp;URI...</source>
+        <translation>Malfermi &amp;URI-on...</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="-347"/>
         <source>Send coins to a Litecoin address</source>
         <translation type="unfinished"/>
@@ -421,79 +343,81 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+49"/>
         <source>Modify configuration options for Litecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>Reindexing blocks on disk...</source>
+        <translation>Reindeksado de blokoj sur disko...</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Sendi monon al Litecoin-adreso</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished"/>
+        <translation>Krei alilokan sekurkopion de monujo</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished"/>
+        <translation>Ŝanĝi la pasfrazon por ĉifri la monujon</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"/>
+        <translation>Sen&amp;cimiga fenestro</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"/>
+        <translation>Malfermi konzolon de sencimigo kaj diagnozo</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Kontrolu mesaĝon...</translation>
+        <translation>&amp;Kontroli mesaĝon...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-165"/>
         <location line="+530"/>
         <source>Litecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
         <translation>Monujo</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Sendi</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ricevi</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+22"/>
         <source>&amp;About Litecoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+9"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Show / Hide</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Montri / Kaŝi</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation type="unfinished"/>
+        <translation>Montri aŭ kaŝi la ĉefan fenestron</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished"/>
+        <translation>Ĉifri la privatajn ŝlosilojn de via monujo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation type="unfinished"/>
@@ -502,34 +426,37 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation type="unfinished"/>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Subskribi mesaĝojn per via Litecoin-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Litecoin-adresoj</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>&amp;File</source>
         <translation>&amp;Dosiero</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Agordoj</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Helpo</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation type="unfinished"/>
+        <translation>Langeto-breto</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation type="unfinished"/>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso litecoin:)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+47"/>
         <source>Litecoin client</source>
         <translation type="unfinished"/>
@@ -538,104 +465,83 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+141"/>
         <source>%n active connection(s) to Litecoin network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+=======
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Vidigi la liston de uzitaj sendaj adresoj kaj etikedoj</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Vidigi la liston de uzitaj ricevaj adresoj kaj etikedoj</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Malfermi litecoin:-URI-on aŭ pagpeton</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Komandliniaj agordaĵoj</translation>
+    </message>
+    <message>
         <source>No block source available...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation type="unfinished"/>
+        <translation>Neniu fonto de blokoj trovebla...</translation>
     </message>
     <message numerus="yes">
-        <location line="+20"/>
         <source>%n hour(s)</source>
         <translation><numerusform>%n horo</numerusform><numerusform>%n horoj</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n day(s)</source>
         <translation><numerusform>%n tago</numerusform><numerusform>%n tagoj</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n week(s)</source>
         <translation><numerusform>%n semajno</numerusform><numerusform>%n semajnoj</numerusform></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <source>%1 and %2</source>
+        <translation>%1 kaj %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n jaro</numerusform><numerusform>%n jaroj</numerusform></translation>
+    </message>
+    <message>
         <source>%1 behind</source>
-        <translation type="unfinished"/>
+        <translation>mankas %1</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"/>
+        <translation>Lasta ricevita bloko kreiĝis antaŭ %1.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
+        <translation>Transakcioj por tio ankoraŭ ne videblas.</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
         <translation>Eraro</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>Averto</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>Informoj</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
         <translation>Ĝisdata</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
         <translation>Ĝisdatigante...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Sent transaction</source>
-        <translation>Sendita transakcio</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Incoming transaction</source>
-        <translation>Envenanta transakcio</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
 </source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -740,75 +646,71 @@ Address: %4
         <location line="+5"/>
         <source>New key generation failed.</source>
         <translation type="unfinished"/>
+=======
+        <translation>Dato: %1
+</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-</context>
-<context>
-    <name>GUIUtil::HelpMessageBox</name>
     <message>
+<<<<<<< HEAD
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>Litecoin-Qt</source>
         <translation>Litecoin-Qt</translation>
+=======
+        <source>Amount: %1
+</source>
+        <translation>Sumo: %1
+</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-12"/>
-        <source>version</source>
-        <translation>versio</translation>
+        <source>Type: %1
+</source>
+        <translation>Tipo: %1
+</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Usage:</source>
-        <translation type="unfinished"/>
+        <source>Label: %1
+</source>
+        <translation>Etikedo: %1
+</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation type="unfinished"/>
+        <source>Address: %1
+</source>
+        <translation>Adreso: %1
+</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation type="unfinished"/>
+        <source>Sent transaction</source>
+        <translation>Sendita transakcio</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"/>
+        <source>Incoming transaction</source>
+        <translation>Envenanta transakcio</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation type="unfinished"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj aktuale &lt;b&gt;malŝlosita&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj aktuale &lt;b&gt;ŝlosita&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
-    <name>OptionsDialog</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
-        <source>Options</source>
-        <translation>Opcioj</translation>
+        <source>Quantity:</source>
+        <translation>Kvanto:</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>&amp;Main</source>
-        <translation type="unfinished"/>
+        <source>Bytes:</source>
+        <translation>Bajtoj:</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+31"/>
         <source>Automatically start Litecoin after logging in to the system.</source>
         <translation type="unfinished"/>
@@ -822,169 +724,177 @@ Address: %4
         <location line="+35"/>
         <source>Reset all client options to default.</source>
         <translation type="unfinished"/>
+=======
+        <source>Amount:</source>
+        <translation>Sumo:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <source>Priority:</source>
+        <translation>Prioritato:</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>&amp;Network</source>
-        <translation type="unfinished"/>
+        <source>Fee:</source>
+        <translation>Krompago:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
+=======
+        <source>Dust:</source>
+        <translation>Polvo:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished"/>
+        <source>After Fee:</source>
+        <translation>Post krompago:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
+=======
+        <source>Change:</source>
+        <translation>Restmono:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation type="unfinished"/>
+        <source>(un)select all</source>
+        <translation>(mal)elekti ĉion</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"/>
+        <source>Tree mode</source>
+        <translation>Arboreĝimo</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation type="unfinished"/>
+        <source>List mode</source>
+        <translation>Listreĝimo</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Port:</source>
-        <translation type="unfinished"/>
+        <source>Amount</source>
+        <translation>Sumo</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished"/>
+        <source>Received with label</source>
+        <translation>Ricevita kun etikedo</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation type="unfinished"/>
+        <source>Received with address</source>
+        <translation>Ricevita kun adreso</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation type="unfinished"/>
+        <source>Date</source>
+        <translation>Dato</translation>
     </message>
     <message>
-        <location line="+36"/>
-        <source>&amp;Window</source>
-        <translation type="unfinished"/>
+        <source>Confirmations</source>
+        <translation>Konfirmoj</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished"/>
+        <source>Confirmed</source>
+        <translation>Konfirmita</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished"/>
+        <source>Priority</source>
+        <translation>Prioritato</translation>
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+        <source>Edit Address</source>
+        <translation>Redakti Adreson</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label</source>
+        <translation>&amp;Etikedo</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>M&amp;inimize on close</source>
-        <translation type="unfinished"/>
+        <source>The label associated with this address list entry</source>
+        <translation>La etikedo ligita al tiu ĉi adreslistero</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>&amp;Display</source>
-        <translation type="unfinished"/>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>La adreso ligita al tiu ĉi adreslistero. Eblas modifi tion nur por sendaj adresoj.</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>User Interface &amp;language:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Address</source>
+        <translation>&amp;Adreso</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>Kreiĝos nova dosierujo por la datumoj.</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished"/>
+        <source>name</source>
+        <translation>nomo</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>Whether to show Litecoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
+=======
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Tiu dosierujo jam ekzistas. Aldonu %1 si vi volas krei novan dosierujon ĉi tie.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation type="unfinished"/>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Vojo jam ekzistas, kaj ne estas dosierujo.</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <source>Cannot create data directory here.</source>
+        <translation>Ne eblas krei dosierujon por datumoj ĉi tie.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>version</source>
+        <translation>versio</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Nuligu</translation>
+        <source>Command-line options</source>
+        <translation>Komandliniaj agordaĵoj</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>&amp;Apliku</translation>
+        <source>Usage:</source>
+        <translation>Uzado:</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
-        <source>default</source>
-        <translation type="unfinished"/>
+        <source>command-line options</source>
+        <translation>komandliniaj agordaĵoj</translation>
     </message>
     <message>
-        <location line="+130"/>
-        <source>Confirm options reset</source>
-        <translation type="unfinished"/>
+        <source>UI Options:</source>
+        <translation>Uzantinterfaco ebloj:</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Bonvenon</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"/>
+        <source>Use the default data directory</source>
+        <translation>Uzi la defaŭltan dosierujon por datumoj</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Litecoin.</source>
@@ -1766,447 +1676,377 @@ Address: %4
         <location line="+2"/>
         <source>Comment</source>
         <translation type="unfinished"/>
+=======
+        <source>Use a custom data directory:</source>
+        <translation>Uzi alian dosierujon por datumoj:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Transaction ID</source>
-        <translation type="unfinished"/>
+        <source>Error</source>
+        <translation>Eraro</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n gigabajto de libera loko disponeble</numerusform><numerusform>%n gigabajtoj de libera loko disponebla.</numerusform></translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Malfermi URI-on</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"/>
+        <source>Open payment request from URI or file</source>
+        <translation>Malfermi pagpeton el URI aŭ dosiero</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation type="unfinished"/>
+        <source>URI:</source>
+        <translation>URI:</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation type="unfinished"/>
+        <source>Select payment request file</source>
+        <translation>Elektu la dosieron de la pagpeto</translation>
+    </message>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Agordaĵoj</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation type="unfinished"/>
+        <source>&amp;Main</source>
+        <translation>Ĉ&amp;efa</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>Size of &amp;database cache</source>
+        <translation>Dosiergrando de &amp;datumbasa kaŝmemoro</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside</source>
+        <translation>Akcepti konektojn el ekstere</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Permesi envenantajn konektojn</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Reagordi ĉion al defaŭlataj valoroj.</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Rekomenci agordadon</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Reto</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>Monujo</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Fakulo</translation>
+    </message>
+    <message>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aŭtomate malfermi la kursilan pordon por Litecoin. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Mapigi pordon per &amp;UPnP</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>Prokurila &amp;IP:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Pordo:</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>la pordo de la prokurilo (ekz. 9050)</translation>
+    </message>
+    <message>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
+    </message>
+    <message>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Fenestro</translation>
+    </message>
+    <message>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>Montri nur sistempletan piktogramon post minimumigo de la fenestro.</translation>
+    </message>
+    <message>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>&amp;Minimumigi al la sistempleto anstataŭ al la taskopleto</translation>
+    </message>
+    <message>
+        <source>M&amp;inimize on close</source>
+        <translation>M&amp;inimumigi je fermo</translation>
+    </message>
+    <message>
+        <source>&amp;Display</source>
+        <translation>&amp;Aspekto</translation>
+    </message>
+    <message>
+        <source>User Interface &amp;language:</source>
+        <translation>&amp;Lingvo de la fasado:</translation>
+    </message>
+    <message>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>&amp;Unuo por vidigi sumojn:</translation>
+    </message>
+    <message>
+        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <translation>Elekti la defaŭltan manieron por montri litecoin sumojn en la interfaco, kaj kiam vi sendos litecoin.</translation>
+    </message>
+    <message>
+        <source>Whether to show coin control features or not.</source>
+        <translation>Ĉu montri detalan adres-regilon, aŭ ne.</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;Bone</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Nuligi</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>defaŭlta</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>neniu</translation>
+    </message>
+    <message>
+        <source>Confirm options reset</source>
+        <translation>Konfirmi reŝargo de agordoj</translation>
+    </message>
+    <message>
+        <source>The supplied proxy address is invalid.</source>
+        <translation>La prokurila adreso estas malvalida.</translation>
+    </message>
+</context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>Formularo</translation>
+    </message>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la litecoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation>via aktuala elspezebla saldo</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>la sumo de transakcioj ankoraŭ ne konfirmitaj, kiuj ankoraŭ ne elspezeblas</translation>
+    </message>
+    <message>
+        <source>Immature:</source>
+        <translation>Nematura:</translation>
+    </message>
+    <message>
+        <source>Mined balance that has not yet matured</source>
+        <translation>Minita saldo, kiu ankoraŭ ne maturiĝis</translation>
+    </message>
+    <message>
+        <source>Balances</source>
+        <translation>Saldoj</translation>
+    </message>
+    <message>
+        <source>Total:</source>
+        <translation>Totalo:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>via aktuala totala saldo</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>Elspezebla:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Lastaj transakcioj</translation>
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>User Agent</source>
+        <translation>Uzanto Agento</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
         <source>Amount</source>
         <translation>Sumo</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation type="unfinished"/>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation type="unfinished"/>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
     </message>
     <message>
-        <location line="-209"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, ankoraŭ ne elsendita sukcese</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <source>None</source>
+        <translation>Neniu</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>unknown</source>
-        <translation>nekonata</translation>
+        <source>N/A</source>
+        <translation>neaplikebla</translation>
     </message>
-</context>
+    </context>
 <context>
-    <name>TransactionDescDialog</name>
-    <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation>Transakciaj detaloj</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    <name>QRImageWidget</name>
+    </context>
 <context>
-    <name>TransactionTableModel</name>
+    <name>RPCConsole</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
-        <source>Date</source>
-        <translation>Dato</translation>
+        <source>N/A</source>
+        <translation>neaplikebla</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Type</source>
-        <translation>Tipo</translation>
+        <source>Client version</source>
+        <translation>Versio de kliento</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Adreso</translation>
+        <source>&amp;Information</source>
+        <translation>&amp;Informoj</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation>Sumo</translation>
+        <source>Debug window</source>
+        <translation>Sencimiga fenestro</translation>
     </message>
-    <message numerus="yes">
-        <location line="+57"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Open until %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated but not accepted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+43"/>
-        <source>Received with</source>
-        <translation>Ricevita kun</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Received from</source>
-        <translation>Ricevita de</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sent to</source>
-        <translation>Sendita al</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Payment to yourself</source>
-        <translation>Pago al vi mem</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Mined</source>
-        <translation>Minita</translation>
-    </message>
-    <message>
-        <location line="+38"/>
-        <source>(n/a)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+199"/>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Date and time that the transaction was received.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Type of transaction.</source>
-        <translation>Transakcia tipo.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Destination address of transaction.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Amount removed from or added to balance.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>TransactionView</name>
-    <message>
-        <location filename="../transactionview.cpp" line="+52"/>
-        <location line="+16"/>
-        <source>All</source>
-        <translation>Ĉiuj</translation>
-    </message>
-    <message>
-        <location line="-15"/>
-        <source>Today</source>
-        <translation>Hodiaŭ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This week</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This month</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Last month</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This year</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Range...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Received with</source>
-        <translation>Ricevita kun</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Sent to</source>
-        <translation>Sendita al</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>To yourself</source>
-        <translation>Al vi mem</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Mined</source>
-        <translation>Minita</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Other</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Enter address or label to search</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Min amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>Copy address</source>
-        <translation>Kopiu adreson</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy label</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Edit label</source>
-        <translation>Redaktu etikedon</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show transaction details</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Diskoma dosiero (*.csv)</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Confirmed</source>
-        <translation>Konfirmita</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date</source>
-        <translation>Dato</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type</source>
-        <translation>Tipo</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Label</source>
-        <translation>Etikedo</translation>
-    </message>
     <message>
-        <location line="+1"/>
-        <source>Address</source>
-        <translation>Adreso</translation>
+        <source>General</source>
+        <translation>Ĝenerala</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>Sumo</translation>
+        <source>Startup time</source>
+        <translation>Horo de lanĉo</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>ID</source>
-        <translation type="unfinished"/>
+        <source>Network</source>
+        <translation>Reto</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>Eraro dum eksportado</translation>
+        <source>Name</source>
+        <translation>Nomo</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Ne eblis skribi al dosiero %1.</translation>
+        <source>Number of connections</source>
+        <translation>Nombro de konektoj</translation>
     </message>
     <message>
-        <location line="+100"/>
-        <source>Range:</source>
-        <translation type="unfinished"/>
+        <source>Block chain</source>
+        <translation>Blokĉeno</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>to</source>
-        <translation type="unfinished"/>
+        <source>Current number of blocks</source>
+        <translation>Aktuala nombro de blokoj</translation>
     </message>
-</context>
-<context>
-    <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
-        <source>Send Coins</source>
-        <translation type="unfinished"/>
+        <source>Received</source>
+        <translation>Ricevita</translation>
     </message>
-</context>
-<context>
-    <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="+42"/>
-        <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <source>Sent</source>
+        <translation>Sendita</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <source>&amp;Peers</source>
+        <translation>&amp;Samuloj</translation>
     </message>
     <message>
-        <location line="+193"/>
-        <source>Backup Wallet</source>
-        <translation type="unfinished"/>
+        <source>Banned peers</source>
+        <translation>Malpermesita samuloj.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Wallet Data (*.dat)</source>
-        <translation type="unfinished"/>
+        <source>Version</source>
+        <translation>Versio</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Backup Failed</source>
-        <translation type="unfinished"/>
+        <source>User Agent</source>
+        <translation>Uzanto Agento</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation type="unfinished"/>
+        <source>Services</source>
+        <translation>Servoj</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Backup Successful</source>
-        <translation type="unfinished"/>
+        <source>Last block time</source>
+        <translation>Horo de la lasta bloko</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation type="unfinished"/>
+        <source>&amp;Open</source>
+        <translation>&amp;Malfermi</translation>
     </message>
-</context>
-<context>
-    <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Litecoin version</source>
         <translation>Litecoin-a versio</translation>
+=======
+        <source>&amp;Console</source>
+        <translation>&amp;Konzolo</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation type="unfinished"/>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Reta Trafiko</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-29"/>
         <source>Send command to -server or litecoind</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Clear</source>
+        <translation>&amp;Forigi ĉion</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>Listigu instrukciojn</translation>
+        <source>Totals</source>
+        <translation>Totaloj</translation>
     </message>
     <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation type="unfinished"/>
+        <source>In:</source>
+        <translation>En:</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Options:</source>
-        <translation>Opcioj:</translation>
+        <source>Out:</source>
+        <translation>El:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+24"/>
         <source>Specify configuration file (default: litecoin.conf)</source>
         <translation type="unfinished"/>
@@ -2215,73 +2055,84 @@ Address: %4
         <location line="+3"/>
         <source>Specify pid file (default: litecoind.pid)</source>
         <translation type="unfinished"/>
+=======
+        <source>Debug log file</source>
+        <translation>Sencimiga protokoldosiero</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Specify data directory</source>
-        <translation type="unfinished"/>
+        <source>Clear console</source>
+        <translation>Malplenigi konzolon</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation type="unfinished"/>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Uzu la sagojn supran kaj malsupran por esplori la historion, kaj &lt;b&gt;stir-L&lt;/b&gt; por malplenigi la ekranon.</translation>
     </message>
     <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Tajpu &lt;b&gt;help&lt;/b&gt; por superrigardo de la disponeblaj komandoj.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="-28"/>
         <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
         <translation type="unfinished"/>
+=======
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation type="unfinished"/>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
     </message>
     <message>
-        <location line="-48"/>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation type="unfinished"/>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>Specify your own public address</source>
-        <translation type="unfinished"/>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Kvanto:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label:</source>
+        <translation>&amp;Etikedo:</translation>
     </message>
     <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Message:</source>
+        <translation>&amp;Mesaĝo:</translation>
     </message>
     <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+27"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
         <translation type="unfinished"/>
+=======
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Reuzi unu el la jam uzitaj ricevaj adresoj. Reuzo de adresoj povas krei problemojn pri sekureco kaj privateco. Ne uzu tiun ĉi funkcion krom por rekrei antaŭe faritan pagopeton.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+37"/>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation type="unfinished"/>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>R&amp;euzi ekzistantan ricevan adreson (malrekomendinda)</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation type="unfinished"/>
+        <source>Clear all fields of the form.</source>
+        <translation>Malplenigi ĉiujn kampojn de la formularo.</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <source>Use the test network</source>
-        <translation type="unfinished"/>
+        <source>Clear</source>
+        <translation>Forigi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-112"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation type="unfinished"/>
@@ -2300,503 +2151,481 @@ It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Request payment</source>
+        <translation>&amp;Peti pagon</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"/>
+        <source>Show</source>
+        <translation>Vidigi</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"/>
+        <source>Remove</source>
+        <translation>Forigi</translation>
     </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Litecoin is probably already running.</source>
         <translation type="unfinished"/>
+=======
+        <source>QR Code</source>
+        <translation>QR-kodo</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
+        <source>Copy &amp;URI</source>
+        <translation>Kopii &amp;URI</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"/>
+        <source>Copy &amp;Address</source>
+        <translation>Kopii &amp;Adreson</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Konservi Bildon...</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Sendi Litecoin</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation type="unfinished"/>
+        <source>Coin Control Features</source>
+        <translation>Monregaj Opcioj</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation type="unfinished"/>
+        <source>Inputs...</source>
+        <translation>Enigoj...</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"/>
+        <source>Insufficient funds!</source>
+        <translation>Nesufiĉa mono!</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished"/>
+        <source>Quantity:</source>
+        <translation>Kvanto:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litecoin will not work properly.</source>
         <translation type="unfinished"/>
+=======
+        <source>Bytes:</source>
+        <translation>Bajtoj:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"/>
+        <source>Amount:</source>
+        <translation>Sumo:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"/>
+        <source>Priority:</source>
+        <translation>Prioritato:</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"/>
+        <source>Fee:</source>
+        <translation>Krompago:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Block creation options:</source>
-        <translation type="unfinished"/>
+        <source>After Fee:</source>
+        <translation>Post krompago:</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation type="unfinished"/>
+        <source>Change:</source>
+        <translation>Restmono:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Corrupted block database detected</source>
-        <translation type="unfinished"/>
+        <source>Transaction Fee:</source>
+        <translation>Krompago:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation type="unfinished"/>
+        <source>Send to multiple recipients at once</source>
+        <translation>Sendi samtempe al pluraj ricevantoj</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished"/>
+        <source>Add &amp;Recipient</source>
+        <translation>Aldoni &amp;Ricevonton</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Error initializing block database</source>
-        <translation type="unfinished"/>
+        <source>Clear all fields of the form.</source>
+        <translation>Malplenigi ĉiujn kampojn de la formularo.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished"/>
+        <source>Dust:</source>
+        <translation>Polvo:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error loading block database</source>
-        <translation type="unfinished"/>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Forigi Ĉion</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error opening block database</source>
-        <translation type="unfinished"/>
+        <source>Balance:</source>
+        <translation>Saldo:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Error: Disk space is low!</source>
-        <translation type="unfinished"/>
+        <source>Confirm the send action</source>
+        <translation>Konfirmi la sendon</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"/>
+        <source>S&amp;end</source>
+        <translation>Ŝendi</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>&amp;Sumo:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation type="unfinished"/>
+        <source>Pay &amp;To:</source>
+        <translation>&amp;Ricevonto:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label:</source>
+        <translation>&amp;Etikedo:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation type="unfinished"/>
+        <source>Choose previously used address</source>
+        <translation>Elektu la jam uzitan adreson</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation type="unfinished"/>
+        <source>This is a normal payment.</source>
+        <translation>Tio estas normala pago.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation type="unfinished"/>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation type="unfinished"/>
+        <source>Paste address from clipboard</source>
+        <translation>Alglui adreson de tondejo</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation type="unfinished"/>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation type="unfinished"/>
+        <source>Remove this entry</source>
+        <translation>Forigu ĉi tiun enskribon</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation type="unfinished"/>
+        <source>Message:</source>
+        <translation>Mesaĝo:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation type="unfinished"/>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Tajpu etikedon por tiu ĉi adreso por aldoni ĝin al la listo de uzitaj adresoj</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation type="unfinished"/>
+        <source>Pay To:</source>
+        <translation>Pagi Al:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation type="unfinished"/>
+        <source>Memo:</source>
+        <translation>Memorando:</translation>
+    </message>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Ne sistemfermu ĝis ĉi tiu fenestro malaperas.</translation>
+    </message>
+</context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Subskriboj - Subskribi / Kontroli mesaĝon</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;Subskribi Mesaĝon</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Choose previously used address</source>
+        <translation>Elektu la jam uzitan adreson</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation type="unfinished"/>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation type="unfinished"/>
+        <source>Paste address from clipboard</source>
+        <translation>Alglui adreson de tondejo</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation type="unfinished"/>
+        <source>Enter the message you want to sign here</source>
+        <translation>Tajpu la mesaĝon, kiun vi volas sendi, cîi tie</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"/>
+        <source>Signature</source>
+        <translation>Subskribo</translation>
     </message>
     <message>
-        <location line="+26"/>
-        <source>Verifying blocks...</source>
-        <translation type="unfinished"/>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Kopii la aktualan subskribon al la tondejo</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Verifying wallet...</source>
-        <translation type="unfinished"/>
+        <source>Sign the message to prove you own this Litecoin address</source>
+        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Litecoin-adreso</translation>
     </message>
     <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation type="unfinished"/>
+        <source>Sign &amp;Message</source>
+        <translation>Subskribi &amp;Mesaĝon</translation>
     </message>
     <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Reset all sign message fields</source>
+        <translation>Reagordigi ĉiujn prisubskribajn kampojn</translation>
     </message>
     <message>
-        <location line="+77"/>
-        <source>Information</source>
-        <translation type="unfinished"/>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Forigi Ĉion</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Kontroli Mesaĝon</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Litecoin-adreso</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Verify &amp;Message</source>
+        <translation>Kontroli &amp;Mesaĝon</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Reset all verify message fields</source>
+        <translation>Reagordigi ĉiujn prikontrolajn kampojn</translation>
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Tiu ĉi panelo montras detalan priskribon de la transakcio</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Agordoj:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+5"/>
         <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
+=======
+        <source>Specify data directory</source>
+        <translation>Specifi dosieron por datumoj</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation type="unfinished"/>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Konekti al nodo por ricevi adresojn de samtavolanoj, kaj malkonekti</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Specify your own public address</source>
+        <translation>Specifi vian propran publikan adreson</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Akcepti komandojn JSON-RPC kaj el komandlinio</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Ruli fone kiel demono kaj akcepti komandojn</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Akcepti konektojn el ekstere (defaŭlte: 1 se ne estas -proxy nek -connect)</translation>
+    </message>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Kerno de Litecoin</translation>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Bindi al donita adreso kaj ĉiam aŭskulti per ĝi. Uzu la formaton [gastigo]:pordo por IPv6</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Plenumi komandon kiam monuja transakcio ŝanĝiĝas (%s en cmd anstataŭiĝas per TxID)</translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>Tiu ĉi estas antaŭeldona testa versio - uzu laŭ via propra risko - ne uzu por minado aŭ por aplikaĵoj por vendistoj</translation>
+    </message>
+    <message>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation>Averto: La reto ne tute konsentas! Kelkaj minantoj ŝajne spertas problemojn aktuale.</translation>
+    </message>
+    <message>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation>Averto: ŝajne ni ne tute konsentas kun niaj samtavolanoj! Eble vi devas ĝisdatigi vian klienton, aŭ eble aliaj nodoj faru same.</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; povas esti:</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Blok-kreaj agordaĵoj:</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Konekti nur al specifita(j) nodo(j)</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation>Difektita blokdatumbazo trovita</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Ĉu vi volas rekonstrui la blokdatumbazon nun?</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation>Eraro dum pravalorizado de blokdatumbazo</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Eraro dum pravalorizado de monuj-datumbaza ĉirkaŭaĵo %s!</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation>Eraro dum ŝargado de blokdatumbazo</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation>Eraro dum malfermado de blokdatumbazo</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Eraro: restas malmulte da diskospaco!</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Ne sukcesis aŭskulti ajnan pordon. Uzu -listen=0 se tion vi volas.</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>Geneza bloko aŭ netrovita aŭ neĝusta. Ĉu eble la datadir de la reto malĝustas?</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Nevalida -onion-adreso: '%s'</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>Nesufiĉa nombro de dosierpriskribiloj disponeblas.</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Specifi monujan dosieron (ene de dosierujo por datumoj)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Kontrolado de blokoj...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>Kontrolado de monujo...</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Monujo %s troviĝas ekster la dosierujo por datumoj %s</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Monujaj opcioj:</translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Plenumi komandon kiam rilata alerto riceviĝas, aŭ kiam ni vidas tre longan forkon (%s en cms anstataŭiĝas per mesaĝo)</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informoj</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation type="unfinished"/>
+        <translation>Sendi spurajn/sencimigajn informojn al la konzolo anstataŭ al dosiero debug.log</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"/>
+        <translation>Malpligrandigi la sencimigan protokol-dosieron kiam kliento lanĉiĝas (defaŭlte: 1 kiam mankas -debug)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <translation>Subskriba transakcio fiaskis</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation type="unfinished"/>
+        <source>This is experimental software.</source>
+        <translation>ĝi estas eksperimenta programo</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
+        <translation>Transakcia sumo tro malgranda</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction too large</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Username for JSON-RPC connections</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-50"/>
-        <source>Password for JSON-RPC connections</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-120"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+55"/>
-        <source>Loading addresses...</source>
-        <translation>Ŝarĝante adresojn...</translation>
-    </message>
-    <message>
-        <location line="-35"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Litecoin</source>
         <translation type="unfinished"/>
@@ -2805,63 +2634,61 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Litecoin to complete</source>
         <translation type="unfinished"/>
+=======
+        <source>Transaction amounts must be positive</source>
+        <translation>Transakcia sumo devas esti pozitiva</translation>
     </message>
     <message>
-        <location line="-95"/>
-        <source>Error loading wallet.dat</source>
-        <translation type="unfinished"/>
+        <source>Transaction too large</source>
+        <translation>Transakcio estas tro granda</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Salutnomo por konektoj JSON-RPC</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Warning</source>
+        <translation>Averto</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished"/>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Pasvorto por konektoj JSON-RPC</translation>
     </message>
     <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Plenumi komandon kiam plej bona bloko ŝanĝiĝas (%s en cmd anstataŭiĝas per bloka haketaĵo)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Permesi DNS-elserĉojn por -addnote, -seednote kaj -connect</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Loading addresses...</source>
+        <translation>Ŝarĝante adresojn...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation type="unfinished"/>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Nevalid adreso -proxy: '%s'</translation>
     </message>
     <message>
-        <location line="-6"/>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Nekonata reto specifita en -onlynet: '%s'</translation>
+    </message>
+    <message>
         <source>Insufficient funds</source>
-        <translation type="unfinished"/>
+        <translation>Nesufiĉa mono</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Loading block index...</source>
         <translation>Ŝarĝante blok-indekson...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation type="unfinished"/>
+        <translation>Aldoni nodon por alkonekti kaj provi daŭrigi la malferman konekton</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. Litecoin is probably already running.</source>
         <translation type="unfinished"/>
@@ -2873,45 +2700,30 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+19"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>Loading wallet...</source>
-        <translation>Ŝarĝante monujon...</translation>
+        <translation>Ŝargado de monujo...</translation>
     </message>
     <message>
-        <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation type="unfinished"/>
+        <translation>Ne eblas malpromocii monujon</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Cannot write default address</source>
-        <translation type="unfinished"/>
+        <translation>Ne eblas skribi defaŭltan adreson</translation>
     </message>
     <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
-        <translation type="unfinished"/>
+        <translation>Reskanado...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
-        <translation>Ŝarĝado finitas</translation>
+        <translation>Ŝargado finiĝis</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation>Por uzi la opcion %s</translation>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
         <translation>Eraro</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

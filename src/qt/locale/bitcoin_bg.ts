@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="bg" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
@@ -38,21 +39,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
 </context>
+=======
+<TS language="bg" version="2.1">
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Адреси</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Десен клик за промяна на адреса или името</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Двоен клик за редакция на адрес или име</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
+<<<<<<< HEAD
         <translation>Създава нов адрес</translation>
     </message>
     <message>
@@ -69,40 +67,43 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Litecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Това са вашите Litecoin адреси за получаване на плащания. За по-лесно проследяване на плащанията и повишена анонимност можете да използвате нов адрес за всяко плащане.</translation>
+=======
+        <translation>Създаване на нов адрес</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Копирай</translation>
+        <source>&amp;New</source>
+        <translation>Нов</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Покажи &amp;QR код</translation>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Копиране на избрания адрес към клипборда</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+11"/>
         <source>Sign a message to prove you own a Litecoin address</source>
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
+=======
+        <source>&amp;Copy</source>
+        <translation>Копирай</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>Подпиши &amp;съобщение</translation>
+        <source>C&amp;lose</source>
+        <translation>Затвори</translation>
     </message>
     <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
         <translation>Изтрий избрания адрес от списъка</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
         <translation>Запишете данните от текущия раздел във файл</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
+<<<<<<< HEAD
         <translation type="unfinished"/>
     </message>
     <message>
@@ -114,91 +115,44 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+3"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Провери съобщение</translation>
+=======
+        <translation>Изнеси</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
+<<<<<<< HEAD
         <translation>&amp;Изтрий</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
+=======
+        <translation>&amp;Изтриване</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
-    <message>
-        <location line="+13"/>
-        <source>Copy &amp;Label</source>
-        <translation>Копирай &amp;име</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>&amp;Edit</source>
-        <translation>&amp;Редактирай</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>Запазване на адреси</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Comma separated file (*.csv)</source>
-        <translation>CSV файл (*.csv)</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>Грешка при записа</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Неуспешен запис в %1.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>Име</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Адрес</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(без име)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
+        <translation>Диалог за паролите</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Парола</translation>
+        <translation>Въведете текущата парола</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Нова парола</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
+<<<<<<< HEAD
         <translation>Още веднъж</translation>
     </message>
     <message>
@@ -308,116 +262,116 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Паролата въведена за декриптиране на портфейла е грешна.</translation>
+=======
+        <translation>Въведете новата парола повторно</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    </context>
+<context>
+    <name>BanTableModel</name>
+    <message>
+        <source>IP/Netmask</source>
+        <translation>IP/Netmask</translation>
     </message>
     <message>
-        <location line="-20"/>
-        <source>Wallet decryption failed</source>
-        <translation>Декриптирането беше неуспешно</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation>Паролата на портфейла беше променена успешно.</translation>
+        <source>Banned Until</source>
+        <translation>Със забранен достъп до</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
         <translation>Подписване на &amp;съобщение...</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>Синхронизиране с мрежата...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Баланс</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Node</source>
+        <translation>Сървър</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Обобщена информация за портфейла</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Транзакции</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>История на входящите и изходящи транзакции</translation>
+        <translation>История на транзакциите</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Редактиране на адреси</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Списък на адресите за получаване</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
         <translation>Из&amp;ход</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
-        <translation>Затваря приложението</translation>
+        <translation>Изход от приложението</translation>
     </message>
     <message>
+        <source>&amp;About %1</source>
+        <translation>Относно %1</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Show information about Litecoin</source>
         <translation>Показва информация за Litecoin</translation>
+=======
+        <source>Show information about %1</source>
+        <translation>Покажи информация относно %1</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+2"/>
         <source>About &amp;Qt</source>
         <translation>За &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation type="unfinished"/>
+        <translation>Покажи информация за Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>&amp;Опции...</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Криптиране на портфейла...</translation>
+        <source>Modify configuration options for %1</source>
+        <translation>Промени настройки за %1</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>&amp;Encrypt Wallet...</source>
+        <translation>&amp;Шифриране на портфейла...</translation>
+    </message>
+    <message>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Запазване на портфейла...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
         <translation>&amp;Смяна на паролата...</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Изпращане на адресите...</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Получаване на адресите...</translation>
     </message>
     <message>
+        <source>Open &amp;URI...</source>
+        <translation>Отвори &amp;URI...</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="-347"/>
         <source>Send coins to a Litecoin address</source>
         <translation>Изпращане към Litecoin адрес</translation>
@@ -426,79 +380,80 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+49"/>
         <source>Modify configuration options for Litecoin</source>
         <translation type="unfinished"/>
+=======
+        <source>Reindexing blocks on disk...</source>
+        <translation>Повторно индексиране на блоковете на диска...</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Изпращане към Litecoin адрес</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished"/>
+        <translation>Запазване на портфейла на друго място</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Променя паролата за портфейла</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Прозорец за отстраняване на грешки</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"/>
+        <translation>Отворете конзолата за диагностика и отстраняване на грешки</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-165"/>
         <location line="+530"/>
         <source>Litecoin</source>
+=======
+        <source>Bitcoin</source>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <translation>Litecoin</translation>
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
         <translation>Портфейл</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Изпращане</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Получаване</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+22"/>
         <source>&amp;About Litecoin</source>
         <translation>&amp;За Litecoin</translation>
     </message>
     <message>
         <location line="+9"/>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
         <source>&amp;Show / Hide</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Показване / Скриване</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation type="unfinished"/>
+        <translation>Показване и скриване на основния прозорец</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished"/>
+        <translation>Шифроване на личните ключове,които принадлежат на портфейла Ви.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation type="unfinished"/>
@@ -507,34 +462,45 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation type="unfinished"/>
+=======
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Пишете съобщения със своя Litecoin адрес за да докажете,че е ваш.</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Litecoin адреси.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Настройки</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Помощ</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Раздели</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Изискване на плащания(генерира QR кодове и Litecoin: URIs)</translation>
     </message>
     <message>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Показване на списъка с използвани адреси и имена</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Покажи списък с използваните адреси и имена.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+47"/>
         <source>Litecoin client</source>
         <translation type="unfinished"/>
@@ -543,128 +509,149 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+141"/>
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n връзка към Litecoin мрежата</numerusform><numerusform>%n връзки към Litecoin мрежата</numerusform></translation>
+=======
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Отворете Litecoin: URI  или заявка за плащане</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Налични команди</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n активна връзка към Litecoin мрежата</numerusform><numerusform>%n активни връзки към Litecoin мрежата</numerusform></translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
+        <source>Indexing blocks on disk...</source>
+        <translation>Индексиране на блокове на диска...</translation>
+    </message>
+    <message>
+        <source>Processing blocks on disk...</source>
+        <translation>Обработване на блокове на диска...</translation>
+    </message>
+    <message>
         <source>No block source available...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation type="unfinished"/>
+        <translation>Липсва източник на блоковете...</translation>
     </message>
     <message numerus="yes">
-        <location line="+20"/>
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform>Преработен %n блок от историята с транзакции.</numerusform><numerusform>Преработени %n блокове от историята с транзакции.</numerusform></translation>
+    </message>
+    <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n час</numerusform><numerusform>%n часа</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n day(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n ден</numerusform><numerusform>%n дни</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n week(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n седмица</numerusform><numerusform>%n седмици</numerusform></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <source>%1 and %2</source>
+        <translation>%1 и %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n година</numerusform><numerusform>%n години</numerusform></translation>
+    </message>
+    <message>
         <source>%1 behind</source>
-        <translation type="unfinished"/>
+        <translation>%1 зад</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"/>
+        <translation>Последния получен блок е генериран преди %1.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
+        <translation>Транзакции след това няма все още да бъдат видими.</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Грешка</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>Предупреждение</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>Информация</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
         <translation>Синхронизиран</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни Litecoin команди</translation>
+    </message>
+    <message>
+        <source>%1 client</source>
+        <translation>%1 клиент</translation>
+    </message>
+    <message>
         <source>Catching up...</source>
         <translation>Зарежда блокове...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation>Потвърждение за такса</translation>
+        <source>Date: %1
+</source>
+        <translation>Дата: %1
+</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <source>Amount: %1
+</source>
+        <translation>Сума: %1
+</translation>
+    </message>
+    <message>
+        <source>Type: %1
+</source>
+        <translation>Тип: %1
+</translation>
+    </message>
+    <message>
+        <source>Label: %1
+</source>
+        <translation>Етикет: %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>Адрес: %1
+</translation>
+    </message>
+    <message>
         <source>Sent transaction</source>
         <translation>Изходяща транзакция</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Incoming transaction</source>
-        <translation>Входяща транзакция</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
+=======
+        <source>Incoming transaction</source>
+        <translation>Входяща транзакция</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Портфейлът е &lt;b&gt;криптиран&lt;/b&gt; и &lt;b&gt;отключен&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Портфейлът е &lt;b&gt;криптиран&lt;/b&gt; и &lt;b&gt;заключен&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
@@ -678,142 +665,132 @@ Address: %4
         <source>Network Alert</source>
         <translation type="unfinished"/>
     </message>
+=======
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
 </context>
 <context>
-    <name>EditAddressDialog</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
-        <source>Edit Address</source>
-        <translation>Редактиране на адрес</translation>
+        <source>Coin Selection</source>
+        <translation>Избор на монета</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>&amp;Label</source>
-        <translation>&amp;Име</translation>
+        <source>Quantity:</source>
+        <translation>Количество:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>Името свързано с този запис в списъка с адреси</translation>
+        <source>Bytes:</source>
+        <translation>Байтове:</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Address</source>
-        <translation>&amp;Адрес</translation>
+        <source>Amount:</source>
+        <translation>Сума:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Адресът свързан с този запис в списъка с адреси. Може да се променя само за изходящи адреси.</translation>
+        <source>Priority:</source>
+        <translation>Приоритет:</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation>Нов адрес за получаване</translation>
+        <source>Fee:</source>
+        <translation>Такса:</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation>Нов адрес за изпращане</translation>
+        <source>Dust:</source>
+        <translation>Прах:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation>Редактиране на входящ адрес</translation>
+        <source>After Fee:</source>
+        <translation>След прилагане на ДДС</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation>Редактиране на изходящ адрес</translation>
+        <source>Change:</source>
+        <translation>Ресто</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Вече има адрес &quot;%1&quot; в списъка с адреси.</translation>
+        <source>(un)select all</source>
+        <translation>(Пре)махни всички</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
         <translation>&quot;%1&quot; не е валиден Litecoin адрес.</translation>
+=======
+        <source>Tree mode</source>
+        <translation>Дървовиден режим</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation>Отключването на портфейла беше неуспешно.</translation>
+        <source>List mode</source>
+        <translation>Списъчен режим</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation>Създаването на ключ беше неуспешно.</translation>
+        <source>Amount</source>
+        <translation>Сума</translation>
     </message>
-</context>
-<context>
-    <name>GUIUtil::HelpMessageBox</name>
     <message>
+<<<<<<< HEAD
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>Litecoin-Qt</source>
         <translation type="unfinished"/>
+=======
+        <source>Received with label</source>
+        <translation>Получени с име</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-12"/>
-        <source>version</source>
-        <translation type="unfinished"/>
+        <source>Received with address</source>
+        <translation>Получени с адрес</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Usage:</source>
-        <translation type="unfinished"/>
+        <source>Date</source>
+        <translation>Дата</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation type="unfinished"/>
+        <source>Confirmations</source>
+        <translation>Потвърждения</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation>UI Опции</translation>
+        <source>Confirmed</source>
+        <translation>Потвърдени</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"/>
+        <source>Priority</source>
+        <translation>Приоритет</translation>
     </message>
-    <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
 <context>
-    <name>OptionsDialog</name>
+    <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
-        <source>Options</source>
-        <translation>Опции</translation>
+        <source>Edit Address</source>
+        <translation>Редактиране на адрес</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>&amp;Main</source>
-        <translation>&amp;Основни</translation>
+        <source>&amp;Label</source>
+        <translation>&amp;Име</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
+        <source>The label associated with this address list entry</source>
+        <translation>Етикетът свързан с това въведение в листа с адреси</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>&amp;Такса за изходяща транзакция</translation>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>Адресът свързан с това въведение в листа с адреси. Това може да бъде променено само за адреси за изпращане.</translation>
     </message>
     <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Адрес</translation>
+    </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>Ще се създаде нова папка за данни.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+31"/>
         <source>Automatically start Litecoin after logging in to the system.</source>
         <translation type="unfinished"/>
@@ -822,188 +799,201 @@ Address: %4
         <location line="+3"/>
         <source>&amp;Start Litecoin on system login</source>
         <translation>&amp;Пускане на Litecoin при вход в системата</translation>
+=======
+        <source>name</source>
+        <translation>име</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Директорията вече съществува.Добавете %1 ако желаете да добавите нова директория тук.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Пътят вече съществува и не е папка.</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>&amp;Network</source>
-        <translation>&amp;Мрежа</translation>
+        <source>Cannot create data directory here.</source>
+        <translation>Не може да се създаде директория тук.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>version</source>
+        <translation>версия</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+6"/>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Автоматично отваряне на входящия Litecoin порт. Работи само с рутери поддържащи UPnP.</translation>
+=======
+        <source>(%1-bit)</source>
+        <translation>(%1-битов)</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Map port using &amp;UPnP</source>
-        <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
+        <source>About %1</source>
+        <translation>Относно %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
+=======
+        <source>Command-line options</source>
+        <translation>Списък с команди</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation type="unfinished"/>
+        <source>Usage:</source>
+        <translation>Използване:</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"/>
+        <source>command-line options</source>
+        <translation>Списък с налични команди</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP адрес на прокси сървъра (например 127.0.0.1)</translation>
+        <source>UI Options:</source>
+        <translation>Опции на интерфейс:</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Port:</source>
-        <translation type="unfinished"/>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>Избери директория за данни при стартирване (по подразбиране: %u)</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished"/>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Избери език, примерно "de_DE" (по подразбиране: system locale)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation type="unfinished"/>
+        <source>Start minimized</source>
+        <translation>Стартирай минимизиран</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation type="unfinished"/>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Задай SSL root сертификат за молба за изплащане (по подразбиране: -system-)</translation>
     </message>
     <message>
-        <location line="+36"/>
-        <source>&amp;Window</source>
-        <translation>&amp;Прозорец</translation>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Покажи splash екран при стартирване (по подразбиране %u)</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Show only a tray icon after minimizing the window.</source>
-        <translation>След минимизиране ще е видима само иконата в системния трей.</translation>
+        <source>Reset all settings changed in the GUI</source>
+        <translation>Нулиране на всички настройки променени в GUI</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Добре дошли</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Минимизиране в системния трей</translation>
+        <source>Welcome to %1.</source>
+        <translation>Добре дошли в %1.</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>При затваряне на прозореца приложението остава минимизирано. Ако изберете тази опция, приложението може да се затвори само чрез Изход в менюто.</translation>
+        <source>Use the default data directory</source>
+        <translation>Използване на директория по подразбиране</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>M&amp;inimize on close</source>
-        <translation>М&amp;инимизиране при затваряне</translation>
+        <source>Use a custom data directory:</source>
+        <translation>Използване на директория ръчно</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>&amp;Display</source>
-        <translation>&amp;Интерфейс</translation>
+        <source>Error</source>
+        <translation>Грешка</translation>
     </message>
-    <message>
-        <location line="+8"/>
-        <source>User Interface &amp;language:</source>
-        <translation>Език:</translation>
-    </message>
+<<<<<<< HEAD
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
         <translation>Промяната на езика ще влезе в сила след рестартиране на Litecoin.</translation>
+=======
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n GB свободно пространство на разположение</numerusform><numerusform>%n GB свободно пространство на разположение</numerusform></translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(%n GB е нужен)</numerusform><numerusform>(%n GB са нужни)</numerusform></translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Отваряне на URI</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>Мерни единици:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Изберете единиците, показвани по подразбиране в интерфейса.</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>Whether to show Litecoin addresses in the transaction list or not.</source>
         <translation>Ще се показват адресите в списъка с транзакции независимо от наличието на кратко име.</translation>
+=======
+        <source>Open payment request from URI or file</source>
+        <translation>Отвори молба за изплащане от URI или файл</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>Показвай и адресите в списъка с транзакции</translation>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Опции</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <source>&amp;Main</source>
+        <translation>&amp;Основни</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <source>Size of &amp;database cache</source>
+        <translation>Размер на кеша в &amp;базата данни</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation type="unfinished"/>
+        <source>MB</source>
+        <translation>Мегабайта</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
-        <source>default</source>
-        <translation type="unfinished"/>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Брой на скриптове и &amp;нишки за потвърждение</translation>
     </message>
     <message>
-        <location line="+130"/>
-        <source>Confirm options reset</source>
-        <translation type="unfinished"/>
+        <source>Accept connections from outside</source>
+        <translation>Приемай връзки отвън</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"/>
+        <source>Allow incoming connections</source>
+        <translation>Позволи входящите връзки</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation type="unfinished"/>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP адрес на прокси (напр. за IPv4: 127.0.0.1 / за IPv6: ::1)</translation>
     </message>
     <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Litecoin.</source>
         <translation type="unfinished"/>
+=======
+        <source>Third party transaction URLs</source>
+        <translation>URL адреси на трети страни</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+29"/>
-        <source>The supplied proxy address is invalid.</source>
-        <translation>Прокси адресът е невалиден.</translation>
+        <source>Reset all client options to default.</source>
+        <translation>Възстановете всички настройки по подразбиране.</translation>
     </message>
-</context>
-<context>
-    <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Форма</translation>
@@ -1791,427 +1781,351 @@ Address: %4
         <location line="+8"/>
         <source>Transaction</source>
         <translation>Транзакция</translation>
+=======
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Нулирай настройките</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation type="unfinished"/>
+        <source>&amp;Network</source>
+        <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>W&amp;allet</source>
+        <translation>По&amp;ртфейл</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Експерт</translation>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation>Позволяване на монетите и &amp;техните възможности</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;Похарчете непотвърденото ресто</translation>
+    </message>
+    <message>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия Litecoin порт. Работи само с рутери поддържащи UPnP.</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
+    </message>
+    <message>
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>Свързване с Litecoin мрежата чрез SOCKS5  прокси.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>&amp;Свързване чрез SOCKS5  прокси (прокси по подразбиране):</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>Прокси &amp; АйПи:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Порт:</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>Порт на прокси сървъра (пр. 9050)</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Прозорец</translation>
+    </message>
+    <message>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>След минимизиране ще е видима само иконата в системния трей.</translation>
+    </message>
+    <message>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>&amp;Минимизиране в системния трей</translation>
+    </message>
+    <message>
+        <source>M&amp;inimize on close</source>
+        <translation>М&amp;инимизиране при затваряне</translation>
+    </message>
+    <message>
+        <source>&amp;Display</source>
+        <translation>&amp;Интерфейс</translation>
+    </message>
+    <message>
+        <source>User Interface &amp;language:</source>
+        <translation>Език:</translation>
+    </message>
+    <message>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>Мерна единица за показваните суми:</translation>
+    </message>
+    <message>
+        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <translation>Изберете единиците, показвани по подразбиране в интерфейса.</translation>
+    </message>
+    <message>
+        <source>Whether to show coin control features or not.</source>
+        <translation>Дали да покаже възможностите за контрол на монетите или не.</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>ОК</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>Отказ</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>подразбиране</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>нищо</translation>
+    </message>
+    <message>
+        <source>Confirm options reset</source>
+        <translation>Потвърдете отмяната на настройките.</translation>
+    </message>
+    <message>
+        <source>Client restart required to activate changes.</source>
+        <translation>Изисква се рестартиране на клиента за активиране на извършените промени.</translation>
+    </message>
+    <message>
+        <source>This change would require a client restart.</source>
+        <translation>Тази промяна изисква рестартиране на клиента Ви.</translation>
+    </message>
+    <message>
+        <source>The supplied proxy address is invalid.</source>
+        <translation>Текущият прокси адрес е невалиден.</translation>
+    </message>
+</context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>Формуляр</translation>
+    </message>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Litecoin, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
+    </message>
+    <message>
+        <source>Watch-only:</source>
+        <translation>В наблюдателен режим:</translation>
+    </message>
+    <message>
+        <source>Available:</source>
+        <translation>Налично:</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation>Вашата текуща сметка за изразходване</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation>Изчакващо:</translation>
+    </message>
+    <message>
+        <source>Immature:</source>
+        <translation>Неразвит:</translation>
+    </message>
+    <message>
+        <source>Mined balance that has not yet matured</source>
+        <translation>Миниран баланс,който все още не се е развил</translation>
+    </message>
+    <message>
+        <source>Balances</source>
+        <translation>Баланс</translation>
+    </message>
+    <message>
+        <source>Total:</source>
+        <translation>Общо:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>Текущият ви общ баланс</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>За харчене:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Скорошни транзакции</translation>
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>User Agent</source>
+        <translation>Клиент на потребителя</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Време за отговор</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
         <source>Amount</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation>true</translation>
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>Въведете Litecoin адрес (например: %1)</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation>false</translation>
+        <source>%1 d</source>
+        <translation>%1 ден</translation>
     </message>
     <message>
-        <location line="-209"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, все още не е изпратено</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <source>%1 h</source>
+        <translation>%1 час</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>unknown</source>
-        <translation>неизвестен</translation>
+        <source>%1 m</source>
+        <translation>%1 минута</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 секунда</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Неналичен</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>Несъществуващ</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 милисекунда</translation>
     </message>
 </context>
 <context>
-    <name>TransactionDescDialog</name>
-    <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation>Транзакция</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>Описание на транзакцията</translation>
-    </message>
-</context>
+    <name>QRImageWidget</name>
+    </context>
 <context>
-    <name>TransactionTableModel</name>
+    <name>RPCConsole</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
-        <source>Date</source>
-        <translation>Дата</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Type</source>
-        <translation>Тип</translation>
+        <source>N/A</source>
+        <translation>Несъществуващ</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Адрес</translation>
+        <source>Client version</source>
+        <translation>Версия на клиента</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation>Сума</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+57"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <source>&amp;Information</source>
+        <translation>Данни</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Open until %1</source>
-        <translation>Подлежи на промяна до %1</translation>
+        <source>Debug window</source>
+        <translation>Прозорец с грешки</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation>Офлайн (%1 потвърждения)</translation>
+        <source>General</source>
+        <translation>Основни</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Непотвърдени (%1 от %2 потвърждения)</translation>
+        <source>Using BerkeleyDB version</source>
+        <translation>Използване на база данни BerkeleyDB </translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Потвърдени (%1 потвърждения)</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <source>Startup time</source>
+        <translation>Време за стартиране</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Блокът не е получен от останалите участници и най-вероятно няма да бъде одобрен.</translation>
+        <source>Network</source>
+        <translation>Мрежа</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Generated but not accepted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+43"/>
-        <source>Received with</source>
-        <translation>Получени с</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Received from</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sent to</source>
-        <translation>Изпратени на</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Payment to yourself</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Mined</source>
-        <translation>Емитирани</translation>
-    </message>
-    <message>
-        <location line="+38"/>
-        <source>(n/a)</source>
-        <translation>(n/a)</translation>
-    </message>
-    <message>
-        <location line="+199"/>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Състояние на транзакцията. Задръжте върху това поле за брой потвърждения.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Date and time that the transaction was received.</source>
-        <translation>Дата и час на получаване.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Type of transaction.</source>
-        <translation>Тип на транзакцията.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Destination address of transaction.</source>
-        <translation>Получател на транзакцията.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Amount removed from or added to balance.</source>
-        <translation>Сума извадена или добавена към баланса.</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionView</name>
-    <message>
-        <location filename="../transactionview.cpp" line="+52"/>
-        <location line="+16"/>
-        <source>All</source>
-        <translation>Всички</translation>
-    </message>
-    <message>
-        <location line="-15"/>
-        <source>Today</source>
-        <translation>Днес</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This week</source>
-        <translation>Тази седмица</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This month</source>
-        <translation>Този месец</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Last month</source>
-        <translation>Предния месец</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This year</source>
-        <translation>Тази година</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Range...</source>
-        <translation>От - до...</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Received with</source>
-        <translation>Получени</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Sent to</source>
-        <translation>Изпратени на</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>To yourself</source>
-        <translation>Собствени</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Mined</source>
-        <translation>Емитирани</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Other</source>
-        <translation>Други</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Enter address or label to search</source>
-        <translation>Търсене по адрес или име</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Min amount</source>
-        <translation>Минимална сума</translation>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>Copy address</source>
-        <translation>Копирай адрес</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy label</source>
-        <translation>Копирай име</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Edit label</source>
-        <translation>Редактирай име</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show transaction details</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Comma separated file (*.csv)</source>
-        <translation>CSV файл (*.csv)</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Confirmed</source>
-        <translation>Потвърдени</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date</source>
-        <translation>Дата</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type</source>
-        <translation>Тип</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Label</source>
+        <source>Name</source>
         <translation>Име</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Address</source>
-        <translation>Адрес</translation>
+        <source>Number of connections</source>
+        <translation>Брой връзки</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>Сума</translation>
+        <source>Current number of blocks</source>
+        <translation>Текущ брой блокове</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>ID</source>
-        <translation type="unfinished"/>
+        <source>Received</source>
+        <translation>Получени</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>Грешка при записа</translation>
+        <source>Sent</source>
+        <translation>Изпратени</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Неуспешен запис в %1.</translation>
+        <source>&amp;Peers</source>
+        <translation>&amp;Пиъри</translation>
     </message>
     <message>
-        <location line="+100"/>
-        <source>Range:</source>
-        <translation>От:</translation>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Избери пиър за детайлна информация.</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>to</source>
-        <translation>до</translation>
-    </message>
-</context>
-<context>
-    <name>WalletModel</name>
-    <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
-        <source>Send Coins</source>
-        <translation>Изпращане</translation>
-    </message>
-</context>
-<context>
-    <name>WalletView</name>
-    <message>
-        <location filename="../walletview.cpp" line="+42"/>
-        <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <source>Direction</source>
+        <translation>Посока</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Запишете данните от текущия раздел във файл</translation>
+        <source>Version</source>
+        <translation>Версия</translation>
     </message>
     <message>
-        <location line="+193"/>
-        <source>Backup Wallet</source>
-        <translation type="unfinished"/>
+        <source>User Agent</source>
+        <translation>Клиент на потребителя</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Wallet Data (*.dat)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Backup Failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Backup Successful</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>bitcoin-core</name>
-    <message>
+<<<<<<< HEAD
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Litecoin version</source>
         <translation>Litecoin версия</translation>
+=======
+        <source>Services</source>
+        <translation>Услуги</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation type="unfinished"/>
+        <source>Connection Time</source>
+        <translation>Продължителност на връзката</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-29"/>
         <source>Send command to -server or litecoind</source>
         <translation type="unfinished"/>
+=======
+        <source>Last Send</source>
+        <translation>Изпратени за последно</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation type="unfinished"/>
+        <source>Last Receive</source>
+        <translation>Получени за последно</translation>
     </message>
     <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation type="unfinished"/>
+        <source>Ping Time</source>
+        <translation>Време за отговор</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Options:</source>
-        <translation>Опции:</translation>
+        <source>Last block time</source>
+        <translation>Време на последния блок</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+24"/>
         <source>Specify configuration file (default: litecoin.conf)</source>
         <translation type="unfinished"/>
@@ -2220,73 +2134,81 @@ Address: %4
         <location line="+3"/>
         <source>Specify pid file (default: litecoind.pid)</source>
         <translation type="unfinished"/>
+=======
+        <source>&amp;Open</source>
+        <translation>&amp;Отвори</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Specify data directory</source>
-        <translation type="unfinished"/>
+        <source>&amp;Console</source>
+        <translation>&amp;Конзола</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Мрежов Трафик</translation>
     </message>
     <message>
+        <source>&amp;Clear</source>
+        <translation>&amp;Изчисти</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="-28"/>
         <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
         <translation type="unfinished"/>
+=======
+        <source>Totals</source>
+        <translation>Общо:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation type="unfinished"/>
+        <source>In:</source>
+        <translation>Входящи:</translation>
     </message>
     <message>
-        <location line="-48"/>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation type="unfinished"/>
+        <source>Out:</source>
+        <translation>Изходящи</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>Specify your own public address</source>
-        <translation type="unfinished"/>
+        <source>Debug log file</source>
+        <translation>Лог файл,съдържащ грешките</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation type="unfinished"/>
+        <source>Clear console</source>
+        <translation>Изчисти конзолата</translation>
     </message>
     <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation type="unfinished"/>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Използвайте стрелки надолу и нагореза разглеждане на историятаот команди и &lt;b&gt;Ctrl-L&lt;/b&gt; за изчистване на конзолата.</translation>
     </message>
     <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation type="unfinished"/>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Въведeте &lt;/b&gt;помощ&lt;/b&gt; за да видите наличните команди.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+27"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
         <translation type="unfinished"/>
+=======
+        <source>%1 B</source>
+        <translation>%1 Байт</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+37"/>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation type="unfinished"/>
+        <source>%1 KB</source>
+        <translation>%1 Килобайт</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation type="unfinished"/>
+        <source>%1 MB</source>
+        <translation>%1 Мегабайт</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <source>Use the test network</source>
-        <translation type="unfinished"/>
+        <source>%1 GB</source>
+        <translation>%1 Гигабайт</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-112"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation type="unfinished"/>
@@ -2305,503 +2227,484 @@ It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
+=======
+        <source>via %1</source>
+        <translation>посредством %1</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"/>
+        <source>never</source>
+        <translation>Никога</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"/>
+        <source>Inbound</source>
+        <translation>Входящи</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Litecoin is probably already running.</source>
         <translation type="unfinished"/>
+=======
+        <source>Outbound</source>
+        <translation>Изходящи</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
+        <source>Yes</source>
+        <translation>Да</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"/>
+        <source>No</source>
+        <translation>Не</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"/>
+        <source>Unknown</source>
+        <translation>Неизвестен</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Сума</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Label:</source>
+        <translation>&amp;Име:</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Message:</source>
+        <translation>&amp;Съобщение:</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"/>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>Използвате този формуляр за заявяване на плащания. Всички полета са &lt;b&gt;незадължителни&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished"/>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>Незадължително заявяване на сума. Оставете полето празно или нулево, за да не заявите конкретна сума.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litecoin will not work properly.</source>
         <translation type="unfinished"/>
+=======
+        <source>Clear all fields of the form.</source>
+        <translation>Изчисти всички полета от формуляра.</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"/>
+        <source>Clear</source>
+        <translation>Изчистване</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"/>
+        <source>Requested payments history</source>
+        <translation>Изискана история на плащанията</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"/>
+        <source>&amp;Request payment</source>
+        <translation>&amp;Изискване на плащане</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Block creation options:</source>
-        <translation type="unfinished"/>
+        <source>Show</source>
+        <translation>Показване</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation type="unfinished"/>
+        <source>Remove</source>
+        <translation>Премахване</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR код</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Corrupted block database detected</source>
-        <translation type="unfinished"/>
+        <source>Copy &amp;URI</source>
+        <translation>Копиране на &amp;URI</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation type="unfinished"/>
+        <source>Copy &amp;Address</source>
+        <translation>&amp;Копирай адрес</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished"/>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Запиши изображение...</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Изпращане</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Error initializing block database</source>
-        <translation type="unfinished"/>
+        <source>Coin Control Features</source>
+        <translation>Настройки за контрол на монетите</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished"/>
+        <source>automatically selected</source>
+        <translation>астоматично избран</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error loading block database</source>
-        <translation type="unfinished"/>
+        <source>Insufficient funds!</source>
+        <translation>Нямате достатъчно налични пари!</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error opening block database</source>
-        <translation type="unfinished"/>
+        <source>Quantity:</source>
+        <translation>Количество:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Error: Disk space is low!</source>
-        <translation type="unfinished"/>
+        <source>Bytes:</source>
+        <translation>Байтове:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"/>
+        <source>Amount:</source>
+        <translation>Сума:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation type="unfinished"/>
+        <source>Priority:</source>
+        <translation>Приоритет:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"/>
+        <source>Fee:</source>
+        <translation>Такса:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation type="unfinished"/>
+        <source>After Fee:</source>
+        <translation>След прилагане на ДДС</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation type="unfinished"/>
+        <source>Change:</source>
+        <translation>Ресто</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation type="unfinished"/>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>Ако тази опция е активирана,но адресът на промяна е празен или невалиден,промяната ще бъде изпратена на новосъздаден адрес.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation type="unfinished"/>
+        <source>Transaction Fee:</source>
+        <translation>Такса за транзакцията:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation type="unfinished"/>
+        <source>Choose...</source>
+        <translation>Избери...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation type="unfinished"/>
+        <source>per kilobyte</source>
+        <translation>за килобайт</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation type="unfinished"/>
+        <source>Hide</source>
+        <translation>Скрий</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation type="unfinished"/>
+        <source>total at least</source>
+        <translation>Крайна сума поне</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation type="unfinished"/>
+        <source>Recommended:</source>
+        <translation>Препоръчителна:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation type="unfinished"/>
+        <source>Custom:</source>
+        <translation>По избор:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation type="unfinished"/>
+        <source>Confirmation time:</source>
+        <translation>Време за потвърждение:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>normal</source>
+        <translation>нормален</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation type="unfinished"/>
+        <source>fast</source>
+        <translation>бърз</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation type="unfinished"/>
+        <source>Send to multiple recipients at once</source>
+        <translation>Изпращане към повече от един получател</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
+        <source>Add &amp;Recipient</source>
+        <translation>Добави &amp;получател</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation type="unfinished"/>
+        <source>Clear all fields of the form.</source>
+        <translation>Изчисти всички полета от формуляра.</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"/>
+        <source>Dust:</source>
+        <translation>Прах:</translation>
     </message>
     <message>
-        <location line="+26"/>
-        <source>Verifying blocks...</source>
-        <translation type="unfinished"/>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Изчисти</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Verifying wallet...</source>
-        <translation type="unfinished"/>
+        <source>Balance:</source>
+        <translation>Баланс:</translation>
     </message>
     <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation type="unfinished"/>
+        <source>Confirm the send action</source>
+        <translation>Потвърдете изпращането</translation>
     </message>
     <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
+        <source>S&amp;end</source>
+        <translation>И&amp;зпрати</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>С&amp;ума:</translation>
     </message>
     <message>
-        <location line="+77"/>
-        <source>Information</source>
-        <translation type="unfinished"/>
+        <source>Pay &amp;To:</source>
+        <translation>Плати &amp;На:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Невалиден -tor адрес: &apos;%s&apos;</translation>
+        <source>&amp;Label:</source>
+        <translation>&amp;Име:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Choose previously used address</source>
+        <translation>Изберете използван преди адрес</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>This is a normal payment.</source>
+        <translation>Това е нормално плащане.</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation type="unfinished"/>
+        <source>Paste address from clipboard</source>
+        <translation>Вмъкни от клипборда</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation type="unfinished"/>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"/>
+        <source>Remove this entry</source>
+        <translation>Премахване на този запис</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation type="unfinished"/>
+        <source>Message:</source>
+        <translation>Съобщение:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+5"/>
         <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
+=======
+        <source>Pay To:</source>
+        <translation>Плащане на:</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation type="unfinished"/>
+        <source>Memo:</source>
+        <translation>Бележка:</translation>
+    </message>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Не изключвайте компютъра докато този прозорец не изчезне.</translation>
+    </message>
+</context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Подпиши / Провери съобщение</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation type="unfinished"/>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;Подпиши</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation type="unfinished"/>
+        <source>Choose previously used address</source>
+        <translation>Изберете използван преди адрес</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation type="unfinished"/>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Paste address from clipboard</source>
+        <translation>Вмъкни от клипборда</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"/>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <source>Enter the message you want to sign here</source>
+        <translation>Въведете съобщението тук</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation type="unfinished"/>
+        <source>Signature</source>
+        <translation>Подпис</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation type="unfinished"/>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
+        <source>Sign the message to prove you own this Litecoin address</source>
+        <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
+        <source>Sign &amp;Message</source>
+        <translation>Подпиши &amp;съобщение</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction too large</source>
-        <translation type="unfinished"/>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Изчисти</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Провери</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished"/>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Litecoin адрес</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"/>
+        <source>Verify &amp;Message</source>
+        <translation>Потвърди &amp;съобщението</translation>
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>Килобайта в секунда</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Описание на транзакцията</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>litecoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Опции:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Username for JSON-RPC connections</source>
-        <translation type="unfinished"/>
+        <source>Specify data directory</source>
+        <translation>Определете директория за данните</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Свържете се към сървър за да можете да извлечете адресите на пиърите след което се разкачете.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"/>
+        <source>Specify your own public address</source>
+        <translation>Въведете Ваш публичен адрес</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation type="unfinished"/>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Приемайте връзки отвън.(по подразбиране:1 в противен случай -proxy или -connect)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
+        <source>Bitcoin Core</source>
+        <translation>Litecoin ядро</translation>
     </message>
     <message>
-        <location line="-50"/>
-        <source>Password for JSON-RPC connections</source>
-        <translation type="unfinished"/>
+        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
+        <translation>Сложете в бял списък пиъри,свързващи се от дадената интернет маска или айпи адрес.Може да бъде заложено неколкократно.</translation>
     </message>
     <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation type="unfinished"/>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; може да бъде:</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation type="unfinished"/>
+        <source>Connection options:</source>
+        <translation>Настройки на връзката:</translation>
     </message>
     <message>
-        <location line="-120"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation type="unfinished"/>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Желаете ли да пресъздадете базата данни с блокове сега?</translation>
     </message>
     <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation type="unfinished"/>
+        <source>Error initializing block database</source>
+        <translation>Грешка в пускането на базата данни с блокове</translation>
     </message>
     <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation type="unfinished"/>
+        <source>Error: Disk space is low!</source>
+        <translation>Грешка: мястото на диска е малко!</translation>
     </message>
     <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation type="unfinished"/>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Провалено "слушане" на всеки порт. Използвайте -listen=0 ако искате това.</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation type="unfinished"/>
+        <source>Importing...</source>
+        <translation>Внасяне...</translation>
     </message>
     <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation type="unfinished"/>
+        <source>Verifying blocks...</source>
+        <translation>Проверка на блоковете...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation type="unfinished"/>
+        <source>Verifying wallet...</source>
+        <translation>Проверка на портфейла...</translation>
     </message>
     <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation type="unfinished"/>
+        <source>Wallet options:</source>
+        <translation>Настройки на портфейла:</translation>
     </message>
     <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+55"/>
-        <source>Loading addresses...</source>
-        <translation>Зареждане на адресите...</translation>
-    </message>
-    <message>
-        <location line="-35"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Litecoin</source>
         <translation type="unfinished"/>
@@ -2810,113 +2713,96 @@ for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Litecoin to complete</source>
         <translation type="unfinished"/>
+=======
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Свързване чрез SOCKS5  прокси</translation>
     </message>
     <message>
-        <location line="-95"/>
-        <source>Error loading wallet.dat</source>
+        <source>Information</source>
+        <translation>Информация</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Изпрати локализиращата или дебъг информацията към конзолата, вместо файлът debug.log</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation>Това е експериментален софтуер.</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Сумата на транзакцията е твърде малка</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must be positive</source>
+        <translation>Сумите на транзакциите трябва да са положителни</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation>Транзакцията е твърде голяма</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Потребителско име за JSON-RPC връзките</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Предупреждение</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Парола за  JSON-RPC връзките</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Зареждане на адреси...</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Невалиден -proxy address: '%s'</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Назовете конфигурационен файл(по подразбиране %s)</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <location line="-25"/>
+        <source>Unable to bind to %s on this computer. Litecoin is probably already running.</source>
         <translation type="unfinished"/>
+=======
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Задайте време на изключване при проблеми със свързването в милисекунди(минимум:1, по подразбиране %d)</translation>
+>>>>>>> 3b4ed770f88229b11bf62b90f128f3054b17ab36
     </message>
     <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Невалиден -proxy address: &apos;%s&apos;</translation>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Задайте pid  файл(по подразбиране: %s)</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation type="unfinished"/>
+        <translation>Недостатъчно средства</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Loading block index...</source>
         <translation>Зареждане на блок индекса...</translation>
     </message>
     <message>
-        <location line="-57"/>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Litecoin is probably already running.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Loading wallet...</source>
         <translation>Зареждане на портфейла...</translation>
     </message>
     <message>
-        <location line="-52"/>
-        <source>Cannot downgrade wallet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot write default address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
         <translation>Преразглеждане на последовтелността от блокове...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
         <translation>Зареждането е завършено</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
         <translation>Грешка</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
